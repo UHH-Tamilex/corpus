@@ -1,7 +1,7 @@
 import { Transliterate } from './lib/js/transliterate.mjs';
 import { GitHubFunctions } from './lib/js/githubfunctions.mjs';
 import { ApparatusViewer } from './lib/js/apparatus.mjs';
-import {addwordsplit} from './debugging/splits.mjs';
+//import {addwordsplit} from './debugging/splits.mjs';
 import './lib/js/tooltip.mjs';
 //import { tamilize, iastToTamil } from './transliterate.mjs';
 
@@ -408,6 +408,7 @@ const go = () => {
         wordsplitbutton.style.display = 'block';
         wordsplitbutton.addEventListener('click',wordsplit);
     }
+    /*
     else if(Debugging) {
         const wordsplitbutton = document.getElementById('wordsplitbutton');
         wordsplitbutton.style.display = 'block';
@@ -419,7 +420,7 @@ const go = () => {
         uploader.addEventListener('change',addwordsplit);
         wordsplitbutton.addEventListener('click',() => {uploader.click();});
     }
-
+    */
     if(document.querySelector('.translation')) {
         const apparatusbutton = document.getElementById('apparatusbutton');
         apparatusbutton.style.display = 'block';
