@@ -290,7 +290,6 @@ const applymarkup = (standoff) => {
     for(const word of ranges) {
         if(word.range.startContainer.data.length === word.range.startOffset) {
             // move start past the previous range that was surrounded
-            console.log(word.range.toString());
             const nextsib = word.range.startContainer.nextSibling.nextSibling;
             word.range.setStart(nextsib,0);
         }
