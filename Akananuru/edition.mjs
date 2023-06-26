@@ -17,7 +17,8 @@ const lookup = (e) => {
         for(const pc of clone.querySelectorAll('.invisible'))
             pc.remove();
         const clean = clone.textContent.replaceAll('\u00AD','');
-        window.open(`https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=${clean}&amp;searchhws=yes&amp;matchtype=exact`,'lexicon',/*'height=500,width=500'`*/);
+        //window.open(`https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=${clean}&amp;searchhws=yes&amp;matchtype=exact`,'lexicon',/*'height=500,width=500'`*/);
+        window.open(`wordindex.xml#${clean}`);
     }
 };
 

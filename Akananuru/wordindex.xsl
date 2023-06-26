@@ -212,6 +212,7 @@
 <xsl:template match="x:entry">
     <xsl:element name="details">
         <xsl:attribute name="class">dict</xsl:attribute>
+        <xsl:attribute name="id"><xsl:value-of select="x:form[@type='standard']"/></xsl:attribute>
         <xsl:apply-templates select="x:form[@type='standard']"/>
         <xsl:element name="div">
             <xsl:attribute name="class">dict-entry</xsl:attribute>

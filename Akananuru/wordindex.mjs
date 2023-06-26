@@ -123,6 +123,14 @@ const init = () => {
     document.querySelectorAll('details.dict-app').forEach(el => 
         el.addEventListener('toggle',treeToggle)
     );
+    
+    const loc = window.location.hash;
+    if(loc) {
+        const word = decodeURI(loc.replace(/^#/,''));
+        const detail = document.getElementById(word);
+        detail.scrollIntoView({behavior: 'smooth', block: 'center'});
+        detail.open = true;
+    }
 };
 
 window.addEventListener('load',init);
