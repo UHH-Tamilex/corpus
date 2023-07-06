@@ -196,7 +196,13 @@
 
 <xsl:template match="x:pc">
     <xsl:element name="span">
-        <xsl:attribute name="class">invisible</xsl:attribute>
+        <xsl:attribute name="class">
+            <xsl:text>invisible</xsl:text>
+            <xsl:if test="@type">
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="@type"/>
+            </xsl:if>
+        </xsl:attribute>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
@@ -863,6 +869,7 @@
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
+
 <xsl:template match="x:metamark">
     <xsl:variable name="func" select="@function"/>
     <xsl:element name="span">

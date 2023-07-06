@@ -13,7 +13,7 @@ const nextSibling = (node) => {
     }
     return null;
 };
-
+/*
 const nextTextNode = (start) => {
     let next = nextSibling(start);
     while(next) {
@@ -41,8 +41,24 @@ const prevTextNode = (start) => {
     }
     return null;
 };
-
+*/
 const countpos = (str, pos) => {
+    if(pos === 0) return 0;
+    let realn = 0;
+    for(let n=0;n<str.length;n++) {
+        if(realn === pos) {
+            if(str[n].match(/[\u00AD\s]/))
+                return n+1;
+            else 
+                return n;
+        }
+        if(str[n].match(/[\u00AD\s]/) === null)
+           realn = realn + 1;
+    }
+    return str.length;
+};
+/*
+const oldcountpos = (str, pos) => {
     if(pos === 0) return 0;
     let realn = 0;
     for(let n=1;n<=str.length;n++) {
@@ -51,7 +67,7 @@ const countpos = (str, pos) => {
         if(realn === pos) return n;
     }
 };
-
+*/
 const findEls = (range) => {
     const container = range.cloneContents();
     if(container.firstElementChild) return true;
@@ -139,6 +155,7 @@ const showRangeCoords = (startel,coord) => {
             {opacity: 1, easing: 'ease-in'}
             ], 200);
 };
+/*
 const textPosInElement = (el,pos) => {
     const walker = document.createTreeWalker(el,NodeFilter.SHOW_TEXT, { acceptNode() {return NodeFilter.FILTER_ACCEPT;}});
     let start = 0;
@@ -155,8 +172,64 @@ const textPosInElement = (el,pos) => {
         return [nextTextNode(cur),0];
     else return [cur,cur.data.length];
 };
-
+*/
 const rangeFromCoords = (positions, lem, target) => {
+    const range = document.createRange();
+
+    const realNextSibling = (walker) => {
+        let cur = walker.currentNode;
+        while(cur) {
+            const sib = walker.nextSibling();
+            if(sib) return sib;
+            cur = walker.parentNode();
+        }
+        return null;
+    };
+
+    const walker = document.createTreeWalker(target,NodeFilter.SHOW_ALL, { acceptNode() {return NodeFilter.FILTER_ACCEPT;}});
+    let start = 0;
+    let started = false;
+    let cur = walker.nextNode();
+    while(cur) {
+        if(cur.nodeType === 1) {
+            if(cur.classList.contains('choiceseg') && 
+               cur !== cur.parentNode.firstChild) {
+
+                cur = realNextSibling(walker);
+                continue;
+            }
+            
+            if(cur.classList.contains('ignored')) {
+                cur = realNextSibling(walker);
+                continue;
+            }
+        }
+        
+        else if(cur.nodeType === 3) {
+            const nodecount = cur.data.trim().replaceAll(/[\s\u00AD]/g,'').length;
+            const end = start + nodecount;
+            if(!started && positions[0] <= end) {
+                const realpos = countpos(cur.data,positions[0]-start);
+                range.setStart(cur,realpos);
+                started = true;
+            }
+            if(positions[1] <= end) {
+                const realpos = countpos(cur.data,positions[1]-start);
+                if(cur.data[realpos-1] === ' ')
+                    range.setEnd(cur,realpos-1);
+                else
+                    range.setEnd(cur,realpos);
+                break;
+            }
+            start = end;
+        }
+
+        cur = walker.nextNode();
+    }
+    return range;
+};
+/*
+const oldrangeFromCoords = (positions, lem, target) => {
     const range = document.createRange();
 
     const realNextSibling = (walker) => {
@@ -175,12 +248,6 @@ const rangeFromCoords = (positions, lem, target) => {
     let started = false;
     let skip = null;
     let cur = walker.nextNode();
-    /*
-    if(target.closest('.lg')) { // skip spaces at the beginning
-        while(cur.nodeType !== 1 || !cur.classList.contains('l'))
-            cur = walker.nextNode();
-    }
-    */
     let startToAdjust = null;
     let endToAdjust = null;
     while(cur) {
@@ -206,14 +273,6 @@ const rangeFromCoords = (positions, lem, target) => {
             const clean = cur.myOldContent.textContent.replaceAll('\u00AD','');
             
             const newclean = cur.textContent.replaceAll('\u00AD','');
-            /*
-            if(clean.length === newclean.length) { 
-                // skips setting startToAdjust/endToAdjust
-                // this can cause problems if the word split adds a character and removes a character, making the string length the same
-                cur = walker.nextNode();
-                continue;
-            }
-            */
 
             const oldend = oldstart + clean.length;
             const newend = start + clean.length;
@@ -357,14 +416,16 @@ const countGaps = (arr,dir = 0) => {
    }
    return count;
 };
-
+*/
 const highlightcoords = (lem,target) => {
     const multiple = lem.dataset.corresp.split(';').reverse();
     for(const coord of multiple) highlightcoord(coord.split(','), lem, target);
 };
 
 const wrongSeg = (txtnode) => {
-    const el = txtnode.parentNode.closest('.choice > span') || txtnode.parentNode.closest('.ignored');
+    const ignored = txtnode.parentNode.closest('.ignored');
+    if(ignored) return ignored;
+    const el = txtnode.parentNode.closest('.choiceseg');
     return el && el !== el.parentNode.firstChild;
 };
 
@@ -379,7 +440,21 @@ const highlightrange = (range,classname = 'highlit') => {
 
 const permalightrange = (range) => highlightrange(range,'permalit');
 
+
+const matchCounts = (alignment,m) => {
+    let matchcount = 0;
+    for(let n=0;n<alignment[0].length;n++) {
+        if(matchcount === m) return n; // todo: count Ms in alignment[1]
+        if(alignment[0][n] === 'M') matchcount = matchcount + 1;
+    }
+};
+
 const highlightcoord = (positions, lem, target, highlightfn = highlightrange) => {
+    // if there is an alignment, update coords 
+    if(target.dataset.alignment) {
+        const alignment = target.dataset.alignment.split(',');
+        positions = positions.map(m => matchCounts(alignment,parseInt(m)));
+    }
     const range = rangeFromCoords(positions, lem, target);
     if(!findEls(range))
         return highlightfn(range);
@@ -433,9 +508,10 @@ const unhighlight = (targ) => {
     targ = targ ? targ.closest('div.wide') : highlit[0].closest('div.wide');
     const par = targ.querySelector('.text-block'); // or .edition?
     if(!par) return;
-    if(document.getElementById('transbutton').lang === 'en') {
+    
+    if(document.getElementById('transbutton').lang === 'en')
         Transliterate.revert(par);
-    }
+    
     for(const h of highlit) {
         if(h.classList.contains('temporary')) {
             while(h.firstChild)
@@ -446,9 +522,9 @@ const unhighlight = (targ) => {
     }
     par.normalize();
     Transliterate.refreshCache(par);
-    if(document.getElementById('transbutton').lang === 'en') {
+    
+    if(document.getElementById('transbutton').lang === 'en')
         Transliterate.activate(par);
-    }
 };
 
 const unpermalight = () => {

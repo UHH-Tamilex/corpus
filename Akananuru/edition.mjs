@@ -7,6 +7,8 @@ import './lib/js/tooltip.mjs';
 
 var Debugging = false;
 
+const cachedContent = new Map();
+
 const lookup = (e) => {
 //if(e.target.nodeName === 'RT' || e.target.classList?.contains('word')) {
     const word = e.target.closest('.word');
@@ -155,229 +157,145 @@ const realNextSibling = (walker) => {
     return null;
 };
 
+const lineCounter = (el) => {
+    const walker = document.createTreeWalker(el,NodeFilter.SHOW_ALL);
+    let count = 0;
+    let cur = walker.currentNode;
+    while(cur) {
+        if(cur.nodeType === 1 &&
+           cur.classList.contains('choiceseg') && 
+           cur !== cur.parentNode.children[0]) {
+                cur = realNextSibling(walker);
+                continue;
+        }
+        if(cur.nodeType === 3)
+            count = count + cur.textContent.trim().replaceAll(/[\s\u00AD]/g,'').length;
+        cur = walker.nextNode();
+    }
+    return count;
+};
+
+const wordLength = (lemma) => {
+    const clone = lemma.cloneNode(true);
+    for(const ignored of clone.querySelectorAll('.ignored'))
+        ignored.remove();
+    return clone.textContent.trim().replaceAll(/[\s\u00AD]/g,'').length;
+};
+
+const matchCounts = (alignment,linecounts) => {
+    linecounts = [...linecounts];
+    const realcounts = [];
+    let matchcount = 0;
+    for(let n=0;n<alignment[0].length;n++) {
+        if(matchcount === linecounts[0]) {
+            linecounts.shift();
+            realcounts.push(n);
+        }
+        if(alignment[0][n] === 'M') matchcount = matchcount + 1;
+    }
+    return realcounts;
+};
+
+const makeWord = (entry) => {
+    const lemma = entry.querySelector('.f[data-name="lemma"]');
+    const span = document.createElement('span');
+    const clone = lemma.cloneNode(true);
+    while(clone.firstChild) {
+        if(clone.firstChild.nodeType === 1)
+            clone.firstChild.lang = 'ta-Latn-t-ta-Taml'; // there's probably a better way
+        span.append(clone.firstChild);
+    }
+    span.className = 'word split';
+    const translation = entry.querySelector('.f[data-name="translation"]');
+    if(translation) span.dataset.anno = translation.textContent;
+    const notes = entry.querySelectorAll('.note');
+    for(const note of notes) {
+        const noteel = document.createElement('span');
+        noteel.className = 'footnote ignored';
+        noteel.dataset.anno = '';
+        noteel.append('†');
+        const annoel = document.createElement('span');
+        annoel.className = 'anno-inline';
+        annoel.innerHTML = note.innerHTML;
+        noteel.appendChild(annoel);
+        span.appendChild(noteel);
+    }
+    return span;
+};
+
 const applymarkup = (standoff) => {
     const target = document.getElementById(standoff.dataset.corresp.replace(/^#/,''))?.querySelector('.edition');
     if(!target) return;
     
-    const fss = [...standoff.querySelectorAll('.fs')]
-        .filter(fs => fs.dataset.corresp)
-        .map(fs => {
-            const pos = fs.dataset.corresp.split(',');
-            const translation = fs.querySelector('[data-name="translation"]');
-            const ret = {
-                start: pos[0],
-                end: pos[1],
-                strand: fs.dataset.hasOwnProperty('select') ? parseInt(fs.dataset.select) : 0,
-                lemma: fs.querySelector('[data-name="lemma"]'),
-                duplicate: fs.dataset.rend === 'none',
-            };
-            if(translation) ret.translation = translation.cloneNode(true);
-            return ret;
-    });
-    const strandpositions = new Map();
-    for(const fs of fss) {
-        const strand = fs.strand;
-        if(!strandpositions.has(strand))
-            strandpositions.set(strand,[]);
-        
-        const posset = strandpositions.get(strand);
-        if(!posset.includes(fs.start)) posset.push(fs.start);
-        if(!posset.includes(fs.end)) posset.push(fs.end);
-    }
+    const cache = new Map();
+
+    const lines = [...target.querySelectorAll('.l')];
+    const linecounts = lines.reduce((acc,cur) => {
+        const count = lineCounter(cur);
+        const add = acc.length > 0 ? acc.at(-1) : 0;
+        acc.push(count + add);
+        return acc;
+    },[]);
     
-    const posmaps = [];
-    const starts = [];
-    for(let n=0;n<strandpositions.size;n++)  {
-        posmaps.push(new Map());
-        starts.push(0);
-    }
+    const alignmentel = standoff.querySelector('.alignment[data-select="0"]');
+    const alignment = alignmentel.textContent.trim().split(',').map(s =>
+        s.replaceAll(/(\d+)([MLRG])/g, (_, count, chr) => chr.repeat(count))
+        );
+    target.dataset.alignment = alignment.join(',');
 
-    const walker = document.createTreeWalker(target,NodeFilter.SHOW_ALL);
-    let cur = walker.nextNode();
-    /*
-    if(target.closest('.lg')) { // skip spaces at the beginning
-        while(cur.nodeType !== 1 || !cur.classList.contains('l'))
-            cur = walker.nextNode();
-    }
-    */
-    while(cur) {
-        if(cur.nodeType === 1) {
-            if(cur.parentNode.classList.contains('choice')) {
-                const strand = [...cur.parentNode.children].indexOf(cur);
-                const walker2 = document.createTreeWalker(cur,NodeFilter.SHOW_TEXT);
-                while(walker2.nextNode()) {
-                    const cur2 = walker2.currentNode;
-                    const clean = cur2.data.replaceAll('\u00AD','');
-                    const end = starts[strand] + clean.length;
-                    const positions = strandpositions.get(strand);
-                    while(positions[0] <= end) {
-                        const pos = positions.shift();
-                        const realpos = countpos(cur2.data,pos-starts[strand]);
-                        posmaps[strand].set(pos,{node: cur2, pos: realpos});
-                    }
-                    starts[strand] = end;
+    const realcounts = matchCounts(alignment,linecounts);
+
+    const entries = [...standoff.querySelectorAll(':scope > .fs')];
+    let wordcount = 0;
+    let linenum = 0;
+    cache.set(lines[linenum],lines[linenum].cloneNode(true));
+    lines[linenum].innerHTML = '';
+    for(const entry of entries) {
+        if(wordcount >= realcounts[linenum]) {
+            linenum = linenum + 1;
+            cache.set(lines[linenum],lines[linenum].cloneNode(true));
+            lines[linenum].innerHTML = '';
+        }
+
+        if(entry.classList.contains('superentry')) {
+            const choice = document.createElement('span');
+            choice.className = 'choice';
+            for(const seg of entry.querySelectorAll('.fs')) {
+                const segel = document.createElement('span');
+                segel.className = 'choiceseg';
+                for(const subentry of seg.querySelectorAll('.fs')) {
+                    const word = makeWord(subentry);
+                    segel.appendChild(word);
+                    if(seg.dataset.select === '0')
+                        wordcount = wordcount + wordLength(word);
                 }
-                cur = realNextSibling(walker);
+                choice.appendChild(segel);
             }
-            else cur = walker.nextNode();
+            lines[linenum].appendChild(choice);
         }
+
         else {
-            const clean = cur.data.replaceAll('\u00AD','');
-            for(const [strand,positions] of strandpositions) {
-                const end = starts[strand] + clean.length;
-                while(positions[0] <= end) {
-                    const pos = positions.shift();
-                    const realpos = countpos(cur.data,pos-starts[strand]);
-                    posmaps[strand].set(pos,{node: cur, pos: realpos});
-                }
-                starts[strand] = end;
-            }
-            cur = walker.nextNode();
+            const word = makeWord(entry);
+            lines[linenum].appendChild(word);
+            wordcount = wordcount + wordLength(word);
         }
     }
-    const ranges = [];
-    for(const fs of fss) {
-        const strand = parseInt(fs.strand);
-        const start = posmaps[strand].get(fs.start);
-        const end = posmaps[strand].get(fs.end);
-        const range = document.createRange();
-        if(start.pos === start.node.data.length) {
-            // move to the beginning of the next text node in the right strand
-            range.setStart(nextTextNode(start.node,strand),0);
-            // if there is no next text node something is wrong
-        }
-        else
-            range.setStart(start.node,start.pos);
-        
-        range.setEnd(end.node,end.pos);
-        ranges.push({range: range, fs: fs});
-    }
-    const lastTextNode = (par) => {
-        const walker = document.createTreeWalker(par,NodeFilter.SHOW_TEXT);
-        let ret;
-        while(walker.nextNode()) ret = walker.currentNode;
-        return ret;
-    };
 
-    const prevSibling = (node) => {
-        let start = node;
-        while(start) {
-            const sib = start.previousSibling;
-            if(sib) return sib;
-            else start = start.parentElement; 
-        }
-        return null;
-    };
-
-    const prevTextNode = (start) => {
-        let prev = prevSibling(start);
-        while(prev) {
-            if(prev.nodeType === 3) return prev;
-            else prev = prev.lastChild || prevSibling(prev);
-        }
-        return null;
-    };
-
-    const clipEnd = (range) => {
-        const clip = new Range();
-        clip.setStart(range.range.endContainer,0);
-        clip.setEnd(range.range.endContainer,range.range.endOffset);
-        const toremove = document.createElement('span');
-        toremove.className = 'placeholder';
-        toremove.myOldContent = clip.extractContents();
-        toremove.dataset.myOldContent = toremove.myOldContent.textContent;
-        clip.insertNode(toremove);
-    };
-    for(const word of ranges) {
-        if(word.range.startContainer.data.length === word.range.startOffset) {
-            // move start past the previous range that was surrounded
-            const nextsib = word.range.startContainer.nextSibling.nextSibling;
-            word.range.setStart(nextsib,0);
-        }
-        const startseg = word.range.startContainer.parentNode.closest('.choice > span');
-        const endseg = word.range.endContainer.parentNode.closest('.choice > span');
-        if(startseg && endseg !== startseg) {
-            if(word.range.endContainer.data.length !== 0)  {
-                // clip the end bit if it hasn't been clipped already
-                clipEnd(word);
-            }
-
-            const lasttext = lastTextNode(startseg);
-            word.range.setEnd(lasttext,lasttext.data.length);
-        }
-        else if(endseg && !startseg) {
-            if(word.range.endContainer.data.length !== 0)  {
-                clipEnd(word);
-            }
-
-            word.range.setEnd(word.range.startContainer,word.range.startContainer.data.length);
-        }
-        else {
-            const startl = word.range.startContainer.parentNode.closest('.l');
-            const endl = word.range.endContainer.parentNode.closest('.l');
-            if(startl !== endl) {
-                clipEnd(word);
-                const lasttext = lastTextNode(startl);
-                word.range.setEnd(lasttext,lasttext.data.length);
-            }
-        }
-        /*
-        const ruby = document.createElement('ruby');
-        //word.range.surroundContents(ruby);
-        
-        ruby.appendChild(word.range.extractContents());
-        word.range.insertNode(ruby);
-        
-        const br = ruby.querySelector('br');
-        if(br) ruby.after(br);
-        
-        const rt = document.createElement('rt');
-        rt.append(word.fs.lemma);
-        rt.append('\u200B');
-        ruby.appendChild(rt);
-        */
-        const span = document.createElement('span');
-        span.className = 'word split';
-        
-        span.myOldContent = word.range.extractContents();
-        span.dataset.myOldContent = span.myOldContent.textContent;
-        word.range.insertNode(span);
-
-        span.lang = span.parentNode.lang;
-        
-        /*
-        const br = word.myOldContent.querySelector('br');
-        if(br) {
-            const newbr = br.cloneNode(true);
-            newbr.classList.add('toremove');
-            word.after(newbr);
-        }
-        */
-        const clone = word.fs.lemma.cloneNode(true);
-        while(clone.firstChild) {
-            if(clone.firstChild.nodeType === 1)
-                clone.firstChild.lang = 'ta-Latn-t-ta-Taml'; // there's probably a better way
-            span.append(clone.firstChild);
-        }
-        if(word.fs.duplicate)
-            span.classList.add('ignored');
-        if(word.fs.translation) 
-            span.dataset.anno = word.fs.translation.textContent;
-    }
+    cachedContent.set(target,cache);
 };
 
 const removemarkup = (standoff) => {
-    const target = document.getElementById(standoff.dataset.corresp.replace(/^#/,''));
+    const target = document.getElementById(standoff.dataset.corresp.replace(/^#/,''))?.querySelector('.edition');
     if(!target) return;
 
-    for(const toremove of target.querySelectorAll('.toremove')) {
-        while(toremove.firstChild)
-            toremove.after(toremove.firstChild);
-        toremove.remove();
+    const cached = cachedContent.get(target);
+    for(const [el,oldContent] of cached) {
+        while(el.firstChild) 
+            el.firstChild.remove();
+        while(oldContent.firstChild)
+            el.appendChild(oldContent.firstChild);
     }
-    for(const word of target.querySelectorAll('span.word, span.placeholder')) {
-        word.replaceWith(word.myOldContent);
-    }
+    delete target.dataset.alignment;
     target.normalize();
 };
 

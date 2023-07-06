@@ -221,8 +221,9 @@
     <xsl:apply-templates />
     </xsl:element>
 </xsl:template>
-<xsl:template match="x:seg">
+<xsl:template match="x:choice/x:seg">
     <xsl:element name="span">
+        <xsl:attribute name="class">choiceseg</xsl:attribute>
         <xsl:call-template name="lang"/>
         <xsl:apply-templates/>
     </xsl:element>
@@ -237,6 +238,13 @@
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
+<xsl:template match="x:interp[@type='alignment']">
+    <xsl:element name="div">
+        <xsl:attribute name="class">alignment</xsl:attribute>
+        <xsl:attribute name="data-select"><xsl:value-of select="@select"/></xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
 <xsl:template match="x:entry">
     <xsl:element name="div">
         <xsl:attribute name="class">fs</xsl:attribute>
@@ -247,6 +255,13 @@
         <xsl:if test="@rend='none'">
             <xsl:attribute name="data-rend">none</xsl:attribute>
         </xsl:if>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
+<xsl:template match="x:superEntry">
+    <xsl:element name="div">
+        <xsl:attribute name="class">fs superentry</xsl:attribute>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
