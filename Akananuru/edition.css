@@ -10,13 +10,13 @@
     width: 100%;
 }
 
-span.choice {
+span.choice:not(.inline) {
     display: inline-flex;
     flex-direction: column;
     vertical-align: middle;
 
 }
-span.choice > span:not(:last-child)::after {
+span.choice:not(.inline) > span:not(:last-child)::after {
     content: '';
 }
 span.choice > span, span.choice > ruby {
@@ -79,6 +79,11 @@ span.word.split {
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
     margin-right: 0.5rem;
+}
+
+.choice.inline .choiceseg:first-child span.word.split {
+    animation-name: none;
+    margin-right: 0;
 }
 
 span.word.ignored {

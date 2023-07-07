@@ -57,17 +57,7 @@ const countpos = (str, pos) => {
     }
     return str.length;
 };
-/*
-const oldcountpos = (str, pos) => {
-    if(pos === 0) return 0;
-    let realn = 0;
-    for(let n=1;n<=str.length;n++) {
-       if(str[n] !== '\u00AD')
-           realn = realn + 1;
-        if(realn === pos) return n;
-    }
-};
-*/
+
 const findEls = (range) => {
     const container = range.cloneContents();
     if(container.firstElementChild) return true;
@@ -155,24 +145,7 @@ const showRangeCoords = (startel,coord) => {
             {opacity: 1, easing: 'ease-in'}
             ], 200);
 };
-/*
-const textPosInElement = (el,pos) => {
-    const walker = document.createTreeWalker(el,NodeFilter.SHOW_TEXT, { acceptNode() {return NodeFilter.FILTER_ACCEPT;}});
-    let start = 0;
-    let cur = walker.currentNode;
-    while(walker.nextNode()) {
-        cur = walker.currentNode;
-        const clean = cur.data.replaceAll('\u00AD','');
-        const end = start + clean.length;
-        if(pos <= end)
-            return [cur,countpos(cur.data,pos-start)];
-        start = end;
-    }
-    if(!cur.data) // if there is no text node
-        return [nextTextNode(cur),0];
-    else return [cur,cur.data.length];
-};
-*/
+
 const rangeFromCoords = (positions, lem, target) => {
     const range = document.createRange();
 
@@ -228,195 +201,7 @@ const rangeFromCoords = (positions, lem, target) => {
     }
     return range;
 };
-/*
-const oldrangeFromCoords = (positions, lem, target) => {
-    const range = document.createRange();
 
-    const realNextSibling = (walker) => {
-        let cur = walker.currentNode;
-        while(cur) {
-            const sib = walker.nextSibling();
-            if(sib) return sib;
-            cur = walker.parentNode();
-        }
-        return null;
-    };
-
-    const walker = document.createTreeWalker(target,NodeFilter.SHOW_ALL, { acceptNode() {return NodeFilter.FILTER_ACCEPT;}});
-    let start = 0;
-    let oldstart = 0;
-    let started = false;
-    let skip = null;
-    let cur = walker.nextNode();
-    let startToAdjust = null;
-    let endToAdjust = null;
-    while(cur) {
-        if(cur.nodeType === 1) {
-            
-            if(cur.nodeName === 'SPAN' && 
-               cur.parentNode.classList.contains('choice') &&
-               cur !== cur.parentNode.firstChild) {
-
-                cur = realNextSibling(walker);
-                continue;
-            }
-            
-            if(cur.classList.contains('ignored')) {
-                cur = realNextSibling(walker);
-                continue;
-            }
-
-            if(!cur.myOldContent) {
-                cur = walker.nextNode();
-                continue;
-            }
-            const clean = cur.myOldContent.textContent.replaceAll('\u00AD','');
-            
-            const newclean = cur.textContent.replaceAll('\u00AD','');
-
-            const oldend = oldstart + clean.length;
-            const newend = start + clean.length;
-            if(!started && positions[0] <= oldend) {
-                const [textnode, textnodepos] = textPosInElement(cur,positions[0]-oldstart);
-                startToAdjust = true;
-                range.setStart(textnode,textnodepos);
-                started = true;
-            }
-            if(positions[1] <= oldend) {
-                const [textnode, textnodepos] = textPosInElement(cur,positions[1]-oldstart);
-                endToAdjust = true;
-                range.setEnd(textnode,textnodepos);
-                break;
-            }
-            start = newend;
-            oldstart = oldend;
-            cur = realNextSibling(walker);
-        }
-        else if(cur.nodeType === 3) {
-            const clean = cur.data.replaceAll('\u00AD','');
-            const end = start + clean.length;
-            if(!started && positions[0] <= end) {
-                const realpos = countpos(cur.data,positions[0]-start);
-                range.setStart(cur,realpos);
-                started = true;
-            }
-            if(positions[1] <= end) {
-                const realpos = countpos(cur.data,positions[1]-start);
-                range.setEnd(cur,realpos);
-                break;
-            }
-            start = end;
-            oldstart = oldstart + clean.length;
-            cur = walker.nextNode();
-        }
-    }
-    if(startToAdjust || endToAdjust) 
-        // if start/end containers are in word splits
-        realignToWordSplits(range,lem,startToAdjust,endToAdjust);
-    if(range.startOffset === range.startContainer.data.length) {
-        // move to the beginning of the next text node
-        range.setStart(nextTextNode(range.startContainer),0);
-        // if there is no next text node something is wrong
-    }
-    return range;
-};
-
-const rangeToCleanString = (range) => {
-    const frag = range.cloneContents();
-    for(const invis of frag.querySelectorAll('.word.ignored'))
-        invis.remove();
-    for(const seg of frag.querySelectorAll('.choice > span'))
-        if(seg !== seg.parentNode.firstChild) seg.remove();
-    return frag.textContent;
-        
-};
-
-const hasPlaceholder = (range) => {
-    const clone = range.cloneContents();
-    return clone.querySelector('.placeholder');
-};
-
-const realignToWordSplits = (range,lem,startSeg,endSeg) => {
-    if(startSeg && range.startOffset > 0)
-        range.setStart(range.startContainer,range.startOffset-1);
-    
-    else if(hasPlaceholder(range) ||
-        startSeg && (range.startContainer.data === '(' || // is there a better way
-       range.startContainer.data === '' ||
-       range.startContainer.data.match(/^\s+$/) ) ) {
-        let startcont = prevTextNode(range.startContainer);
-        while(wrongSeg(startcont) ||
-              startcont.data === '(' ||
-              startcont.data === '' ||
-              startcont.data.match(/^\s+$/) )
-            startcont = prevTextNode(startcont);
-
-        range.setStart(startcont,startcont.data.length - 1);
-    }
-    
-    if(endSeg && range.endOffset < range.endContainer.data.length) {
-        // pāṉāṭ -> pāl-nāḷ (+2 characters)
-        const newoffset = range.endOffset + 2 <= range.endContainer.data.length ?
-            range.endOffset + 2 : range.endOffset + 1;
-        range.setEnd(range.endContainer,newoffset);
-    }
-    const lemtext = lem.dataset.text;
-    const aligned = needlemanWunsch(rangeToCleanString(range),lemtext);
-    const startShiftLeft = countGaps(aligned[0],0);
-    const startShiftRight = countGaps(aligned[1],0);
-    const endShiftRight = countGaps(aligned[0],1);
-    const endShiftLeft = countGaps(aligned[1],1);
-  
-    const newstart = range.startOffset - startShiftLeft + startShiftRight;
-    if(newstart < 0) {
-        let newcontainer = prevTextNode(range.startContainer);
-        while(newcontainer.data === '' || 
-              newcontainer.data === ' ' ||
-            wrongSeg(newcontainer)) {
-            newcontainer = prevTextNode(newcontainer);
-        }
-        range.setStart(newcontainer,newcontainer.data.length+newstart);
-    }
-    else if(newstart > range.startContainer.data.length) {
-        let newcontainer = nextTextNode(range.startContainer);
-        let startoffset = newstart - range.startContainer.data.length;
-        while(newcontainer.data === '' || 
-              newcontainer.data === ' ' ||
-              wrongSeg(newcontainer)) {
-
-            if(newcontainer.data === ' ') startoffset -= 1;
-            newcontainer = nextTextNode(newcontainer);
-
-        }
-        range.setStart(newcontainer,startoffset);
-    }
-    else
-        range.setStart(range.startContainer,newstart);
-   
-    const newend = range.endOffset - endShiftLeft + endShiftRight;
-    if(newend > range.endContainer.data.length) {
-        let newcontainer = nextTextNode(range.endContainer);
-        while(newcontainer.data === '' || 
-              newcontainer.data === ' ' ||
-              wrongSeg(newcontainer)) {
-            newcontainer = nextTextNode(newcontainer);
-        }
-        range.setEnd(newcontainer,newend - range.endOffset);
-    }
-    else
-        range.setEnd(range.endContainer,newend);
-};
-
-const countGaps = (arr,dir = 0) => {
-   let count = 0;
-   const clone = dir ? [...arr].reverse() : [...arr];
-   for(const c of clone) {
-       if(c === '') count += 1;
-       else break;
-   }
-   return count;
-};
-*/
 const highlightcoords = (lem,target) => {
     const multiple = lem.dataset.corresp.split(';').reverse();
     for(const coord of multiple) highlightcoord(coord.split(','), lem, target);
@@ -444,7 +229,11 @@ const permalightrange = (range) => highlightrange(range,'permalit');
 const matchCounts = (alignment,m) => {
     let matchcount = 0;
     for(let n=0;n<alignment[0].length;n++) {
-        if(matchcount === m) return n; // todo: count Ms in alignment[1]
+        if(matchcount === m) {
+            const line2 = alignment[1].slice(0,n);
+            const matches = [...line2].reduce((acc, cur) => cur === 'M' ?  acc + 1 : acc,0);
+            return matches;
+        }
         if(alignment[0][n] === 'M') matchcount = matchcount + 1;
     }
 };

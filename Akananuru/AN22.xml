@@ -4,13 +4,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title><title xml:lang="ta">Akanāṉūṟu</title> 12.</title>
+        <title><title xml:lang="ta">Akanāṉūṟu</title> 22.</title>
       </titleStmt>
       <sourceDesc>
         <msDesc xml:lang="en">
           <msIdentifier>
-            <idno type="URI">https://www.manuscript-cultures.uni-hamburg.de/tamilex/poem.html?page=AN_12-1.xml</idno>
-            <idno type="URI">https://www.manuscript-cultures.uni-hamburg.de/tamilex/poem.html?page=AN_12-2.xml</idno>
+            <idno type="URI">https://www.manuscript-cultures.uni-hamburg.de/tamilex/poem.html?page=AN_22-1.xml</idno>
+            <idno type="URI">https://www.manuscript-cultures.uni-hamburg.de/tamilex/poem.html?page=AN_22-2.xml</idno>
           </msIdentifier>
            <msContents>
             <summary><p></p>
@@ -179,458 +179,657 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="AN12-kilavi"></div>
-        <div xml:id="AN12">
-            <lg type="edition"><l>yāyē, kaṇṇiṉuṅ kaṭuṅkā talaḷē yentaiyu</l>
-<l>nilaṉuṟap <choice><seg>poṟāac</seg><seg>peṟāac</seg></choice> cīṟaṭi civappa</l>
-<l>vevaṉila kuṟumaka ḷiyaṅkuti yeṉṉum</l>
-<l>yāmē, <choice><seg>piriviṉ</seg><seg>tuṇiviṉ</seg></choice> ṟiyainta tuvarā naṭpi</l>
-<l>ṉirutalaip puḷḷi ṉōruyi rammē</l>
-<l>yēṉalaṅ kāva<supplied>la</supplied> rāṉā tārttoṟuṅ</l>
-<l>kiḷiviḷi payiṟṟum veḷilāṭu peruñciṉai</l>
-<l>viḻukkōṭ palaviṉ <choice><seg>paḻū<supplied>u</supplied>ppayaṉ</seg><seg>paḻūuppayaṅ</seg></choice> koṇmār</l>
-<l>kuṟava rūṉṟiya kurampai putaiya</l>
-<l>vēṅkai <choice><seg>tāya</seg><seg>pāya</seg></choice> tēmpāy tōṟṟam</l>
-<l>pulicettu verīiya pukarmuka vēḻa</l>
-<l>maḻaipaṭu <supplied>ci</supplied>lampiṟ kaḻaipaṭap peyaru</l>
-<l>nalvarai nāṭa nīvariṉ</l>
-<l>melliya lōrun tāṉvā ḻalaḷē.</l></lg>
+        <div xml:id="AN22-kilavi"></div>
+        <div xml:id="AN22">
+            <lg type="edition"><l>aṇaṅkuṭai neṭuvarai yucciyi ṉiḻitaruṅ</l>
+<l>kaṇaṅko ḷaruvik kāṉkeḻu nāṭaṉ</l>
+<l>maṇaṅkamaḻ viyaṉmār paṇaṅkiya cella</l>
+<l>lituveṉa vaṟiyā maṟuvaraṟ poḻutiṟ</l>
+<l>paṭiyōrt tēytta palpukaḻt taṭakkai</l>
+<l>neṭuvēṭ pē<supplied>ṇa</supplied>t taṇikuva ḷivaḷeṉa</l>
+<l>mutuvāyp peṇṭi <choice><seg>ratuvāy</seg><seg>ratuvāyk</seg></choice> <choice><seg>kūṟak</seg><seg>kūṟa</seg></choice></l>
+<l>kaḷanaṉ kiḻaittuk kaṇṇi cūṭṭi</l>
+<l><choice><seg>vaḷanakar</seg><seg>vaḷanakarc</seg></choice> cilampap pāṭip palikoṭut</l>
+<l>turuvac centiṉai kurutiyoṭu tūuy</l>
+<l>murukāṟṟup paṭutta vurukeḻu neṭunā</l>
+<l>ḷāra nāṟa varuviṭart tatainta</l>
+<l>cāraṟ palpū vaṇṭupaṭac cūṭik</l>
+<l>kaḷiṟṟirai ta<supplied>rī</supplied>iya pārva lotukki</l>
+<l>ṉoḷittiyaṅku marapiṉ vayappuli pōla</l>
+<l>naṉmaṉai neṭunakark kāvala <choice><seg>raṟiyāmai</seg><seg>raṟiyāmait</seg></choice></l>
+<l>taṉṉacai yuḷḷattu naṉṉacai vāyppa</l>
+<l>viṉṉuyir <choice><seg>kuḻaiya</seg><seg>kuḻaippa</seg></choice> muyaṅkutoṟu meymmalintu</l>
+<l>nakkaṉe ṉallaṉō yāṉē yeytta</l>
+<l>nōytaṇi kātalar varavīṇ</l>
+<l>ṭētil vēlaṟ kulantamai kaṇṭē.</l></lg>
             <lg type="translation" xml:lang="en">
-<l>My mother, she has love [for her] fiercer than [for her] eye and my father</l>
-<l>says: “eh, why would you stir, little girl</l>
-<l rend="indent">	for [your] little feet to become red that do not bear to touch the ground?”</l>
-<l>We, in undivided intimacy, enjoyable without separation,</l>
-<l>we are of one life, like a bird with two heads.</l>
-<l>Oh man from a land of good mountains,</l>
-<l>where the elephant bull with spotted face, frightened when thinking of the tiger</l>
-<l rend="indent">	at the honey-shedding appearance of the kino tree when it spreads [in bloom],</l>
-<l rend="indent">	so that the huts are buried that were fixed by the hill people</l>
-<l rend="indent">	in order to take the ripening yield of the jack tree with excellent [fruit] bunches</l>
-<l rend="indent">	on big branches where squirrels play that repeat parakeets sounds,</l>
-<l>moves, for the bamboo to fall, on the rainy mountain side,</l>
-<l>whenever the millet guards make [their] unending roar,</l>
-<l rend="indent">	if you come</l>
-<l>she with soft nature for one, too,<note place="foot">ōrum is a problem here and unsurprisingly glossed as acai by the old commentary.  Alternatively it could be taken as the peyareccam of ōrtal: “she with soft nature, when she perceives [it], will not live”.</note> will not live.</l></lg>
+<l>At the time of confusion when it was not known that this</l>
+<l>was the distress that tormented [her]: the wide chest scented with fragrance</l>
+<l>of the man from the forested land with waterfalls in groups,</l>
+<l>that tumble down from the peaks of haunted long mountains,</l>
+<l>when old truth[-saying] women told that as truth:</l>
+<l>“she will be appeased when respect is paid to tall Vēḷ</l>
+<l>with much famed broad hands who reduced [his] enemies”,</l>
+<l>on the dreadful long day that sets Murukaṉ on [his] way,</l>
+<l>well preparing the floor, putting on chaplets,</l>
+<l>singing so that the flourishing mansion resounds, giving offerings,</l>
+<l>scattering shapely red millet along with blood,</l>
+<l>I,</l>
+<l>[my] body gladdened in every embrace, for [my] sweet life to turn soft,</l>
+<l>when he reached with good yearning in his yearning mind,</l>
+<l>without the watchmen of the long mansion, the good house knowing,</l>
+<l rend="indent">	like a strong tiger, with the habit of moving stealthily</l>
+<l rend="indent">	to a spot for peering out for the elephant bull in order to bring prey,</l>
+<l>wearing, for bees to come, many flowers from the slope</l>
+<l>that was dense with difficult clefts, while fragrant with sandal,</l>
+<l rend="indent5">	    did I not smile,</l>
+<l>– seeing the devastation of the strange spear-bearing [priest]</l>
+<l>at [our] lover’s coming here in order to appease [our] weary pain?</l></lg>
         </div>
     </body>
   </text>
-  <standOff corresp="#AN12" type="wordsplit">
-      <interp type="alignment" select="0">34MR18MG51MG3MG62MG3MG146MG5MG32MG43M,406M</interp>
-<interp type="alignment" select="1">34MR18MG51MG3MG62MG3MG146MG5ML32MR43M,221MG184M</interp>
+  <standOff corresp="#AN22" type="wordsplit">
+      <interp type="alignment" select="0">5MG24MG50MG131MG4MG22MG28MG33MG30MG53MG29MG111MG5MG53MG3MG10MG15M,622M</interp>
+<interp type="alignment" select="1">5MG24MG50MG131MR4MG22MR29MG33MG30MG53MG29MG113MG5MG53MG3MG10MG15M,625M</interp>
 <entry>
-<form>yāyē,</form>
-<def>my-motherē</def>
+<form>aṇaṅk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>plague</def>
 </entry>
 <entry>
-<form>kaṇṇiṉum</form>
-<def>eyeiṉum</def>
+<form>uṭai</form>
+<def>possess-</def>
 </entry>
 <entry>
-<form>kaṭum</form>
-<def>fierce</def>
-</entry>
-<entry>
-<form>kātalaḷē</form>
-<def>love-sheē</def>
-</entry>
-<entry>
-<form><pc>~</pc>entaiyum</form>
-<def>my-fatherum</def>
-<note lang="en">Irākavaiyaṅkār and Vaiyāpurip Piḷḷai split differently and use entaiyum as a kūṉ for the second line.</note>
-</entry>
-<entry>
-<form>nilaṉ</form>
-<def>ground</def>
-</entry>
-<entry>
-<form>uṟa<pc>+</pc></form>
-<def>have(inf.)</def>
-</entry>
-<superEntry>
-<entry select="0">
-<entry>
-<form>poṟāa<pc>+</pc></form>
-<def>bear-not</def>
-</entry>
-</entry>
-<entry select="1">
-<entry>
-<form>peṟāa<pc>+</pc></form>
-<def>obtain-not</def>
-</entry>
-</entry>
-</superEntry>
-<entry>
-<form>cīṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>little</def>
-</entry>
-<entry>
-<form>aṭi</form>
-<def>foot</def>
-</entry>
-<entry>
-<form>civappa</form>
-<def>redden(inf.)</def>
-</entry>
-<entry>
-<form><pc>~</pc>evaṉ</form>
-<def>what</def>
-</entry>
-<entry>
-<form>ila</form>
-<def>you(voc.)</def>
-</entry>
-<entry>
-<form>kuṟu</form>
-<def>short</def>
-</entry>
-<entry>
-<form>makaḷ</form>
-<def>woman</def>
-</entry>
-<entry>
-<form>iyaṅkuti</form>
-<def>you-stir(sub.)</def>
-</entry>
-<entry>
-<form><pc>~</pc>eṉṉum</form>
-<def>saying-</def>
-</entry>
-<entry>
-<form>yāmē,</form>
-<def>weē</def>
-</entry>
-<superEntry>
-<entry select="0">
-<entry>
-<form>piriv<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>separation</def>
-</entry>
-</entry>
-<entry select="1">
-<entry>
-<form>tuṇiv<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>determination</def>
-</entry>
-</entry>
-</superEntry>
-<entry>
-<form>iṉṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>without</def>
-</entry>
-<entry>
-<form>iyainta</form>
-<def>been-enjoyable-</def>
-</entry>
-<entry>
-<form>tuvarā</form>
-<def>divide-not</def>
-</entry>
-<entry>
-<form>naṭpiṉ</form>
-<def>intimacyiṉ</def>
-</entry>
-<entry>
-<form>iru</form>
-<def>two</def>
-</entry>
-<entry>
-<form>talai<pc>+</pc></form>
-<def>head</def>
-</entry>
-<entry>
-<form>puḷḷiṉ</form>
-<def>birdiṉ</def>
-</entry>
-<entry>
-<form>ōr</form>
-<def>one</def>
-</entry>
-<entry>
-<form>uyirammē</form>
-<def>life-weē</def>
-</entry>
-<entry>
-<form><pc>~</pc>ēṉalam</form>
-<def>milletam</def>
-</entry>
-<entry>
-<form>kāva<supplied>la</supplied>r</form>
-<def>guardian(h.)</def>
-</entry>
-<entry>
-<form>āṉāt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>end-not</def>
-</entry>
-<entry>
-<form>ār<pc>+</pc>-toṟum</form>
-<def>roar-ever</def>
-</entry>
-<entry>
-<form>kiḷi</form>
-<def>parakeet</def>
-</entry>
-<entry>
-<form>viḷi</form>
-<def>sound</def>
-</entry>
-<entry>
-<form>payiṟṟum</form>
-<def>repeating-</def>
-</entry>
-<entry>
-<form>veḷil</form>
-<def>squirrel</def>
-</entry>
-<entry>
-<form>āṭu</form>
-<def>play-</def>
-</entry>
-<entry>
-<form>perum</form>
-<def>big</def>
-</entry>
-<entry>
-<form>ciṉai</form>
-<def>branch</def>
-</entry>
-<superEntry>
-<entry select="0">
-<entry>
-<form>viḻu<pc>+</pc></form>
-<def>excellent</def>
-</entry>
-</entry>
-<entry select="1">
-<entry>
-<form>viḻu</form>
-<def>excellent</def>
-</entry>
-</entry>
-</superEntry>
-<entry>
-<form>kōḷ</form>
-<def>bunch</def>
-</entry>
-<entry>
-<form>palaviṉ</form>
-<def>jack-fruitiṉ</def>
-</entry>
-<entry>
-<form>paḻū<supplied>u</supplied><pc>+</pc></form>
-<def>ripen-</def>
-</entry>
-<superEntry>
-<entry select="0">
-<entry>
-<form>payaṉ</form>
-<def>yield</def>
-</entry>
-</entry>
-<entry select="1">
-<entry>
-<form>payam</form>
-<def>yield</def>
-</entry>
-</entry>
-</superEntry>
-<entry>
-<form>koṇmār</form>
-<def>take(inf.)</def>
-</entry>
-<entry>
-<form>kuṟavar</form>
-<def>hill-people(h.)</def>
-</entry>
-<entry>
-<form>ūṉṟiya</form>
-<def>fixed-</def>
-</entry>
-<entry>
-<form>kurampai</form>
-<def>hut</def>
-</entry>
-<entry>
-<form>putaiya</form>
-<def>bury(inf.)</def>
-</entry>
-<entry>
-<form>vēṅkai</form>
-<def>kino-tree</def>
-</entry>
-<superEntry>
-<entry select="0">
-<entry>
-<form>tāya</form>
-<def>spread(p.)</def>
-</entry>
-</entry>
-<entry select="1">
-<entry>
-<form>pāya</form>
-<def>spread(p.)</def>
-</entry>
-</entry>
-</superEntry>
-<entry>
-<form>tēm</form>
-<def>honey</def>
-</entry>
-<entry>
-<form>pāy</form>
-<def>spread-</def>
-</entry>
-<entry>
-<form>tōṟṟam</form>
-<def>appearance</def>
-</entry>
-<entry>
-<form>puli</form>
-<def>tiger</def>
-</entry>
-<entry>
-<form>cettu</form>
-<def>thought</def>
-</entry>
-<entry>
-<form>verīiya</form>
-<def>frightened-</def>
-</entry>
-<entry>
-<form>pukar</form>
-<def>spot</def>
-</entry>
-<entry>
-<form>mukam</form>
-<def>face</def>
-</entry>
-<entry>
-<form>vēḻam</form>
-<def>elephant-bull</def>
-</entry>
-<entry>
-<form>maḻai</form>
-<def>rain</def>
-</entry>
-<entry>
-<form>paṭu</form>
-<def>happen-</def>
-</entry>
-<entry>
-<form><supplied>ci</supplied>lampiṉ</form>
-<def>mountain-sideiṉ</def>
-</entry>
-<entry>
-<form>kaḻai</form>
-<def>bamboo</def>
-</entry>
-<entry>
-<form>paṭa<pc>+</pc></form>
-<def>happen(inf.)</def>
-</entry>
-<entry>
-<form>peyarum</form>
-<def>moving-</def>
-</entry>
-<entry>
-<form>nal</form>
-<def>good</def>
+<form>neṭu</form>
+<def>long</def>
 </entry>
 <entry>
 <form>varai</form>
 <def>mountain</def>
 </entry>
 <entry>
-<form>nāṭa</form>
-<def>land-he(voc.)</def>
+<form><pc>~</pc>ucciyiṉ</form>
+<def>peakiṉ</def>
 </entry>
 <entry>
-<form>nī</form>
-<def>you</def>
+<form>iḻi-tarum</form>
+<def>fall-giving-</def>
 </entry>
 <entry>
-<form>variṉ</form>
-<def>come-if</def>
+<form>kaṇam</form>
+<def>group</def>
 </entry>
 <entry>
-<form>mel</form>
-<def>soft</def>
+<form>koḷ</form>
+<def>take-</def>
 </entry>
 <entry>
-<form><pc>+</pc>iyal</form>
-<def>nature</def>
+<form>aruvi<pc>+</pc></form>
+<def>waterfall</def>
 </entry>
 <entry>
-<form>ōrum</form>
-<def>oneum</def>
+<form>kāṉ</form>
+<def>forest</def>
 </entry>
 <entry>
-<form>tāṉ</form>
-<def>self</def>
+<form>keḻu</form>
+<def>have-</def>
 </entry>
 <entry>
-<form>vāḻalaḷē.</form>
-<def>live-not-sheē.</def>
+<form>nāṭaṉ</form>
+<def>land-he</def>
+</entry>
+<entry>
+<form>maṇam</form>
+<def>fragrance</def>
+</entry>
+<entry>
+<form>kamaḻ</form>
+<def>be-fragrant-</def>
+</entry>
+<entry>
+<form>viyal</form>
+<def>width</def>
+</entry>
+<entry>
+<form>mārp<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>chest</def>
+</entry>
+<entry>
+<form>aṇaṅkiya</form>
+<def>plagued-</def>
+</entry>
+<entry>
+<form>cellal</form>
+<def>distress</def>
+</entry>
+<entry>
+<form>itu</form>
+<def>this</def>
+</entry>
+<entry>
+<form><pc>~</pc>eṉa</form>
+<def>say(inf.)</def>
+</entry>
+<entry>
+<form><pc>~</pc>aṟiyā</form>
+<def>know-not-</def>
+</entry>
+<entry>
+<form>maṟuvaral</form>
+<def>being-mixed-up</def>
+</entry>
+<entry>
+<form>poḻutiṉ</form>
+<def>timeiṉ</def>
+</entry>
+<entry>
+<form>paṭiyōr<pc>+</pc></form>
+<def>settle-not-they(h.)</def>
+</entry>
+<entry>
+<form>tēytta</form>
+<def>reduced-</def>
+</entry>
+<entry>
+<form>pal</form>
+<def>many</def>
+</entry>
+<entry>
+<form>pukaḻ<pc>+</pc></form>
+<def>fame</def>
+</entry>
+<entry>
+<form>taṭa<pc>+</pc></form>
+<def>broad</def>
+</entry>
+<entry>
+<form>kai</form>
+<def>hand</def>
+</entry>
+<entry>
+<form>neṭu</form>
+<def>long</def>
+</entry>
+<entry>
+<form>vēḷ</form>
+<def>Vēḷ</def>
+</entry>
+<entry>
+<form>pē<supplied>ṇa</supplied><pc>+</pc></form>
+<def>esteem(inf.)</def>
+</entry>
+<entry>
+<form>taṇikuvaḷ</form>
+<def>she-is-appeased</def>
+</entry>
+<entry>
+<form>ivaḷ</form>
+<def>she</def>
+</entry>
+<entry>
+<form>eṉa</form>
+<def>say(inf.)</def>
+</entry>
+<entry>
+<form>mutu</form>
+<def>old</def>
+</entry>
+<entry>
+<form>vāy<pc>+</pc></form>
+<def>truth</def>
+</entry>
+<entry>
+<form>peṇṭir</form>
+<def>women</def>
+</entry>
+<entry>
+<form>atu</form>
+<def>that</def>
+</entry>
+<superEntry>
+<entry select="0">
+<entry>
+<form>vāy</form>
+<def>mouth</def>
+</entry>
+</entry>
+<entry select="1">
+<entry>
+<form>vāy<pc>+</pc></form>
+<def>mouth</def>
+</entry>
+</entry>
+</superEntry>
+<superEntry>
+<entry select="0">
+<entry>
+<form>kūṟa<pc>+</pc></form>
+<def>tell(inf.)</def>
+</entry>
+</entry>
+<entry select="1">
+<entry>
+<form>kūṟa</form>
+<def>tell(inf.)</def>
+</entry>
+</entry>
+</superEntry>
+<entry>
+<form>kaḷam</form>
+<def>floor</def>
+</entry>
+<entry>
+<form>naṉk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>well</def>
+</entry>
+<entry>
+<form>iḻaittu<pc>+</pc></form>
+<def>fashioned</def>
+</entry>
+<entry>
+<form>kaṇṇi</form>
+<def>chaplet</def>
+</entry>
+<entry>
+<form>cūṭṭi</form>
+<def>adorned</def>
+</entry>
+<entry>
+<form>vaḷam</form>
+<def>fertility</def>
+</entry>
+<superEntry>
+<entry select="0">
+<entry>
+<form>nakar</form>
+<def>mansion</def>
+</entry>
+</entry>
+<entry select="1">
+<entry>
+<form>nakar<pc>+</pc></form>
+<def>mansion</def>
+</entry>
+</entry>
+</superEntry>
+<entry>
+<form>cilampa<pc>+</pc></form>
+<def>sound(inf.)</def>
+</entry>
+<entry>
+<form>pāṭi<pc>+</pc></form>
+<def>sung</def>
+</entry>
+<entry>
+<form>pali</form>
+<def>offering</def>
+</entry>
+<entry>
+<form>koṭutt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>given</def>
+</entry>
+<superEntry>
+<entry select="0">
+<entry>
+<form>uruva<pc>+</pc></form>
+<def>form</def>
+</entry>
+</entry>
+<entry select="1">
+<entry>
+<form>uruvam</form>
+<def>form</def>
+</entry>
+</entry>
+</superEntry>
+<entry>
+<form>cem</form>
+<def>red</def>
+</entry>
+<entry>
+<form>tiṉai</form>
+<def>millet</def>
+</entry>
+<entry>
+<form>kurutiyoṭu</form>
+<def>blood-with</def>
+</entry>
+<entry>
+<form>tūuy</form>
+<def>spattered</def>
+</entry>
+<entry>
+<form>muruk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>Muruku</def>
+</entry>
+<entry>
+<form>āṟṟuppaṭutta</form>
+<def>way-set-on(p.)-</def>
+</entry>
+<entry>
+<form><pc>~</pc>uru</form>
+<def>fear</def>
+</entry>
+<entry>
+<form>keḻu</form>
+<def>have-</def>
+</entry>
+<entry>
+<form>neṭu</form>
+<def>long</def>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+</entry>
+<entry>
+<form>āram</form>
+<def>sandal</def>
+</entry>
+<entry>
+<form>nāṟa</form>
+<def>be-fragrant(inf.)</def>
+</entry>
+<entry>
+<form><pc>~</pc>aru</form>
+<def>difficult</def>
+</entry>
+<entry>
+<form>viṭar<pc>+</pc></form>
+<def>cleft</def>
+</entry>
+<entry>
+<form>tatainta</form>
+<def>been-packed-</def>
+</entry>
+<entry>
+<form>cāral</form>
+<def>slope</def>
+</entry>
+<entry>
+<form>pal</form>
+<def>many</def>
+</entry>
+<entry>
+<form>pū</form>
+<def>flower</def>
+</entry>
+<entry>
+<form>vaṇṭu</form>
+<def>bee</def>
+</entry>
+<entry>
+<form>paṭa<pc>+</pc></form>
+<def>happen(inf.)</def>
+</entry>
+<entry>
+<form>cūṭi<pc>+</pc></form>
+<def>worn</def>
+</entry>
+<entry>
+<form>kaḷiṟṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>elephant-bull-</def>
+</entry>
+<entry>
+<form>irai</form>
+<def>prey</def>
+</entry>
+<entry>
+<form>ta<supplied>rī</supplied>iya</form>
+<def>give(inf.)</def>
+</entry>
+<entry>
+<form>pārval</form>
+<def>seeing</def>
+</entry>
+<entry>
+<form>otukkiṉ</form>
+<def>stepiṉ</def>
+</entry>
+<entry>
+<form>oḷitt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>concealed</def>
+</entry>
+<entry>
+<form>iyaṅku</form>
+<def>stir-</def>
+</entry>
+<entry>
+<form>marapiṉ</form>
+<def>customiṉ</def>
+</entry>
+<entry>
+<form>vaya<pc>+</pc></form>
+<def>strength</def>
+</entry>
+<entry>
+<form>puli</form>
+<def>tiger</def>
+</entry>
+<entry>
+<form>pōla</form>
+<def>be-similar(inf.)</def>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+</entry>
+<entry>
+<form>maṉai</form>
+<def>house</def>
+</entry>
+<entry>
+<form>neṭu</form>
+<def>long</def>
+</entry>
+<entry>
+<form>nakar<pc>+</pc></form>
+<def>mansion</def>
+</entry>
+<entry>
+<form>kāvalar</form>
+<def>watchmen(h.)</def>
+</entry>
+<superEntry>
+<entry select="0">
+<entry>
+<form>aṟiyāmai</form>
+<def>not-knowing</def>
+</entry>
+</entry>
+<entry select="1">
+<entry>
+<form>aṟiyāmai<pc>+</pc></form>
+<def>not-knowing</def>
+</entry>
+</entry>
+</superEntry>
+<entry>
+<form>taṉ</form>
+<def>self-</def>
+</entry>
+<entry>
+<form>nacai</form>
+<def>yearning</def>
+</entry>
+<entry>
+<form><pc>~</pc>uḷḷattu</form>
+<def>inside-</def>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+</entry>
+<entry>
+<form>nacai</form>
+<def>yearning</def>
+</entry>
+<entry>
+<form>vāyppa</form>
+<def>reach(inf.)</def>
+</entry>
+<entry>
+<form><pc>~</pc>iṉ</form>
+<def>pleasant</def>
+</entry>
+<entry>
+<form><pc>+</pc>uyir</form>
+<def>life</def>
+</entry>
+<superEntry>
+<entry select="0">
+<entry>
+<form>kuḻaiya</form>
+<def>become-pulpy(inf.)</def>
+</entry>
+</entry>
+<entry select="1">
+<entry>
+<form>kuḻaippa</form>
+<def>become-pulpy(inf.)</def>
+</entry>
+</entry>
+</superEntry>
+<entry>
+<form>muyaṅku-toṟum</form>
+<def>embrace-ever</def>
+</entry>
+<entry>
+<form>mey<pc>+</pc></form>
+<def>body</def>
+</entry>
+<entry>
+<form>malintu</form>
+<def>been-happy</def>
+</entry>
+<entry>
+<form>nakkaṉeṉ</form>
+<def>I-smiled</def>
+</entry>
+<entry>
+<form>allaṉō</form>
+<def>not-so-Iō</def>
+</entry>
+<entry>
+<form>yāṉē</form>
+<def>Iē</def>
+</entry>
+<entry>
+<form><pc>~</pc>eytta</form>
+<def>grown-weary-</def>
+</entry>
+<entry>
+<form>nōy</form>
+<def>pain</def>
+</entry>
+<entry>
+<form>taṇi</form>
+<def>decrease-</def>
+</entry>
+<entry>
+<form>kātalar</form>
+<def>lover(h.)</def>
+</entry>
+<entry>
+<form>varav<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>coming</def>
+</entry>
+<entry>
+<form>īṇṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>here</def>
+</entry>
+<entry>
+<form>ētil</form>
+<def>strange</def>
+</entry>
+<entry>
+<form>vēlaṟk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
+<def>spear-he(dat.)</def>
+</entry>
+<entry>
+<form>ulantamai</form>
+<def>having-died</def>
+</entry>
+<entry>
+<form>kaṇṭē.</form>
+<def>seenē.</def>
 </entry>
   </standOff>
-  <standOff corresp="#AN12" type="apparatus">
+  <standOff corresp="#AN22" type="apparatus">
       <listApp>
-<app corresp="43,49">
-        <lem wit="#em">poṟāac<note xmlns="http://www.tei-c.org/ns/1.0" n="38" place="foot">Here neither of the transmitted versions seem to make sense. While there is a problem with some misreading in the Vulgate strand (most probably corrected by the late scribes/early editors into poṟāaṉ with masculine suffix), the second strand reads peṟāac, which just about means the opposite, feet that do not touch the ground, while at the same time we are told that they become red.  The printed editions all take up the corrected form poṟāaṉ, neg. m.sg., which meakes sense only when word order is disregarded: “father who does not bear when [her] feet become red as they touch the ground”.</note></lem>
-        <rdg wit="#C1">poṟāa<sic>kaṉ</sic></rdg>
-<rdg wit="#NL">poṟāa<sic>caṉ</sic></rdg>
-<rdg wit="#C5 #C7 #IḷK #RK #VP #ER">poṟāaṉ</rdg>
-<rdg wit="#IḷC">poṟāaṉiṉ</rdg>
-<rdg wit="#C2 #C3 #C9 #RKv">peṟāac</rdg>
-<rdg wit="#IV">peṟāaṉ</rdg>
-<rdg wit="#SAv">peṟā<sic>cu</sic>c</rdg>
+<app corresp="70,87">
+        <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #IḷTC #IVC #RK">viyaṉmār paṇaṅkiya</lem>
+        <rdg wit="#Cēṉ">viyaṉmārpa ṉaṇaṅkiya</rdg>
         </app>
-<app corresp="62,70">
-        <lem wit="#C2 #C3 #C4 #C5v #C7v #C9v #Iḷ #IV #RK #VP #ER">vevaṉila<note xmlns="http://www.tei-c.org/ns/1.0" n="39" place="foot">The first-strand variant vēṉila (“summery?) does not seem to make much sense.  Strand 2 and the old commentary read ila, glossed by the latter as ēṭī, a familiar address form towards a female, which allows to read the whole as a question (“why would you stir?”), not as a permission (“you may stir”).  This means that here the reading of strand 1 ought to be discarded.  Additionally there are pragmatic reasons for doing so: her father does not want her feet to turn red, so she ought not to go.</note></lem>
-        <rdg wit="#C1 #C5 #C7 #C9">vēṉila</rdg>
+<app corresp="100,106">
+        <lem wit="#C2 #C3 #NaccP #NaccKa #RK #VP #ER">vaṟiyā<note xmlns="http://www.tei-c.org/ns/1.0" n="93" place="foot">The first-strand reading aṟiyāḷ does not make sense in the given context, since the girl of course knows very well the cause of her distress; it is the mother and the village who do not know it.</note></lem>
+        <rdg wit="#C5 #C7 #C9 #NaccT">vaṟiyā<sic>ṇ</sic></rdg>
+<rdg wit="#NL #C1">vaṟiyā<sic>ḷ</sic></rdg>
         </app>
-<app corresp="98,105">
-        <lem wit="#C1 #C2v #C3 #C5 #C7 #C9 #RK">piriviṉ</lem>
-        <rdg wit="#C2">tuṇiviṉ</rdg>
+<app corresp="160,165">
+        <lem wit="#C2 #C3 #C5 #C7 #C9 #RK">pēṇat</lem>
+        <rdg wit="#NL #C1">pē<sic>ṉa</sic>t</rdg>
         </app>
-<app corresp="139,150">
-        <lem wit="#C1 #C2 #C3 #C5 #C7 #C9 #RK">ṉōruyi rammē<note xmlns="http://www.tei-c.org/ns/1.0" n="40" place="foot">Here the quotation from the IV Col commentary seems hypermetrical and rather like a gloss of the original, however, with a change of the original plural into singular.</note></lem>
-        <rdg wit="#IVC">ṉōruyirē ṉākiyayāṉ</rdg>
+<app corresp="194,201">
+        <lem wit="#NL #C1 #C2 #C3 #C5v #C9 #RK">ratuvāy</lem>
+        <rdg wit="#C5 #C7 #C9v #NaccT">ratuvāyk</rdg>
         </app>
-<app corresp="150,157">
-        <lem wit="#C1 #C3 #C5 #C7 #C9v #RK">yēṉalaṅ</lem>
-        <rdg wit="#C2 #C9">yēṉala</rdg>
+<app corresp="206,213">
+        <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #NaccKa{TP111} #RK">kaḷanaṉ</lem>
+        <rdg wit="#NaccT{TP60 #NaccT{TP111} #NaccP{TP60} #NaccKa{TP60}">kaḷaṉaṉ</rdg>
         </app>
-<app corresp="157,163">
-        <lem wit="#C2 #C3 #C5 #C7 #C9 #RK">kāvala</lem>
-        <rdg wit="#C1">kā<sic>va</sic></rdg>
+<app corresp="227,232">
+        <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #RK">cūṭṭi</lem>
+        <rdg wit="#SAv">cūṭi</rdg>
         </app>
-<app corresp="225,236">
-        <lem wit="#C9 #Mayv #CC #NV #RKv">paḻūuppayaṉ</lem>
-        <rdg wit="#C1 #C3 #C5 #C7">pa<sic>ḻū</sic>ppayaṉ</rdg>
-<rdg wit="#C2">paḻūuppayaṅ</rdg>
-<rdg wit="#May">paḻuppayaṉ</rdg>
-<rdg wit="#RK #VP #ER">paḻuppayaṅ</rdg>
+<app corresp="232,241">
+        <lem wit="#NL #C1 #C5 #C7 #C9 #RK">vaḷanakar</lem>
+        <rdg wit="#C2 #C3 #C9v">vaḷanakarc</rdg>
         </app>
-<app corresp="276,280">
-        <lem wit="#C1 #C5 #C7 #C9v">tāya</lem>
-        <rdg wit="#RK #VP #ER">tāaya</rdg>
-<rdg wit="#C2 #C3 #C9 #RKv">pāya</rdg>
+<app corresp="317,323">
+        <lem wit="#NL #C1 #C7v #C9">neṭunā</lem>
+        <rdg wit="#C5 #C7 #Nacc #RK #VP #ER">naṭunā</rdg>
+<rdg wit="#C2 #C3"><space quantity="2" unit="character"/><sic>na</sic><space quantity="2" unit="character"/><sic>ṭu</sic><space quantity="2" unit="character"/>nā</rdg>
         </app>
-<app corresp="292,301">
-        <lem wit="#C1 #C3 #C5 #C7 #C9 #Pēr #RK">pulicettu</lem>
-        <rdg wit="#C2">puliceṟṟu</rdg>
+<app corresp="327,349">
+        <lem wit="#NL #C1 #C5 #C7 #C9 #RK">nāṟa varuviṭart tatainta</lem>
+        <rdg wit="#C3">nā<sic>ṟku</sic>varu viṭara<sic>kat</sic> tatainta</rdg>
+<rdg wit="#?C2">nāṟa varuviṭart toṭuta<gap reason="lost" quantity="1" unit="character"/><sic>ttai</sic></rdg>
         </app>
-<app corresp="330,338">
-        <lem wit="#C2 #C3 #C5 #C7 #C9 #RK">cilampiṟ</lem>
-        <rdg wit="#C1"><sic>ki</sic>lampiṟ</rdg>
+<app corresp="384,391">
+        <lem wit="#C2 #C3 #C5 #C7">tarīiya<note xmlns="http://www.tei-c.org/ns/1.0" n="94" place="foot">The corresponding page appears as blank in the digital copy of the edition of Pavaṉantam Piḷḷai at my disposal.</note></lem>
+        <rdg wit="#NL #C1">ta<sic>ra</sic>iya</rdg>
+<rdg wit="#C9 #PērT #NaccP #NaccKa #IV #RK #VP #ER">terīiya</rdg>
+<rdg wit="#PērKa">tēriya</rdg>
+<rdg wit="#NaccT">terīip</rdg>
         </app>
-<app corresp="373,390">
-        <lem wit="#C1 #C2 #C3 #C5v #C7v #C9 #PērPv #PērKa #NaccKa #IV #RK">melliya lōrun tāṉvā</lem>
-        <rdg wit="#C5">melliya lōḷorun tāṉvā</rdg>
-<rdg wit="#RKv #SAv">melliya lorunāḷ tāṉvā</rdg>
-<rdg wit="#C7">melliya <sic>vō</sic>run tāṉvā</rdg>
-<rdg wit="#PērT #PērP #PērKav #NaccT #IVv">melli yāḷoru nāḷvā</rdg>
+<app corresp="453,468">
+        <lem wit="#C1 #C9">kāvala raṟiyāmai</lem>
+        <rdg wit="#NL"><sic>ka</sic>vala raṟiyāmai</rdg>
+<rdg wit="#C2 #C3 #C5 #C7 #NaccT #NaccKa #RK #VP">kāvala raṟiyāmait</rdg>
+<rdg wit="#NaccP #RKv">kāvalaṟi yāmai</rdg>
+        </app>
+<app corresp="484,492">
+        <lem wit="#NL #C1 #C2 #C3 #C5 #C9 #PērKa #NaccT #NaccP #NaccKa{TP111}">naṉṉacai</lem>
+        <rdg wit="#C5v #C7 #PērP #NaccKa{TP60} #RK #VP #ER">nannacai</rdg>
+        </app>
+<app corresp="506,513">
+        <lem wit="#NL #C1 #C7v #C9 #Pēr #NaccT #NaccKa{TP60} #RK">kuḻaiya</lem>
+        <rdg wit="#C2 #C3 #C5 #C7 #C9v #NaccT{TP111} #RKv">kuḻaippa</rdg>
+        </app>
+<app corresp="542,549">
+        <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #Pēr #NaccT{TP111} #NaccP #NaccKa #RK #VP">ṉallaṉō</lem>
+        <rdg wit="#NaccT{TP60} #ER">ṉalleṉō</rdg>
+        </app>
+<app corresp="559,566">
+        <lem wit="#NL #C2 #C3 #C5 #C7 #C9 #RK">nōytaṇi</lem>
+        <rdg wit="#C1">nōytaṇik</rdg>
+        </app>
+<app corresp="585,600">
+        <lem wit="#NL #C1 #C2 #C3 #C5v #C7 #C9 #PērKa #NaccP #NaccKa #RK">vēlaṟ kulantamai</lem>
+        <rdg wit="#C5 #C7v #C9v #PērT #PērP #NaccT">vēlaṟ kuvantamai</rdg>
+<rdg wit="#NaccPv">vēla ṉulantamai</rdg>
         </app>
 </listApp>
   </standOff>

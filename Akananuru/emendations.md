@@ -133,3 +133,109 @@ wordsplit
 
 apparatus
 - on maritutuṟ ṟaṉaiyāṟ: SA -> SAv?
+
+# AN12
+
+wordsplit
+- strand 2: muka -> mukam
+
+# AN13
+
+wordsplit
+- ~āka tuyil -> ~āka+ tuyil
+
+# AN14
+
+wordsplit
+- mey niṟutt' -> mey+ niṟutt'
+- nal ūraṉ -> nal +ūraṉ
+
+apparatus
+- tiraṅkum palalār -> tiraṅkum pallār
+
+# AN15
+
+wordsplit
+- vampalar -> vampalar+
+- pū tuytta -> pū+ tuytta
+
+# AN16
+
+edition
+- should strand 2 read pēṇiṉeṉ? (it reads pēṇiṉe with strand 1 in the printed edition)
+
+wordsplit
+- strand 2: pēṇiṉeṉ allaṉō -> pēṇiṉeṉ +allaṉō (see note above)
+
+# AN17
+
+wordsplit
+- cella tāmē -> kol cella+ tāmē
+
+# AN19
+
+wordsplit
+- cel iṉi+ -> cel +iṉi+
+
+# AN20
+
+wordsplit
+- aḻuva tentai -> aḻuva+ tentai
+- +ūr koṭit' -> +ūr+ koṭit'
+
+# AN21
+
+wordsplit
+- vī uka+ -> vī ~uka+
+- ~uvalai kūval -> ũvalai+ kūval
+
+apparatus
+- cennā yēṟṟai(k) -> cennā yēṟṟai[k] (what does this mean?)
+- 25d: NL+9 -> NL, C9? (check manuscript?)
+- TODO: kuḷi‡et
+
+# AN22
+
+wordsplit
+- pāṭi pali -> pāṭi+ pali
+- viṭar tatainta -> viṭar+ tatainta
+- strand 2: vāy kūṟa -> vāy+ kūṟa
+
+apparatus
+- Nacc.(T){TP 60+111}; Nacc.(P+Ka){TP 60} -> Nacc.(T){TP 60+111}, Nacc.(P+Ka){TP 60}
+
+
+# AN23
+
+wordsplit
+- paṟai kural -> paṟai+ kural
+- strand 2: āṇṭu cey -> āṇṭu+ cey
+
+apparatus
+-4a lemma missing witnesses; assuming NL C1+2+3+5+7+9 (RK?) (check manuscripts?)
+- piṭavamō lemma missing most witnesses (check manuscripts?)
+
+# AN24
+
+wordsplit
+- strand1: naṉṉutal yāmē; what do you do with the sandhi here? (the text reads naṉṉutal iyāmē)
+
+# AN25
+
+wordsplit
+- taṭa kai+ -> taṭa+ kai+
+
+# AN26
+
+edition
+- I aligned the two editions, but I think the strand 2 metre isn't reflected?
+
+apparatus
+- 12k -> 11e?
+- 12d: RK; / C7 -> RK (is there something missing here?)
+
+wordsplit
+- iṉiyē -> ~iṉiyē
+- strand 2: mārp'-akam -> mārp' -akam
+- strand 2: ~āyiṭai -> ~āyiṭai+
+- strand 2: kai nekiḻntamai -> kai+ nekiḻntamai

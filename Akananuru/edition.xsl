@@ -261,7 +261,10 @@
 
 <xsl:template match="x:superEntry">
     <xsl:element name="div">
-        <xsl:attribute name="class">fs superentry</xsl:attribute>
+        <xsl:attribute name="class">
+            <xsl:text>fs superentry</xsl:text>
+            <xsl:if test="@type"><xsl:text> </xsl:text><xsl:value-of select="@type"/></xsl:if>
+        </xsl:attribute>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>

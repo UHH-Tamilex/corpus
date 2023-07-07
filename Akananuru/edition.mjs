@@ -189,7 +189,9 @@ const matchCounts = (alignment,linecounts) => {
     for(let n=0;n<alignment[0].length;n++) {
         if(matchcount === linecounts[0]) {
             linecounts.shift();
-            realcounts.push(n);
+            const line2 = alignment[1].slice(0,n);
+            const matches = [...line2].reduce((acc, cur) => cur === 'M' ?  acc + 1 : acc,0);
+            realcounts.push(matches);
         }
         if(alignment[0][n] === 'M') matchcount = matchcount + 1;
     }
@@ -260,7 +262,10 @@ const applymarkup = (standoff) => {
         if(entry.classList.contains('superentry')) {
             const choice = document.createElement('span');
             choice.className = 'choice';
-            for(const seg of entry.querySelectorAll('.fs')) {
+            if(entry.classList.contains('ambiguous'))
+                choice.classList.add('inline');
+
+            for(const seg of entry.querySelectorAll(':scope > .fs')) {
                 const segel = document.createElement('span');
                 segel.className = 'choiceseg';
                 for(const subentry of seg.querySelectorAll('.fs')) {
