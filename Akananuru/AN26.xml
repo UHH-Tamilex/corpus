@@ -407,7 +407,7 @@
 <def>door</def>
 </entry>
 <entry>
-<form><supplied>p</supplied>oruta</form>
+<form><supplied>po</supplied>ruta</form>
 <def>fought-</def>
 </entry>
 <entry>
@@ -431,13 +431,17 @@
 <def>ringiṉ</def>
 </entry>
 <superEntry type="ambiguous">
-<entry select="0"><entry>
+<entry select="0">
+<entry>
 <form>ēra</form>
 <def>beauty</def>
-</entry></entry><entry select="1"><entry>
+</entry>
+</entry><entry select="1">
+<entry>
 <form>nēra</form>
 <def>fineness-they(n.pl.)</def>
-</entry></entry>
+</entry>
+</entry>
 </superEntry>
 <entry>
 <form><pc>~</pc>āki</form>
@@ -522,13 +526,17 @@
 <def>I</def>
 </entry>
 <superEntry type="ambiguous">
-<entry select="0"><entry>
+<entry select="0">
+<entry>
 <form>ōm</form>
 <def>stop(ipt.)</def>
-</entry></entry><entry select="1"><entry>
+</entry>
+</entry><entry select="1">
+<entry>
 <form>nōm</form>
 <def>aching-</def>
-</entry></entry>
+</entry>
+</entry>
 </superEntry>
 <entry>
 <form>eṉṉavum</form>

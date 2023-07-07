@@ -272,6 +272,7 @@ const applymarkup = (standoff) => {
                     const word = makeWord(subentry);
                     segel.appendChild(word);
                     if(seg.dataset.select === '0')
+                    //if(seg === seg.parentNode.firstChild) // why doesn't this work?
                         wordcount = wordcount + wordLength(word);
                 }
                 choice.appendChild(segel);
