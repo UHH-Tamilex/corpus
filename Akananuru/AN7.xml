@@ -233,7 +233,7 @@
   </text>
   <standOff corresp="#AN7" type="wordsplit">
       <interp type="alignment" select="0">25MG53MG17MG16MG5MG78MG15MG39MG21MG14MG33MG8MG18MG19MG59MG208M,643M</interp>
-<interp type="alignment" select="1">25MG53MG17MG17MG5MG80MG15MG39MG21MG14MG35MG8MG18MG19MG61MG208M,64MG585M</interp>
+<interp type="alignment" select="1">25MG53MG17MG17MG5MG80MG15MG39MG21MG14MG35MG8MG18MG19MG61MG208M,650M</interp>
 <entry>
 <form>mulai</form>
 <def>breast</def>
@@ -244,7 +244,8 @@
 </entry>
 <entry>
 <form>ceytaṉa</form>
-<def>they-made(n.pl.)</def>
+<def>they-made</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form>muḷ</form>
@@ -256,7 +257,8 @@
 </entry>
 <entry>
 <form>ilaṅkiṉa</form>
-<def>they-shone(n.pl.)</def>
+<def>they-shone</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form>talai</form>
@@ -282,41 +284,35 @@
 <form><pc>~</pc>uṭaiyai</form>
 <def>dress-you</def>
 </entry>
-<superEntry>
-<entry select="0">
 <entry>
 <form><pc>~</pc>alamaral</form>
 <def>whirling</def>
 </entry>
-</entry>
-<entry select="1">
-<entry>
-<form>alamaral</form>
-<def>whirling</def>
-</entry>
-</entry>
-</superEntry>
 <entry>
 <form>āyamōṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>companion-with</def>
+<def>companion</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
 <entry>
 <form>āṅkaṇum</form>
-<def>thereum</def>
+<def>there</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>aṅkaṇum</form>
-<def>thereum</def>
+<def>there</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 </entry>
 </superEntry>
 <entry>
 <form>paṭāal</form>
-<def>don’t-happen(ipt.)</def>
+<def>don’t-happen</def>
+<gram type="role">imperative</gram>
 </entry>
 <entry>
 <form>mūpp<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -354,25 +350,30 @@
 </entry>
 <entry>
 <form>uṭaiya</form>
-<def>possess-they(n.pl.)</def>
+<def>possess-they</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form>kāppum</form>
-<def>guardum</def>
+<def>guard</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>pūṇṭiciṉ</form>
-<def>take-on(opt.)</def>
+<def>take-on</def>
+<gram type="role">optative</gram>
 </entry>
 <entry>
 <form>kaṭaiyum</form>
-<def>limitum</def>
+<def>limit</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
 <entry>
 <form>pōkal</form>
-<def>don’t-go(ipt.)</def>
+<def>don’t-go</def>
+<gram type="role">imperative</gram>
 </entry>
 </entry>
 <entry select="1">
@@ -430,7 +431,8 @@
 </entry>
 <entry>
 <form>eṉa</form>
-<def>say(inf.)</def>
+<def>say</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>oḷ</form>
@@ -440,8 +442,6 @@
 <form>cuṭar</form>
 <def>glow</def>
 </entry>
-<superEntry>
-<entry select="0">
 <entry>
 <form>nal</form>
 <def>good</def>
@@ -450,18 +450,6 @@
 <form><pc>+</pc>il</form>
 <def>house</def>
 </entry>
-</entry>
-<entry select="1">
-<entry>
-<form>nal<pc>+</pc></form>
-<def>good</def>
-</entry>
-<entry>
-<form>il</form>
-<def>house</def>
-</entry>
-</entry>
-</superEntry>
 <entry>
 <form>arum</form>
 <def>difficult</def>
@@ -508,7 +496,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>iṉatta</form>
-<def>groupa</def>
+<def>group</def>
+<gramGrp type="affix"><form>a</form></gramGrp>
 </entry>
 <entry>
 <form>nāṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -532,7 +521,8 @@
 </entry>
 <entry>
 <form>piṇaiyiṉ</form>
-<def>doeiṉ</def>
+<def>doe</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
@@ -574,7 +564,8 @@
 </entry>
 <entry>
 <form>viṭalaiyōṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>warrior-with</def>
+<def>warrior</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>eṉ</form>
@@ -593,8 +584,14 @@
 <def>desert</def>
 </entry>
 <entry>
-<form>paṭar-tantōḷē</form>
-<def>set-out-given-sheē</def>
+<form>paṭar-</form>
+<def>set-out-</def>
+</entry>
+<entry>
+<form>tantōḷē</form>
+<def>given-she</def>
+<form type="simple">tantōḷ</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form><pc>~</pc>āyiṭai</form>
@@ -606,7 +603,8 @@
 </entry>
 <entry>
 <form>kaḷvar</form>
-<def>robber(h.)</def>
+<def>robber</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>ā</form>
@@ -630,7 +628,8 @@
 <entry select="1">
 <entry>
 <form>piṟa<pc>+</pc></form>
-<def>other(n.pl.)</def>
+<def>other</def>
+<gram type="role">neuter plural</gram>
 </entry>
 </entry>
 </superEntry>
@@ -640,7 +639,8 @@
 </entry>
 <entry>
 <form>pūcaliṉ</form>
-<def>clamouriṉ</def>
+<def>clamour</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>vaḻi-vaḻi</form>
@@ -648,7 +648,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>ōṭi</form>
-<def>run(a.)</def>
+<def>run</def>
+<gram type="role">absolutive</gram>
 </entry>
 <entry>
 <form>mey<pc>+</pc></form>
@@ -672,7 +673,8 @@
 </entry>
 <entry>
 <form><supplied>n</supplied>iṉṉoṭu</form>
-<def>you-with</def>
+<def>you</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>viṉavuval</form>
@@ -680,11 +682,13 @@
 </entry>
 <entry>
 <form>kēḷāy</form>
-<def>listen(ipt.)</def>
+<def>listen</def>
+<gram type="role">imperative</gram>
 </entry>
 <entry>
 <form>poṉṉoṭu</form>
-<def>gold-with</def>
+<def>gold</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>puli<pc>+</pc></form>
@@ -744,7 +748,8 @@
 </entry>
 <entry>
 <form>palaviṉ</form>
-<def>jack-treeiṉ</def>
+<def>jack-tree</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>mēy</form>
@@ -804,92 +809,113 @@
 <entry select="1">
 <entry>
 <form>kāṉavar</form>
-<def>forest-they(h.)</def>
+<def>forest-they</def>
+<gram type="role">honorific</gram>
 </entry>
 </entry>
 </superEntry>
 <entry>
-<form>makaḷē.</form>
-<def>daughterē.</def>
+<form>makaḷē</form>
+<def>daughter</def>
+<form type="simple">makaḷ</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN7" type="apparatus">
       <listApp>
-<app><note>C1 has line 4-5a inserted and cancelled by brackets after 1b, but repeats it in the correct position; C2 partly readable from line 4d onwards; missing in C9</note></app>
+<app><note xml:lang="en">C1 has line 4-5a inserted and cancelled by brackets after 1b, but repeats it in the correct position; C2 partly readable from line 4d onwards; missing in C9</note></app>
 <app corresp="71,77">
         <lem wit="#C5 #C7">lāyamō</lem>
         <rdg wit="#Nacc #RK">lāyamo</rdg>
+        
         </app>
 <app corresp="77,85">
         <lem wit="#NL #C1 #C9 #C7">ṭāṅkaṇum</lem>
         <rdg wit="#C3">ṭaṅkaṇum</rdg>
 <rdg wit="#C4 #Nacc #Nam #RK">ṭiyāṅkaṇum</rdg>
+        
         </app>
 <app corresp="91,99">
         <lem wit="#NL #C1 #C5 #C7 #RK">mūppuṭai</lem>
         <rdg wit="#C3">mūppuṭai<sic>i</sic></rdg>
+        
         </app>
 <app corresp="99,107">
         <lem wit="#NL #C1 #C5 #C7 #RK">mutupati</lem>
         <rdg wit="#C3">mutupatit</rdg>
+        
         </app>
 <app corresp="144,149">
         <lem wit="#NL #C1 #C5 #C7v #IḷTC-N #Cēṉ #NaccTE #Tey">pōkal</lem>
         <rdg wit="#C2 #C3 #C5c #C7 #IḷTE #IḷTC-K #NaccTC #Nacc #Nam #RK #VP #ER">pōkalai</rdg>
+        
         </app>
 <app corresp="160,168">
         <lem wit="#NL #C1 #C5">pētaiyaṅ</lem>
         <rdg wit="#C2 #C3 #C5v #C7 #NaccTC #Nacc #Nam #IVC #RK #VP #ER">mētaiyaṅ</rdg>
+        
         </app>
 <app corresp="212,220">
         <lem wit="#NL #C1 #C2 #C3 #C7v #Nacc #RK">voṇcuṭar</lem>
         <rdg wit="#C5 #C7">veṇcuṭar</rdg>
+        
         </app>
 <app corresp="287,292">
         <lem wit="#NL #C1 #C2 #C3 #C7 #Nacc #Nam #RK">navvi</lem>
         <rdg wit="#C5">navvī</rdg>
+        
         </app>
 <app corresp="300,312">
         <lem wit="#NL #C1 #C5 #C7 #Nacc #Nam #RK">piṇaiyiṟ pōki</lem>
         <rdg wit="#C2 #C3 #RKv">piṇaiyi ṉotuṅki</rdg>
+        
         </app>
 <app corresp="326,332">
         <lem wit="#NL #C1 #C2 #C3 #C5v #C7 #Nacc #Nam #RK">veḷvēl</lem>
         <rdg wit="#C5 #C7v">veṉvēl</rdg>
+        
         </app>
 <app corresp="332,341">
         <lem wit="#C5 #C7">viṭalaiyō</lem>
         <rdg wit="#NL">viṭa<sic>la</sic>yo</rdg>
 <rdg wit="#Nacc #RK">viṭalaiyo</rdg>
+        
         </app>
 <app corresp="402,409">
         <lem wit="#NL #C1 #C5 #C7 #C9 #RK">piṟpaṭu</lem>
         <rdg wit="#C2 #C3">piṟappaṭu</rdg>
+        
         </app>
 <app corresp="445,450">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7v #RK">cellē</lem>
         <rdg wit="#C4 #C5v #C7 #Nacc #Nam #RKv">ceyyē</rdg>
+        
         </app>
 <app corresp="458,465">
         <lem wit="#C2 #C3 #C5 #C7 #RK">niṉṉoṭu</lem>
         <rdg wit="#NL #C1"><sic>ki</sic>ṉṉoṭu</rdg>
+        
         </app>
 <app corresp="465,474">
-        <lem wit="#NL #C1 #C2 #C3 #C4 #C5 #C7 #NamC">viṉavuval<note xmlns="http://www.tei-c.org/ns/1.0" n="22" place="foot">Here the old commentary contains both forms and it is unclear which one is the root text and which is the gloss.</note></lem>
+        <lem wit="#NL #C1 #C2 #C3 #C4 #C5 #C7 #NamC">viṉavuval</lem>
         <rdg wit="#C4 #Nacc #NamR #RK #VP #ER">viṉaval</rdg>
+        <note xml:lang="en">Here the old commentary contains both forms and it is unclear which one is the root text and which is the gloss.</note>
         </app>
 <app corresp="526,533">
         <lem wit="#NL #C1 #C5 #C7c #RK">ceyalai</lem>
         <rdg wit="#C2 #C3">ce<sic>lai</sic></rdg>
 <rdg wit="#C7">ce<sic>yta</sic></rdg>
+        
         </app>
 <app corresp="586,592">
         <lem wit="#C2 #C3 #C5 #C7 #RK">veṇkāḻ</lem>
         <rdg wit="#NL #C1"><sic>pe</sic>ṇkāḻ</rdg>
+        
         </app>
 <app corresp="614,621">
         <lem wit="#NL #C1 #C5 #C7 #Nacc #Nam #RK">kāṉavaṉ</lem>
         <rdg wit="#C2 #C3">kāṉavar</rdg>
+        
         </app>
 </listApp>
   </standOff>

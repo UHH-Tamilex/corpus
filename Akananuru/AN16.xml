@@ -228,8 +228,8 @@
     </body>
   </text>
   <standOff corresp="#AN16" type="wordsplit">
-      <interp type="alignment" select="0">56ML2MG121MG72MG14MG21MG14MG24MG18MG23MG43MG43MG8MGMG31MG5MG16MG30M,559M</interp>
-<interp type="alignment" select="1">56ML2MG122MG42M9G29MG14MG21MG14ML25MG18MG23MG43MG43MG8MGMG32MG5MG16MG30M,570M</interp>
+      <interp type="alignment" select="0">56ML2MG121MG72MG14MG21MG14ML24MG18MG23MG43MG43ML8MGMG31MG5MG16ML30M,559M</interp>
+<interp type="alignment" select="1">56ML2MG122MG71MG14MG21MG14MG25MG18MG23MG43MG43MG8MGMG32MG5MG16MG30M,561M</interp>
 <entry>
 <form>nāy</form>
 <def>dog</def>
@@ -256,7 +256,8 @@
 </entry>
 <entry>
 <form>tātiṉ</form>
-<def>polleniṉ</def>
+<def>pollen</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>alli</form>
@@ -314,7 +315,8 @@
 </entry>
 <entry>
 <form>nāvoṭu</form>
-<def>tongue-with</def>
+<def>tongue</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>navilā</form>
@@ -338,7 +340,9 @@
 </entry>
 <entry>
 <form>yāvarum</form>
-<def>who(h.)um</def>
+<def>who</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>viḻaiyum</form>
@@ -354,7 +358,8 @@
 </entry>
 <entry>
 <form>putalvaṉai<pc>+</pc></form>
-<def>son(acc.)</def>
+<def>son</def>
+<gram type="role">accusative</gram>
 </entry>
 <entry>
 <form>tēr</form>
@@ -366,7 +371,8 @@
 </entry>
 <entry>
 <form>teruviṉ</form>
-<def>streetiṉ</def>
+<def>street</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
@@ -378,7 +384,8 @@
 <entry select="1">
 <entry>
 <form>tamiyōr<pc>+</pc></form>
-<def>solitary-he(h.)</def>
+<def>solitary-he</def>
+<gram type="role">honorific</gram>
 </entry>
 </entry>
 </superEntry>
@@ -404,15 +411,19 @@
 </entry>
 <entry>
 <form>yāvarum</form>
-<def>who(h.)um</def>
+<def>who</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>kāṇuna<supplied>r</supplied></form>
-<def>see-they(h.)</def>
+<def>see-they</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>iṉmaiyiṉ</form>
-<def>absenceiṉ</def>
+<def>absence</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
@@ -462,7 +473,9 @@
 </entry>
 <entry>
 <form>varuka-māḷa</form>
-<def>may-comemāḷa</def>
+<def>may-come</def>
+<form type="simple">varuka</form>
+<gramGrp type="particle"><form>māḷa</form></gramGrp>
 </entry>
 <entry>
 <form><pc>~</pc>eṉ</form>
@@ -474,7 +487,8 @@
 </entry>
 <entry>
 <form>eṉa<pc>+</pc></form>
-<def>say(inf.)</def>
+<def>say</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>perit<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -554,19 +568,23 @@
 </entry>
 <entry>
 <form>nīyum</form>
-<def>youum</def>
+<def>you</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>tāyai</form>
-<def>mother(acc.)</def>
+<def>mother</def>
+<gram type="role">accusative</gram>
 </entry>
 <entry>
 <form><pc>~</pc>ivaṟk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>he(dat.)</def>
+<def>he</def>
+<gram type="role">dative</gram>
 </entry>
 <entry>
 <form>eṉa</form>
-<def>say(inf.)</def>
+<def>say</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>yāṉ</form>
@@ -578,11 +596,13 @@
 </entry>
 <entry>
 <form>karaiya</form>
-<def>cry(inf.)</def>
+<def>cry</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>vantu</form>
-<def>come(abs.)</def>
+<def>come</def>
+<gram type="role">absolutive</gram>
 </entry>
 <entry>
 <form>viraivaṉaḷ</form>
@@ -600,13 +620,17 @@
 <entry select="0">
 <entry>
 <form>uṭaṉpaṭunariṉ</form>
-<def>agree-they(h.)iṉ</def>
+<def>agree-they</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
+<gram type="role">honorific</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>uṭampaṭunariṉ</form>
-<def>agree-they(h.)iṉ</def>
+<def>agree-they</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
+<gram type="role">honorific</gram>
 </entry>
 </entry>
 </superEntry>
@@ -640,7 +664,8 @@
 </entry>
 <entry>
 <form>yāṉum</form>
-<def>Ium</def>
+<def>I</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>pēṇiṉeṉ</form>
@@ -650,19 +675,24 @@
 <entry select="0">
 <entry>
 <form>allaṉō</form>
-<def>not-so-Iō</def>
+<def>not-so-I</def>
+<form type="simple">allaṉ</form>
+<gramGrp type="particle"><form>ō</form></gramGrp>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form><pc>+</pc>allaṉō</form>
-<def>not-so-Iō</def>
+<def>not-so-I</def>
+<form type="simple">allaṉ</form>
+<gramGrp type="particle"><form>ō</form></gramGrp>
 </entry>
 </entry>
 </superEntry>
 <entry>
 <form>makiḻna</form>
-<def>delight-he(voc.)</def>
+<def>delight-he</def>
+<gram type="role">vocative</gram>
 </entry>
 <entry>
 <form>vāṉatt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -712,11 +742,16 @@
 </superEntry>
 <entry>
 <form>puraivatāl</form>
-<def>resemble-itāl</def>
+<def>resemble-it</def>
+<form type="simple">puraivatu</form>
+<gramGrp type="particle"><form>āl</form></gramGrp>
 </entry>
 <entry>
-<form>eṉavē.</form>
-<def>say(inf.)ē.</def>
+<form>eṉavē</form>
+<def>say</def>
+<form type="simple">eṉa</form>
+<gram type="role">infinitive</gram>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN16" type="apparatus">
@@ -724,93 +759,113 @@
 <app corresp="39,48">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #IḷK #Nacc #RK">yayalitaḻ</lem>
         <rdg wit="#IḷC #IḷKv #Nam #VP #ER">yaviritaḻ</rdg>
+        
         </app>
 <app corresp="59,79">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #IḷK #NaccKa #Nam #RK">laṅkai maṇimaru ḷavvāy</lem>
         <rdg wit="#IḷC #IḷKv #NaccT">maṇimaruḷ cevvāy</rdg>
+        
         </app>
 <app corresp="100,106">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #PērKa #Nacc #Nam #IV #RK">tīñcol</lem>
         <rdg wit="#PērP #SAv">kiḷavi</rdg>
+        
         </app>
 <app corresp="113,121">
         <lem wit="#NL #C1 #C2 #C3 #C5c #C7 #Iḷ #Nacc #Nam #RK">viḻaiyum</lem>
         <rdg wit="#C5 #C7v">vaṉaiyum</rdg>
+        
         </app>
 <app corresp="159,166">
         <lem wit="#NL #C1 #C5 #Iḷ #NaccKa #Nam #RK">ṟamiyōṟ</lem>
         <rdg wit="#C2 #C3 #NaccT">ṟamiyōrk</rdg>
+        
         </app>
 <app corresp="166,171">
         <lem wit="#NL #C1 #C2 #C3 #C5 #NaccT #RKv">kaṇṭa</lem>
         <rdg wit="#C5c #C7 #IḷK #NaccKa #Nam #RK #VP #ER">kaṇṭē</rdg>
+        
         </app>
 <app corresp="185,191">
         <lem wit="#NL #C1 #C2 #C3 #C5 #IḷC #Nacc #NamC #RKv">kuṟuki</lem>
         <rdg wit="#C5c #C7 #IḷK #NamR #RK #VP #ER">kuṟukiṉaḷ</rdg>
+        
         </app>
 <app corresp="191,198">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #Iḷ #Nacc #RK">yāvaruṅ</lem>
         <rdg wit="#Nam">yāruṅ</rdg>
+        
         </app>
 <app corresp="198,213">
         <lem wit="#C2 #C3 #C5 #C7 #RK">kāṇuna riṉmaiyiṟ</lem>
         <rdg wit="#NL #C1">kāṇuna <sic>ni</sic>ṉmaiyiṟ</rdg>
+        
         </app>
 <app corresp="213,222">
-        <lem wit="#NL #C1 #C5 #C7v #IḷC{TP145} #NaccT #NamC #RKv">cērttaṉaḷ<note xmlns="http://www.tei-c.org/ns/1.0" n="57" place="foot">The paper transcripts and RK interpret the grapheme ce- as short, thus creating an artificial form perfective f.sg. of a postulated verb ce-ttal which is based on the frequent isolated “absolutive” cettu, “having thought” (cf. Skt. citvā).  There are two parallels in PN 240.8 (cuṭṭuk kuvi eṉac cettōr) and Pati 86.4 (veppuṭai āṭūuc cettaṉeṉ-maṉ yāṉ) that have to be looked at more closely.  The obvious alternative is reading cēttaṉaḷ, a regular perfective f.sg. of cēttal, “to dwell”, which is a common variant of cērtal/cērttal, “to join”.</note></lem>
+        <lem wit="#NL #C1 #C5 #C7v #IḷC{TP145} #NaccT #NamC #RKv">cērttaṉaḷ</lem>
         <rdg wit="#IḷCv{TP145}">cērttaṉa<sic>ṉ</sic></rdg>
 <rdg wit="#C2 #C3 #C4v">cēttaṉaḷ</rdg>
 <rdg wit="#C2 #C3 #C4 #C5c #C7 #IḷC{TP266} #IḷK #NaccKa #NamR #RK #VP #ER">cettaṉaḷ</rdg>
+        <note xml:lang="en">The paper transcripts and RK interpret the grapheme ce- as short, thus creating an artificial form perfective f.sg. of a postulated verb ce-ttal which is based on the frequent isolated “absolutive” cettu, “having thought” (cf. Skt. citvā).  There are two parallels in PN 240.8 (cuṭṭuk kuvi eṉac cettōr) and Pati 86.4 (veppuṭai āṭūuc cettaṉeṉ-maṉ yāṉ) that have to be looked at more closely.  The obvious alternative is reading cēttaṉaḷ, a regular perfective f.sg. of cēttal, “to dwell”, which is a common variant of cērtal/cērttal, “to join”.</note>
         </app>
 <app corresp="222,227">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #IḷC{TP266} #IḷK #Nacc #Nam #RK">pēṇip</lem>
         <rdg wit="#IḷC{TP145}">pēṇa<sic>ṭi</sic>p</rdg>
 <rdg wit="#IḷKv{TP145}">vēṇṭip</rdg>
+        
         </app>
 <app corresp="305,321">
         <lem wit="#NL #C1 #C5 #RKv">kaṇṭunilai collēṉ</lem>
         <rdg wit="#C2 #C5c #C7 #Iḷ #NaccKa #Nam #RK #VP">kaṇṭunilaic cellēṉ</rdg>
 <rdg wit="#C3">kaṇṭunilaic <sic>ci</sic>llēṉ</rdg>
 <rdg wit="#NaccT">kaṇṭunilai<sic>ic</sic> cel<sic>la</sic><sic>e</sic><sic>ṉa</sic></rdg>
+        
         </app>
 <app corresp="354,368">
         <lem wit="#NL #C1 #C2 #C3 #C5 #Iḷ #Nacc #Nam #RK">tāyai yivaṟkeṉa</lem>
         <rdg wit="#C7">tāyai yivarkkeṉa</rdg>
 <rdg wit="#IḷCv"><sic>tā</sic><sic>mvayi</sic><sic> </sic><sic>ṟuṟa</sic><sic>ṟkeṉa</sic></rdg>
+        
         </app>
 <app corresp="386,396">
-        <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #NamC #VP">viraivaṉaḷ<note xmlns="http://www.tei-c.org/ns/1.0" n="58" place="foot">The reading viraiviṉaḷ, attested only in TPi, can be interpreted as a regular pronominal noun f.sg. of viraivu, “haste”.  It looks like an attempt at normalising the odd form viraivaṉaḷ, that has, however, parallels in NA 222.5 (paṟṟuvaṉaṉ) and AN 158.5 (olkuvaṉaḷ).</note></lem>
+        <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #NamC #VP">viraivaṉaḷ</lem>
         <rdg wit="#IḷC #IḷKv">viraiviṉaḷ</rdg>
 <rdg wit="#NaccT">virai<sic>i</sic>ṉaḷ</rdg>
 <rdg wit="#IḷK #NaccKa #NamR #RK #ER">viraivaṉeṉ</rdg>
+        <note xml:lang="en">The reading viraiviṉaḷ, attested only in TPi, can be interpreted as a regular pronominal noun f.sg. of viraivu, “haste”.  It looks like an attempt at normalising the odd form viraivaṉaḷ, that has, however, parallels in NA 222.5 (paṟṟuvaṉaṉ) and AN 158.5 (olkuvaṉaḷ).</note>
         </app>
 <app corresp="403,421">
         <lem wit="#NL #C1 #IḷC #Nacc #IV">kaḷavuṭaṉ paṭunariṟ</lem>
         <rdg wit="#C2 #C3 #C5 #C7 #IḷK #Pēr #Nam #RK #VP #ER">kaḷavuṭam paṭunariṟ</rdg>
+        
         </app>
 <app corresp="434,441">
         <lem wit="#NL #C1 #C5 #C7 #RK">kiḷaiyā</lem>
         <rdg wit="#C2 #C3">ki<sic>ṇai</sic>yā</rdg>
+        
         </app>
 <app corresp="450,465">
         <lem wit="#C1 #C3 #C5 #C7 #Iḷ #Cēṉ #Nacc #Nam #IV #RK">ṇilaikaṇ ṭiyāṉum</lem>
         <rdg wit="#C2">ṇilaikoṇ ṭiyāṉum</rdg>
+        
         </app>
 <app corresp="465,478">
         <lem wit="#NL #C1 #C9 #IḷK #NaccTC #NaccKa #IVC #RK">pēṇiṉe ṉallaṉō</lem>
         <rdg wit="#C2 #C3">pēṇiṉeṉ ṉallaṉō</rdg>
 <rdg wit="#C5 #C7 #IḷTC #IḷC #IḷKv #Cēṉ #Nam">pēṇiṉē ṉallaṉō</rdg>
 <rdg wit="#NaccT">pēṇiṉe ṉalleṉō</rdg>
+        
         </app>
 <app corresp="521,526">
         <lem wit="#NL #C1">yākal</lem>
         <rdg wit="#C2 #C3 #C5 #C7 #Iḷ #Cēṉ #Pēr #NaccTC #Nacc #Nam #IVC #RK #VP #ER">yātal</rdg>
 <rdg wit="#NaccTCc">yeṉṟatu</rdg>
+        
         </app>
 <app corresp="526,541">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #IḷC #IḷKv #Cēṉ #Pēr #NaccT #Namv #IVC #RKv">puraivatā leṉavē</lem>
         <rdg wit="#C4 #C5v #C7v #IḷK{TP145} #IḷK{TP301} #NaccTC #NaccKa #Nam #RK #VP #ER">puraivatāṅ keṉavē</rdg>
+        
         </app>
 </listApp>
   </standOff>

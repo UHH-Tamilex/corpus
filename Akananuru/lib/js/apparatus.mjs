@@ -43,7 +43,9 @@ const prevTextNode = (start) => {
 };
 */
 const countpos = (str, pos) => {
-    if(pos === 0) return 0;
+    if(pos === 0) {
+        return str[0].match(/[\u00AD\s]/) ? 1 : 0;
+    }
     let realn = 0;
     for(let n=0;n<str.length;n++) {
         if(realn === pos) {
@@ -183,6 +185,9 @@ const rangeFromCoords = (positions, lem, target) => {
             const end = start + nodecount;
             if(!started && positions[0] <= end) {
                 const realpos = countpos(cur.data,positions[0]-start);
+                // TODO: if realpos === cur.data.length, move to beginning of next node
+                // then if next node starts with a space, +1
+                // then if the node consists only of spaces, move again to beginning of next node
                 range.setStart(cur,realpos);
                 started = true;
             }
@@ -226,10 +231,12 @@ const highlightrange = (range,classname = 'highlit') => {
 const permalightrange = (range) => highlightrange(range,'permalit');
 
 
-const matchCounts = (alignment,m) => {
+const matchCounts = (alignment,m,pos='start') => {
     let matchcount = 0;
     for(let n=0;n<alignment[0].length;n++) {
         if(matchcount === m) {
+            if(pos === 'start' && alignment[0][n] === 'G') n = n + 1; // |vēḻa_|vēṇ|, |vēḻam|veḷ|
+
             const line2 = alignment[1].slice(0,n);
             const matches = [...line2].reduce((acc, cur) => cur === 'M' ?  acc + 1 : acc,0);
             return matches;
@@ -242,7 +249,9 @@ const highlightcoord = (positions, lem, target, highlightfn = highlightrange) =>
     // if there is an alignment, update coords 
     if(target.dataset.alignment) {
         const alignment = target.dataset.alignment.split(',');
-        positions = positions.map(m => matchCounts(alignment,parseInt(m)));
+        positions = [matchCounts(alignment,parseInt(positions[0]),'start'),
+                     matchCounts(alignment,parseInt(positions[1]),'end')
+                    ];
     }
     const range = rangeFromCoords(positions, lem, target);
     if(!findEls(range))

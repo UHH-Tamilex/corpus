@@ -229,8 +229,8 @@
     </body>
   </text>
   <standOff corresp="#AN22" type="wordsplit">
-      <interp type="alignment" select="0">5MG24MG50MG131MG4MG22MG28MG33MG30MG53MG29MG111MG5MG53MG3MG10MG15M,622M</interp>
-<interp type="alignment" select="1">5MG24MG50MG131MR4MG22MR29MG33MG30MG53MG29MG113MG5MG53MG3MG10MG15M,625M</interp>
+      <interp type="alignment" select="0">5MG24MG50MG131MR4MG22MR28MG33MG30MR53MG29MG111MG5ML53MG3MG10MG15M,622M</interp>
+<interp type="alignment" select="1">5MG24MG50MG131MR4MG22MR29MG33MG30MR53MG29MG113MG5ML53MG3MG10MG15M,625M</interp>
 <entry>
 <form>aṇaṅk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
 <def>plague</def>
@@ -249,7 +249,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>ucciyiṉ</form>
-<def>peakiṉ</def>
+<def>peak</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>iḻi-tarum</form>
@@ -309,7 +310,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>eṉa</form>
-<def>say(inf.)</def>
+<def>say</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>aṟiyā</form>
@@ -321,11 +323,13 @@
 </entry>
 <entry>
 <form>poḻutiṉ</form>
-<def>timeiṉ</def>
+<def>time</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>paṭiyōr<pc>+</pc></form>
-<def>settle-not-they(h.)</def>
+<def>settle-not-they</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>tēytta</form>
@@ -357,7 +361,8 @@
 </entry>
 <entry>
 <form>pē<supplied>ṇa</supplied><pc>+</pc></form>
-<def>esteem(inf.)</def>
+<def>esteem</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>taṇikuvaḷ</form>
@@ -369,7 +374,8 @@
 </entry>
 <entry>
 <form>eṉa</form>
-<def>say(inf.)</def>
+<def>say</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>mutu</form>
@@ -405,13 +411,15 @@
 <entry select="0">
 <entry>
 <form>kūṟa<pc>+</pc></form>
-<def>tell(inf.)</def>
+<def>tell</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>kūṟa</form>
-<def>tell(inf.)</def>
+<def>tell</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 </superEntry>
@@ -455,7 +463,8 @@
 </superEntry>
 <entry>
 <form>cilampa<pc>+</pc></form>
-<def>sound(inf.)</def>
+<def>sound</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>pāṭi<pc>+</pc></form>
@@ -493,7 +502,8 @@
 </entry>
 <entry>
 <form>kurutiyoṭu</form>
-<def>blood-with</def>
+<def>blood</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>tūuy</form>
@@ -505,7 +515,8 @@
 </entry>
 <entry>
 <form>āṟṟuppaṭutta</form>
-<def>way-set-on(p.)-</def>
+<def>way-set-on-</def>
+<gram type="role">perfective aspect</gram>
 </entry>
 <entry>
 <form><pc>~</pc>uru</form>
@@ -529,7 +540,8 @@
 </entry>
 <entry>
 <form>nāṟa</form>
-<def>be-fragrant(inf.)</def>
+<def>be-fragrant</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>aru</form>
@@ -561,7 +573,8 @@
 </entry>
 <entry>
 <form>paṭa<pc>+</pc></form>
-<def>happen(inf.)</def>
+<def>happen</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>cūṭi<pc>+</pc></form>
@@ -577,7 +590,8 @@
 </entry>
 <entry>
 <form>ta<supplied>rī</supplied>iya</form>
-<def>give(inf.)</def>
+<def>give</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>pārval</form>
@@ -585,7 +599,8 @@
 </entry>
 <entry>
 <form>otukkiṉ</form>
-<def>stepiṉ</def>
+<def>step</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>oḷitt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -597,7 +612,8 @@
 </entry>
 <entry>
 <form>marapiṉ</form>
-<def>customiṉ</def>
+<def>custom</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>vaya<pc>+</pc></form>
@@ -609,7 +625,8 @@
 </entry>
 <entry>
 <form>pōla</form>
-<def>be-similar(inf.)</def>
+<def>be-similar</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>nal</form>
@@ -629,7 +646,8 @@
 </entry>
 <entry>
 <form>kāvalar</form>
-<def>watchmen(h.)</def>
+<def>watchmen</def>
+<gram type="role">honorific</gram>
 </entry>
 <superEntry>
 <entry select="0">
@@ -667,7 +685,8 @@
 </entry>
 <entry>
 <form>vāyppa</form>
-<def>reach(inf.)</def>
+<def>reach</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>iṉ</form>
@@ -681,13 +700,15 @@
 <entry select="0">
 <entry>
 <form>kuḻaiya</form>
-<def>become-pulpy(inf.)</def>
+<def>become-pulpy</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>kuḻaippa</form>
-<def>become-pulpy(inf.)</def>
+<def>become-pulpy</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 </superEntry>
@@ -709,11 +730,15 @@
 </entry>
 <entry>
 <form>allaṉō</form>
-<def>not-so-Iō</def>
+<def>not-so-I</def>
+<form type="simple">allaṉ</form>
+<gramGrp type="particle"><form>ō</form></gramGrp>
 </entry>
 <entry>
 <form>yāṉē</form>
-<def>Iē</def>
+<def>I</def>
+<form type="simple">yāṉ</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form><pc>~</pc>eytta</form>
@@ -729,7 +754,8 @@
 </entry>
 <entry>
 <form>kātalar</form>
-<def>lover(h.)</def>
+<def>lover</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>varav<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -745,15 +771,18 @@
 </entry>
 <entry>
 <form>vēlaṟk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>spear-he(dat.)</def>
+<def>spear-he</def>
+<gram type="role">dative</gram>
 </entry>
 <entry>
 <form>ulantamai</form>
 <def>having-died</def>
 </entry>
 <entry>
-<form>kaṇṭē.</form>
-<def>seenē.</def>
+<form>kaṇṭē</form>
+<def>seen</def>
+<form type="simple">kaṇṭu</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN22" type="apparatus">
@@ -761,75 +790,91 @@
 <app corresp="70,87">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #IḷTC #IVC #RK">viyaṉmār paṇaṅkiya</lem>
         <rdg wit="#Cēṉ">viyaṉmārpa ṉaṇaṅkiya</rdg>
+        
         </app>
 <app corresp="100,106">
-        <lem wit="#C2 #C3 #NaccP #NaccKa #RK #VP #ER">vaṟiyā<note xmlns="http://www.tei-c.org/ns/1.0" n="93" place="foot">The first-strand reading aṟiyāḷ does not make sense in the given context, since the girl of course knows very well the cause of her distress; it is the mother and the village who do not know it.</note></lem>
+        <lem wit="#C2 #C3 #NaccP #NaccKa #RK #VP #ER">vaṟiyā</lem>
         <rdg wit="#C5 #C7 #C9 #NaccT">vaṟiyā<sic>ṇ</sic></rdg>
 <rdg wit="#NL #C1">vaṟiyā<sic>ḷ</sic></rdg>
+        <note xml:lang="en">The first-strand reading aṟiyāḷ does not make sense in the given context, since the girl of course knows very well the cause of her distress; it is the mother and the village who do not know it.</note>
         </app>
 <app corresp="160,165">
         <lem wit="#C2 #C3 #C5 #C7 #C9 #RK">pēṇat</lem>
         <rdg wit="#NL #C1">pē<sic>ṉa</sic>t</rdg>
+        
         </app>
 <app corresp="194,201">
         <lem wit="#NL #C1 #C2 #C3 #C5v #C9 #RK">ratuvāy</lem>
         <rdg wit="#C5 #C7 #C9v #NaccT">ratuvāyk</rdg>
+        
         </app>
 <app corresp="206,213">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #NaccKa{TP111} #RK">kaḷanaṉ</lem>
         <rdg wit="#NaccT{TP60 #NaccT{TP111} #NaccP{TP60} #NaccKa{TP60}">kaḷaṉaṉ</rdg>
+        
         </app>
 <app corresp="227,232">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #RK">cūṭṭi</lem>
         <rdg wit="#SAv">cūṭi</rdg>
+        
         </app>
 <app corresp="232,241">
         <lem wit="#NL #C1 #C5 #C7 #C9 #RK">vaḷanakar</lem>
         <rdg wit="#C2 #C3 #C9v">vaḷanakarc</rdg>
+        
         </app>
 <app corresp="317,323">
         <lem wit="#NL #C1 #C7v #C9">neṭunā</lem>
         <rdg wit="#C5 #C7 #Nacc #RK #VP #ER">naṭunā</rdg>
 <rdg wit="#C2 #C3"><space quantity="2" unit="character"/><sic>na</sic><space quantity="2" unit="character"/><sic>ṭu</sic><space quantity="2" unit="character"/>nā</rdg>
+        
         </app>
 <app corresp="327,349">
         <lem wit="#NL #C1 #C5 #C7 #C9 #RK">nāṟa varuviṭart tatainta</lem>
         <rdg wit="#C3">nā<sic>ṟku</sic>varu viṭara<sic>kat</sic> tatainta</rdg>
 <rdg wit="#?C2">nāṟa varuviṭart toṭuta<gap reason="lost" quantity="1" unit="character"/><sic>ttai</sic></rdg>
+        
         </app>
 <app corresp="384,391">
-        <lem wit="#C2 #C3 #C5 #C7">tarīiya<note xmlns="http://www.tei-c.org/ns/1.0" n="94" place="foot">The corresponding page appears as blank in the digital copy of the edition of Pavaṉantam Piḷḷai at my disposal.</note></lem>
+        <lem wit="#C2 #C3 #C5 #C7">tarīiya</lem>
         <rdg wit="#NL #C1">ta<sic>ra</sic>iya</rdg>
 <rdg wit="#C9 #PērT #NaccP #NaccKa #IV #RK #VP #ER">terīiya</rdg>
 <rdg wit="#PērKa">tēriya</rdg>
 <rdg wit="#NaccT">terīip</rdg>
+        <note xml:lang="en">The corresponding page appears as blank in the digital copy of the edition of Pavaṉantam Piḷḷai at my disposal.</note>
         </app>
 <app corresp="453,468">
         <lem wit="#C1 #C9">kāvala raṟiyāmai</lem>
         <rdg wit="#NL"><sic>ka</sic>vala raṟiyāmai</rdg>
 <rdg wit="#C2 #C3 #C5 #C7 #NaccT #NaccKa #RK #VP">kāvala raṟiyāmait</rdg>
 <rdg wit="#NaccP #RKv">kāvalaṟi yāmai</rdg>
+        
         </app>
 <app corresp="484,492">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C9 #PērKa #NaccT #NaccP #NaccKa{TP111}">naṉṉacai</lem>
         <rdg wit="#C5v #C7 #PērP #NaccKa{TP60} #RK #VP #ER">nannacai</rdg>
+        
         </app>
 <app corresp="506,513">
         <lem wit="#NL #C1 #C7v #C9 #Pēr #NaccT #NaccKa{TP60} #RK">kuḻaiya</lem>
         <rdg wit="#C2 #C3 #C5 #C7 #C9v #NaccT{TP111} #RKv">kuḻaippa</rdg>
+        
         </app>
 <app corresp="542,549">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #Pēr #NaccT{TP111} #NaccP #NaccKa #RK #VP">ṉallaṉō</lem>
         <rdg wit="#NaccT{TP60} #ER">ṉalleṉō</rdg>
+        
         </app>
 <app corresp="559,566">
         <lem wit="#NL #C2 #C3 #C5 #C7 #C9 #RK">nōytaṇi</lem>
         <rdg wit="#C1">nōytaṇik</rdg>
+        
         </app>
 <app corresp="585,600">
         <lem wit="#NL #C1 #C2 #C3 #C5v #C7 #C9 #PērKa #NaccP #NaccKa #RK">vēlaṟ kulantamai</lem>
         <rdg wit="#C5 #C7v #C9v #PērT #PērP #NaccT">vēlaṟ kuvantamai</rdg>
 <rdg wit="#NaccPv">vēla ṉulantamai</rdg>
+        
         </app>
 </listApp>
   </standOff>

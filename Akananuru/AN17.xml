@@ -231,8 +231,8 @@
     </body>
   </text>
   <standOff corresp="#AN17" type="wordsplit">
-      <interp type="alignment" select="0">29MG31MG18MG15MG32ML23ML35MG38MG3MG34MG5MG8MG47MG10MG61MG60MG21MG33MG14MG44MG48MG29M,658MG</interp>
-<interp type="alignment" select="1">29MG31MG18MG15MG32ML23ML35ML38MG3MG34MG5MG8MG47MG10MG61MG60MG21MG33MG14MG44MG48MG29M,658MG</interp>
+      <interp type="alignment" select="0">29MG31MG18MG15MG32ML23ML35ML38ML3MG34MG5MG8MG47ML10MG61MG60MG21MG33ML14MG44MG48ML29M,658MG</interp>
+<interp type="alignment" select="1">29MG31MG18MG15MG32ML23ML35ML38ML3MG34MG5MG8MG47ML10MG61MG60MG21MG33ML14MG44MG48ML29M,658MG</interp>
 <entry>
 <form>vaḷam</form>
 <def>prosperity</def>
@@ -271,7 +271,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>āyamoṭu</form>
-<def>companion-with</def>
+<def>companion</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>kaḻaṅk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -339,19 +340,24 @@
 </entry>
 <entry>
 <form>muṉṉē</form>
-<def>beforeē</def>
+<def>before</def>
+<form type="simple">muṉṉu</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
 <entry>
 <form><supplied><pc>~</pc></supplied>iṉiyē</form>
-<def>nowē</def>
+<def>now</def>
+<form type="simple">iṉi</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form><pc>~</pc>iṉiya</form>
-<def>pleasing(n.pl.)</def>
+<def>pleasing</def>
+<gram type="role">neuter plural</gram>
 </entry>
 </entry>
 </superEntry>
@@ -375,11 +381,13 @@
 </superEntry>
 <entry>
 <form>cuṟṟamum</form>
-<def>friendsum</def>
+<def>friends</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>emmum</form>
-<def>usum</def>
+<def>us</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>uḷḷāḷ</form>
@@ -423,7 +431,8 @@
 </entry>
 <entry>
 <form>aṟa<pc>+</pc></form>
-<def>be-severed(inf.)</def>
+<def>be-severed</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>peṟṟa</form>
@@ -436,11 +445,11 @@
 <entry>
 <form>ciṟu</form>
 <def>little</def>
-<note lang="en">The TL suggests to analyse mutukkuraivi as mutumai kuṟaivi, that is, as a pronominal noun based on kuṟai, “lack”, compounded with a shortened first member mutu for mutumai.  Note, however, that the old commentary proposes more or less the opposite: iḷamaiyilē aṟivu mutirntavaḷ: “she who already in youth has acquired knowledge”.</note>
 </entry>
 <entry>
 <form>mutukkuṟaivi</form>
 <def>ripeness-lack-she</def>
+<note lang="en">The TL suggests to analyse mutukkuraivi as mutumai kuṟaivi, that is, as a pronominal noun based on kuṟai, “lack”, compounded with a shortened first member mutu for mutumai.  Note, however, that the old commentary proposes more or less the opposite: iḷamaiyilē aṟivu mutirntavaḷ: “she who already in youth has acquired knowledge”.</note>
 </entry>
 <entry>
 <form>cilamp<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -460,21 +469,28 @@
 </entry>
 <entry>
 <form>valla-kol</form>
-<def>strong-they(n.pl.)kol</def>
+<def>strong-they</def>
+<form type="simple">valla</form>
+<gram type="role">neuter plural</gram>
+<gramGrp type="particle"><form>kol</form></gramGrp>
 </entry>
 <entry>
 <form>cella<pc>+</pc></form>
-<def>go(inf.)</def>
+<def>go</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>tāmē</form>
-<def>theyē</def>
+<def>they</def>
+<form type="simple">tām</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
 <entry>
 <form>kalleṉa</form>
-<def>‘stone’-say(inf.)</def>
+<def>‘stone’-say</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 <entry select="1">
@@ -502,7 +518,8 @@
 </entry>
 <entry>
 <form>celaviṉ</form>
-<def>goingiṉ</def>
+<def>going</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>nīr</form>
@@ -531,7 +548,6 @@
 <entry>
 <form>koṭum</form>
 <def>bent</def>
-<note lang="en">The verb teḻittal is attested only here, once in Kali and twice in Pattuppāṭṭu.  The old commentary glosses it with urapputal, “to whoop, to use one’s voice for guiding cattle”.  Here it links pakaṭu and viḷi, that is, presumably, the bullocks are steered by whistling.</note>
 </entry>
 <entry>
 <form>kōl</form>
@@ -539,7 +555,8 @@
 </entry>
 <entry>
 <form>umaṇar</form>
-<def>salt-merchant(h.)</def>
+<def>salt-merchant</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>pakaṭu</form>
@@ -548,6 +565,7 @@
 <entry>
 <form>teḻi</form>
 <def>control-</def>
+<note lang="en">The verb teḻittal is attested only here, once in Kali and twice in Pattuppāṭṭu.  The old commentary glosses it with urapputal, “to whoop, to use one’s voice for guiding cattle”.  Here it links pakaṭu and viḷi, that is, presumably, the bullocks are steered by whistling.</note>
 </entry>
 <entry>
 <form>teḷ</form>
@@ -575,7 +593,8 @@
 </entry>
 <entry>
 <form>koḷa</form>
-<def>take(inf.)</def>
+<def>take</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>iyampum</form>
@@ -661,7 +680,8 @@
 </entry>
 <entry>
 <form>maruṅkiṉ</form>
-<def>sideiṉ</def>
+<def>side</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>nīḷ</form>
@@ -728,7 +748,6 @@
 <entry>
 <form>ney</form>
 <def>ghee</def>
-<note lang="en">The verb cilkutal occurs only here in the whole corpus.</note>
 </entry>
 <entry>
 <form><pc>+</pc>umiḻ</form>
@@ -736,7 +755,8 @@
 </entry>
 <entry>
 <form>cuṭariṉ</form>
-<def>glowiṉ</def>
+<def>glow</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>kāl</form>
@@ -744,11 +764,14 @@
 </entry>
 <entry>
 <form>pora<pc>+</pc></form>
-<def>beat(inf.)</def>
+<def>beat</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>cilki</form>
-<def>become-few(a.)</def>
+<def>become-few</def>
+<gram type="role">absolutive</gram>
+<note lang="en">The verb cilkutal occurs only here in the whole corpus.</note>
 </entry>
 <entry>
 <form>vaikuṟu</form>
@@ -756,7 +779,8 @@
 </entry>
 <entry>
 <form>mīṉiṉ</form>
-<def>stariṉ</def>
+<def>star</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>tōṉṟum</form>
@@ -794,76 +818,93 @@
 </entry>
 <entry>
 <form>curaṉē</form>
-<def>desertē.</def>
+<def>desert</def>
+<form type="simple">curaṉ</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN17" type="apparatus">
       <listApp>
-<app><note>C2 mostly legible; C9 partly legible</note></app>
+<app><note xml:lang="en">C2 mostly legible; C9 partly legible</note></app>
 <app corresp="98,111">
-        <lem wit="#NL #C1 #C2 #C3 #C9">mayaṅkiviyarp<note xmlns="http://www.tei-c.org/ns/1.0" n="64" place="foot">Here the reading coming up with the late paper manuscripts and adopted into the editions might be an attempt at correcting a hypermetrical foot (nirai-nēr-nirai to niraipu-nēr).</note></lem>
+        <lem wit="#NL #C1 #C2 #C3 #C9">mayaṅkiviyarp</lem>
         <rdg wit="#C5 #C7 #Iḷ #RK">mayaṅkuviyar</rdg>
+        <note xml:lang="en">Here the reading coming up with the late paper manuscripts and adopted into the editions might be an attempt at correcting a hypermetrical foot (nirai-nēr-nirai to niraipu-nēr).</note>
         </app>
 <app corresp="147,152">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #IḷC #IḷKv #RKv">muṉṉē</lem>
         <rdg wit="#C4 #C5v #C7v #IḷK #RK #VP #ER">maṉṉē</rdg>
+        
         </app>
 <app corresp="152,158">
         <lem wit="#C5 #C7 #C9v #RK">yiṉiyē</lem>
         <rdg wit="#NL #C1"><sic>vi</sic>ṉiyē</rdg>
 <rdg wit="#C2 #C3 #C9">yiṉiya</rdg>
+        
         </app>
 <app corresp="158,165">
         <lem wit="#NL #C1 #C9v">toṭipāṇ</lem>
         <rdg wit="#C2 #C3 #C5 #C7 #C9 #Iḷ #RK #VP #ER">toṭimāṇ</rdg>
+        
         </app>
 <app corresp="182,191">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #RK">ṇeṭumoḻit</lem>
         <rdg wit="#IḷK">ṇeṭumoḻi</rdg>
+        
         </app>
 <app corresp="216,228">
         <lem wit="#NL #C1 #C2c #C5c #C7c #C9c #RK">lāḷa ṉeñcaṟap</lem>
         <rdg wit="#C2 #C7">lāḷa <sic>ne</sic>ñcaṟap</rdg>
 <rdg wit="#C3 #C9"><sic>lā ṇe</sic>ñcaṟap</rdg>
 <rdg wit="#C5 #Iḷ">lāḷa ṉeñcuṟap</rdg>
+        
         </app>
 <app corresp="280,291">
-        <lem wit="#NL #C1 #C5 #C7 #C9v #Iḷ #RK">tāmē kalleṉa<note xmlns="http://www.tei-c.org/ns/1.0" n="65" place="foot">Since valla is unequivocally n.pl., the singular tāṉē cannot be accepted.</note></lem>
+        <lem wit="#NL #C1 #C5 #C7 #C9v #Iḷ #RK">tāmē kalleṉa</lem>
         <rdg wit="#C2 #C3 #C9">tā<sic>ṉē</sic> melleṉa</rdg>
+        <note xml:lang="en">Since valla is unequivocally n.pl., the singular tāṉē cannot be accepted.</note>
         </app>
 <app corresp="405,415">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #IḷK #RK">kaṭuṅkatir</lem>
         <rdg wit="#IḷC #IḷKv">karuṅkatir</rdg>
+        
         </app>
 <app corresp="415,423">
         <lem wit="#NL #C1 #C2 #C3v #C4 #C5 #C7 #C9 #Iḷ #RK">tirukiya</lem>
         <rdg wit="#C3">murukiya</rdg>
+        
         </app>
 <app corresp="448,457">
         <lem wit="#NL #C1 #C2 #C3 #C9">ṟuruñciya</lem>
         <rdg wit="#C5 #C7 #Iḷ #RK #VP #ER">ṟuriñciya</rdg>
+        
         </app>
 <app corresp="479,495">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #Iḷ #RKv">kavalai yatarpaṭu</lem>
         <rdg wit="#C4 #RK #VP #ER">kavalaiya vatarpaṭu</rdg>
+        
         </app>
 <app corresp="516,523">
         <lem wit="#NL #C1 #C5 #C7 #C9v #IḷK #RK">tūḻkaḻi</lem>
         <rdg wit="#IḷC #IḷKv">tūḻaḻi</rdg>
 <rdg wit="#C3 #C9 #RKv">tūḻpaṭu</rdg>
 <rdg wit="#C2"><gap reason="lost" quantity="3" unit="character"/>ṭu</rdg>
+        
         </app>
 <app corresp="531,549">
         <lem wit="#C5 #C7">viḻavuttalaik koṇṭa</lem>
         <rdg wit="#RK">viḻavut talaikkoṇṭa</rdg>
+        
         </app>
 <app corresp="608,615">
         <lem wit="#NL #C1 #C5 #C7 #C9v #Iḷ #RK">maipaṭu</lem>
         <rdg wit="#C3 #C9">meypaṭu</rdg>
+        
         </app>
 <app corresp="615,622">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #RK">māmalai</lem>
         <rdg wit="#Iḷ">mālvarai</rdg>
+        
         </app>
 </listApp>
   </standOff>

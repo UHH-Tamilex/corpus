@@ -189,7 +189,7 @@
 <l>pirita leṇṇiṉai <choice><seg>yāyi</seg><seg>yāyiṉ</seg></choice> ṉaṉṟu</l>
 <l>marituṟ ṟaṉaiyāṟ peruma <choice><seg>vuritaṉiṟ</seg><seg>vu<supplied>ri</supplied>tiṉiṟ</seg></choice></l>
 <l>koṇṭāṅkup peyartal vēṇṭuṅ koṇṭaloṭu</l>
-<l><choice><seg>kuḻūukki<supplied>ḷai</supplied>p</seg><seg>kuḻūuttiraip</seg></choice> <choice><seg>puṇari</seg><seg><supplied>pu</supplied>ṇari</seg></choice> <choice><seg>yaṭaitaru</seg><seg>yuṭaitaru</seg></choice> mekkarp</l>
+<l><choice><seg>kuḻūukki<supplied>ḷai</supplied>p</seg><seg>kuḻūuttiraip</seg></choice> puṇari <choice><seg>yaṭaitaru</seg><seg>yuṭaitaru</seg></choice> mekkarp</l>
 <l>paḻantimil <choice><seg>ceṉṟa</seg><seg>koṉṟa</seg></choice> putuvalaip paratavar</l>
 <l>mōṭṭumaṇa laṭaikaraik kōṭṭumīṉ koṇṭi</l>
 <l>maṇaṅkamaḻ pākkattup pakukkum</l>
@@ -214,8 +214,8 @@
     </body>
   </text>
   <standOff corresp="#AN10" type="wordsplit">
-      <interp type="alignment" select="0">20MG27MG56ML55ML9MG29MG161MG19MG6M,389MG</interp>
-<interp type="alignment" select="1">20MG27MG56ML66MG29MG161MG19MG6M,390MG</interp>
+      <interp type="alignment" select="0">20MG27MG56ML55ML9MG29MG161MG19ML6M,389MG</interp>
+<interp type="alignment" select="1">20MG27MG56ML66MG29MG161MG19ML6M,390MG</interp>
 <entry>
 <form>vāṉ</form>
 <def>sky</def>
@@ -226,11 +226,13 @@
 </entry>
 <entry>
 <form>parappiṉ</form>
-<def>extensioniṉ</def>
+<def>extension</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>tūvaṟk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>spray(dat.)</def>
+<def>spray</def>
+<gram type="role">dative</gram>
 </entry>
 <entry>
 <form>etiriya</form>
@@ -298,11 +300,13 @@
 </entry>
 <entry>
 <form>mellam</form>
-<def>softam</def>
+<def>soft</def>
+<gramGrp type="affix"><form>am</form></gramGrp>
 </entry>
 <entry>
 <form>pulampa</form>
-<def>loneliness-he(voc.)</def>
+<def>loneliness-he</def>
+<gram type="role">vocative</gram>
 </entry>
 <entry>
 <form>neytal</form>
@@ -324,17 +328,20 @@
 </entry>
 <entry>
 <form>uḻappa<pc>+</pc></form>
-<def>bear(inf.)</def>
+<def>bear</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>paitala</form>
-<def>suffering-they(n.pl.)</def>
+<def>suffering-they</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form>kaluḻa<pc>+</pc></form>
-<def>dim(inf.)</def>
+<def>dim</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 </superEntry>
@@ -360,30 +367,35 @@
 </entry>
 <entry>
 <form>uṟṟaṉaiyāl</form>
-<def>you-hadāl</def>
-<note lang="en">Neuter singular adverbial forms with a sort of double oblique mark (in the manuscripts often varying between -aṉ + -iṉ or -iṉ + -iṉ) are fairly common; for parallels see AN 149.6 (eḷitiṉiṉ/eḷitaṉiṉ) and AN 220.6 (aritiṉiṉ/aṟitaṉiṉ); for a single oblique see nuṇṇitiṉ in KT 167.6.</note>
+<def>you-had</def>
+<form type="simple">uṟṟaṉai</form>
+<gramGrp type="particle"><form>āl</form></gramGrp>
 </entry>
 <entry>
 <form>peruma</form>
-<def>big-one(voc.)</def>
+<def>big-one</def>
+<gram type="role">vocative</gram>
 </entry>
 <superEntry>
 <entry select="0">
 <entry>
 <form><pc>~</pc>uritaṉiṉ</form>
-<def>right-itiṉ</def>
+<def>right-it</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form><pc>~</pc>ur<supplied>i</supplied>tiṉiṉ</form>
-<def>right-itiṉiṉ</def>
+<def>right-itiṉ</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 </entry>
 </superEntry>
 <entry>
 <form>koṇṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
 <def>taken</def>
+<note lang="en">Neuter singular adverbial forms with a sort of double oblique mark (in the manuscripts often varying between -aṉ + -iṉ or -iṉ + -iṉ) are fairly common; for parallels see AN 149.6 (eḷitiṉiṉ/eḷitaṉiṉ) and AN 220.6 (aritiṉiṉ/aṟitaṉiṉ); for a single oblique see nuṇṇitiṉ in KT 167.6.</note>
 </entry>
 <entry>
 <form>āṅku<pc>+</pc></form>
@@ -399,7 +411,8 @@
 </entry>
 <entry>
 <form>koṇṭaloṭu</form>
-<def>east-wind(?)-with</def>
+<def>east-wind(?)</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>kuḻūu<pc>+</pc></form>
@@ -477,7 +490,8 @@
 </entry>
 <entry>
 <form>paratavar</form>
-<def>fishermen(h.)</def>
+<def>fishermen</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>mōṭṭu</form>
@@ -541,7 +555,9 @@
 </entry>
 <entry>
 <form>nalaṉē</form>
-<def>goodnessē.</def>
+<def>goodness</def>
+<form type="simple">nalaṉ</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN10" type="apparatus">
@@ -549,34 +565,41 @@
 <app corresp="0,6">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C6 #C7 #C9">vāṉkaṭ</lem>
         <rdg wit="#G1 #G2 #RK #VP #ER">vāṉkaṭaṟ</rdg>
+        
         </app>
 <app corresp="90,102">
-        <lem wit="#C1 #C2 #C5 #C6 #C7 #C9c #G1 #RK">puḷḷiṟai kūru<note xmlns="http://www.tei-c.org/ns/1.0" n="34" place="foot">Here TVG and JLC prefer the better attested variant of the editio princeps, puḷ iṟai kūrum (“where the birds abound in [their] seats”). What makes me slightly suspicious of this version is the fact that kūr is mostly used as a verbal root in attributive position. There is, however, one parallel for peyareccam usage in AN 251.4. kūṟum is likewise not completely satisfactory, since this verb is usually reserved for human speech.</note></lem>
+        <lem wit="#C1 #C2 #C5 #C6 #C7 #C9c #G1 #RK">puḷḷiṟai kūru</lem>
         <rdg wit="#C3">puḷḷiṟait <sic>taru</sic></rdg>
 <rdg wit="#G2 #SS">puḷḷiṟai kūṟu</rdg>
+        <note xml:lang="en">Here TVG and JLC prefer the better attested variant of the editio princeps, puḷ iṟai kūrum (“where the birds abound in [their] seats”). What makes me slightly suspicious of this version is the fact that kūr is mostly used as a verbal root in attributive position. There is, however, one parallel for peyareccam usage in AN 251.4. kūṟum is likewise not completely satisfactory, since this verb is usually reserved for human speech.</note>
         </app>
 <app corresp="126,139">
         <lem wit="#C1 #C6 #C9v #G2 #RKv #SAv">paita luḻappa<sic>p</sic></lem>
         <rdg wit="#G1">paitala kaluḻa<sic>ppa</sic>p</rdg>
 <rdg wit="#C2 #C3 #C4 #C5 #C7 #RK #VP #ER">paitala kaluḻap</rdg>
+        
         </app>
 <app corresp="153,157">
         <lem wit="#C1 #C5 #C7 #C9 #G1 #G2 #RK">yāyi</lem>
         <rdg wit="#C3 #C6">yāyiṉ</rdg>
+        
         </app>
 <app corresp="157,162">
         <lem wit="#C1 #C3 #C6 #C9 #G1 #G2 #IḷTC #Cēṉ #RK">ṉaṉṟu</lem>
         <rdg wit="#C5 #C7">ṉeṉṉatūu</rdg>
+        
         </app>
 <app corresp="162,177">
         <lem wit="#C1 #C3 #C4 #C5 #C6 #C7 #C9 #G1 #IḷTC-K #Iḷ #Cēṉ #NaccTC #Nacc #Tey #IVC #RK #SSv">marituṟ ṟaṉaiyāṟ</lem>
         <rdg wit="#NL #C9 #G2">marituṟ ṟaṉaiyāṟa<sic>m</sic></rdg>
 <rdg wit="#IḷTC-N #RKv #SS #SA #CēṉcorrTVG">maritutuṟ ṟaṉaiyāṟ</rdg>
+        
         </app>
 <app corresp="183,192">
         <lem wit="#NL #C1 #C4 #C6 #C9 #G2">vuritaṉiṟ</lem>
         <rdg wit="#C5 #C7 #C9v #G1 #RK #VP #ER">vuritiṉiṟ</rdg>
 <rdg wit="#C3">vu<sic>ru</sic>tiṉiṟ</rdg>
+        
         </app>
 <app corresp="224,236">
         <lem wit="#C9v">kuḻūukkiḷaip</lem>
@@ -586,19 +609,23 @@
 <rdg wit="#C7">kuḻūttiraip</rdg>
 <rdg wit="#C5 #C9">kuḻūuntiraip</rdg>
 <rdg wit="#RK #SAv #VP #ER">kurūuttiraip</rdg>
+        
         </app>
 <app corresp="242,251">
         <lem wit="#NL #C1 #C5 #C6 #C7 #G2 #RKv">yaṭaitaru</lem>
         <rdg wit="#C2 #C3 #C7c #C9 #G1 #RK #VP #ER">yuṭaitaru</rdg>
+        
         </app>
 <app corresp="268,273">
         <lem wit="#C1 #C5 #C6 #C7 #C9c #G1 #G2 #RKv">ceṉṟa</lem>
         <rdg wit="#C2 #C3 #C4 #C5v #C7 #RK #VP #ER">koṉṟa</rdg>
 <rdg wit="#SAv">ceṉ<sic>ṉa</sic></rdg>
+        
         </app>
 <app corresp="320,325">
         <lem wit="#C1 #C2 #C3 #C7 #C9 #G1 #G2 #RK #VP">koṇṭi</lem>
         <rdg wit="#C5 #C6 #C7c #ER">keṇṭi</rdg>
+        
         </app>
 </listApp>
   </standOff>

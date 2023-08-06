@@ -226,15 +226,16 @@
     </body>
   </text>
   <standOff corresp="#AN1" type="wordsplit">
-      <interp type="alignment" select="0">64ML23MGMG72ML9MG33ML25MG44MG13ML4ML4MG23MG178MG34MG9MG9M,559MG</interp>
-<interp type="alignment" select="1">64MG23MGMG70MG9MG54MG44MG13MG4MG4MG23MG178MG34MG9MG9M,552MG</interp>
+      <interp type="alignment" select="0">64ML23MGMG72ML9MG33ML25MG44MG13ML4ML4MG23MG178MG34ML9MG9M,559MG</interp>
+<interp type="alignment" select="1">64ML23MGMG70ML9MG54MG44MG13ML4ML4MG23MG178MG34ML9MG9M,552MG</interp>
 <entry>
 <form>vaṇṭu</form>
 <def>bee</def>
 </entry>
 <entry>
 <form>paṭa<pc>+</pc></form>
-<def>happen(inf.)</def>
+<def>happen</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>tatainta</form>
@@ -262,7 +263,8 @@
 </entry>
 <entry>
 <form>maḻavar</form>
-<def>warrior(h.)</def>
+<def>warrior</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>ōṭṭiya</form>
@@ -332,7 +334,8 @@
 </entry>
 <entry>
 <form>payiṉoṭu</form>
-<def>glue-with</def>
+<def>glue</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>cērttiya</form>
@@ -360,11 +363,15 @@
 </entry>
 <entry>
 <form>tām</form>
-<def>he(h.)</def>
+<def>he</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>maṟantaṉar-kollō</form>
-<def>he-forgot(h.)kollō</def>
+<def>he-forgot</def>
+<form type="simple">maṟantaṉar</form>
+<gram type="role">honorific</gram>
+<gramGrp type="particle"><form>kollō</form></gramGrp>
 </entry>
 <entry>
 <form>tōḻi</form>
@@ -394,13 +401,15 @@
 <entry select="0">
 <entry>
 <form>nekiḻa<pc>+</pc></form>
-<def>become-emaciated(inf.)</def>
+<def>become-emaciated</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>ñekiḻa</form>
-<def>become-emaciated(inf.)</def>
+<def>become-emaciated</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 </superEntry>
@@ -436,7 +445,8 @@
 </entry>
 <entry>
 <form>tarumār</form>
-<def>give(inf.)</def>
+<def>give</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>nilam</form>
@@ -444,7 +454,8 @@
 </entry>
 <entry>
 <form>paka</form>
-<def>split(inf.)</def>
+<def>split</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>aḻal</form>
@@ -468,11 +479,13 @@
 </entry>
 <entry>
 <form>aṟa<pc>+</pc></form>
-<def>be-severed(inf.)</def>
+<def>be-severed</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>teṟutaliṉ</form>
-<def>scorchingiṉ</def>
+<def>scorching</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>niḻal</form>
@@ -488,7 +501,8 @@
 </entry>
 <entry>
 <form>maratta</form>
-<def>treea</def>
+<def>tree</def>
+<gramGrp type="affix"><form>a</form></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
@@ -530,11 +544,13 @@
 </entry>
 <entry>
 <form>aṟa<pc>+</pc></form>
-<def>cease(inf.)</def>
+<def>cease</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>pulartaliṉ</form>
-<def>dryingiṉ</def>
+<def>drying</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>uku</form>
@@ -550,37 +566,45 @@
 </entry>
 <entry>
 <form>vemmaiya</form>
-<def>heata</def>
+<def>heat</def>
+<gramGrp type="affix"><form>a</form></gramGrp>
 </entry>
 <entry>
 <form>yāvarum</form>
-<def>who(h.)um</def>
+<def>who</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>vaḻaṅkunar</form>
-<def>roam-they(h.)</def>
+<def>roam-they</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>iṉmaiyiṉ</form>
-<def>absenceiṉ</def>
+<def>absence</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
 <entry>
 <form>vauvu<supplied>na</supplied>r</form>
-<def>snatch-they(h.)</def>
+<def>snatch-they</def>
+<gram type="role">honorific</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>vavvu<supplied>na</supplied>r</form>
-<def>snatch-they(h.)</def>
+<def>snatch-they</def>
+<gram type="role">honorific</gram>
 </entry>
 </entry>
 </superEntry>
 <entry>
 <form>maṭiya<pc>+</pc></form>
-<def>droop(inf.)</def>
+<def>droop</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>curam</form>
@@ -592,7 +616,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>āṟṟa</form>
-<def>patha</def>
+<def>path</def>
+<gramGrp type="affix"><form>a</form></gramGrp>
 </entry>
 <entry>
 <form><pc>~</pc>alaṅku</form>
@@ -616,7 +641,8 @@
 <entry select="1">
 <entry>
 <form>ila</form>
-<def>not(n.pl.)</def>
+<def>not</def>
+<gram type="role">neuter plural</gram>
 </entry>
 </entry>
 </superEntry>
@@ -634,7 +660,8 @@
 <entry select="1">
 <entry>
 <form>virala</form>
-<def>fingera</def>
+<def>finger</def>
+<gramGrp type="affix"><form>a</form></gramGrp>
 </entry>
 </entry>
 </superEntry>
@@ -648,7 +675,8 @@
 </entry>
 <entry>
 <form>cūralam</form>
-<def>whirlingam</def>
+<def>whirling</def>
+<gramGrp type="affix"><form>am</form></gramGrp>
 </entry>
 <entry>
 <form>kaṭu</form>
@@ -660,7 +688,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>eṭuppa</form>
-<def>lift(inf.)</def>
+<def>lift</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>ār</form>
@@ -680,7 +709,8 @@
 </entry>
 <entry>
 <form>pitirviṉ</form>
-<def>sprayiṉ</def>
+<def>spray</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>poṅki</form>
@@ -700,7 +730,8 @@
 </entry>
 <entry>
 <form>tōṉṟala</form>
-<def>appearing-they(n.pl.)</def>
+<def>appearing-they</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form>kāṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -708,7 +739,10 @@
 </entry>
 <entry>
 <form>iṟantōrē</form>
-<def>traversed-he(h.)ē.</def>
+<def>traversed-he</def>
+<form type="simple">iṟantōr</form>
+<gram type="role">honorific</gram>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN1" type="apparatus">
@@ -716,35 +750,42 @@
 <app corresp="23,30">
         <lem wit="#NL #C5 #C6 #C7 #C9 #RK">yoṇkaḻa</lem>
         <rdg wit="#C2 #C3">yo<sic>ṉ</sic>kaḻa</rdg>
+        
         </app>
 <app corresp="44,50">
         <lem wit="#NL #C5 #C6 #C7 #C9 #RK">maḻava</lem>
         <rdg wit="#C2 #C3">ma<sic>ḷa</sic>va</rdg>
+        
         </app>
 <app corresp="94,102">
-        <lem wit="#em">potuḷiya<note xmlns="http://www.tei-c.org/ns/1.0" n="2" place="foot">In order to make the reading preserved by the first strand tenable it is necessary to change the viṉaiyeccam into a peyareccam.</note></lem>
+        <lem wit="#em">potuḷiya</lem>
         <rdg wit="#NL #C6 #C7 #C9 #NaccT #IVT">potu<sic>ḷi</sic></rdg>
 <rdg wit="#C2 #C3 #C5 #C7c #C9c #NaccP #NaccKa #IVI #RK #ER">potiṉi</rdg>
+        <note xml:lang="en">In order to make the reading preserved by the first strand tenable it is necessary to change the viṉaiyeccam into a peyareccam.</note>
         </app>
 <app corresp="193,218">
         <lem wit="#NL #C6 #C7 #C9v">paṇaittō ṇekiḻac cēeynāṭṭup</lem>
         <rdg wit="#C5 #NaccTC #IVT #RK #VP #ER">paṇaittō ṇekiḻac cēynāṭṭup</rdg>
 <rdg wit="#Nacc #IVI">paṇaittōḷ ñekiḻac cēynāṭṭup</rdg>
 <rdg wit="#C2 #C3 #C9">paṇaittōḷ ñekiḻa nāṭṭup</rdg>
+        
         </app>
 <app corresp="283,291">
         <lem wit="#NL #C5 #C6 #C7 #C9 #RK">ṉiḻaṟēyn</lem>
         <rdg wit="#C2 #C3"><sic>ṉī</sic>ḻaṟēyn</rdg>
+        
         </app>
 <app corresp="299,314">
-        <lem wit="#NL #C5 #C6 #C7 #C9v #NaccP">maratta varaikāy<note xmlns="http://www.tei-c.org/ns/1.0" n="3" place="foot">v-aṟai here has to be taken as an emendation of the reading of the second strand, vaṟu, which cannot be construed.</note></lem>
+        <lem wit="#NL #C5 #C6 #C7 #C9v #NaccP">maratta varaikāy</lem>
         <rdg wit="#C2 #C3 #C9">maratta va<sic>ṟu</sic>kāy</rdg>
 <rdg wit="#C9v #NaccKa #IV #RK #VP #ER">maratta vaṟaikāy</rdg>
 <rdg wit="#NaccT">maratta<sic>va</sic><sic> </sic><sic>ṇaṭi</sic>kāy</rdg>
+        <note xml:lang="en">v-aṟai here has to be taken as an emendation of the reading of the second strand, vaṟu, which cannot be construed.</note>
         </app>
 <app corresp="331,338">
         <lem wit="#NL #C5 #C6 #C7 #C9 #RK">yāmaṟap</lem>
         <rdg wit="#C2 #C3">yā___</rdg>
+        
         </app>
 <app corresp="338,354">
         <lem wit="#C3 #C5 #C7 #C9 #Nacc #IV #RK">pulartali
@@ -755,31 +796,37 @@ vaṟuneṟ</rdg>
 <gap reason="lost" quantity="2" unit="character"/>neṟ</rdg>
 <rdg wit="#C6">pularna
 likuneṟ</rdg>
+        
         </app>
 <app corresp="376,385">
         <lem wit="#NL #C5 #C7 #C9c #RK">vaḻaṅkuna</lem>
         <rdg wit="#C6">vaḻaṅku<sic>ṉa</sic></rdg>
 <rdg wit="#C2 #C3 #C9">va<sic>ḷa</sic>ṅku<sic>ṉa</sic></rdg>
+        
         </app>
 <app corresp="394,402">
         <lem wit="#C5 #C7 #C9v #Nacc #IV #RK">vauvunar</lem>
         <rdg wit="#NL #C6 #C9">vauvu<sic>ṉa</sic>r</rdg>
 <rdg wit="#C2 #C3">vavvu<sic>ṉa</sic>r</rdg>
+        
         </app>
 <app corresp="439,459">
-        <lem wit="#NL #C5 #C6 #C7 #C9 #Nacc #IV">nāriṉ muruṅkai naviral<note xmlns="http://www.tei-c.org/ns/1.0" n="4" place="foot">naviral seems to be attested only here and has found entry into the TL as “a kind of tree” (based on this passage), not very convincing since it is preceded by another proper noun and plant name, the slightly better attested muruṅkai.  Moreover, the provenance of this explanation is unclear, as the old commentary offers a gloss kulaital (“to be dishevelled”) for naviral.  Formally it could be well understood as a verbal noun, and verbal nouns can be used in attributive position in Caṅkam poetry, but a root navir-tal does not seem to be attested otherwise.</note></lem>
+        <lem wit="#NL #C5 #C6 #C7 #C9 #Nacc #IV">nāriṉ muruṅkai naviral</lem>
         <rdg wit="#RK">nāriṉ muruṅkai navirala</rdg>
 <rdg wit="#C2 #C3">nārila ______ naṅkai virala</rdg>
+        <note xml:lang="en">naviral seems to be attested only here and has found entry into the TL as “a kind of tree” (based on this passage), not very convincing since it is preceded by another proper noun and plant name, the slightly better attested muruṅkai.  Moreover, the provenance of this explanation is unclear, as the old commentary offers a gloss kulaital (“to be dishevelled”) for naviral.  Formally it could be well understood as a verbal noun, and verbal nouns can be used in attributive position in Caṅkam poetry, but a root navir-tal does not seem to be attested otherwise.</note>
         </app>
 <app corresp="519,526">
         <lem wit="#NL #PērP #Nacc #C6">kaṭalpō</lem>
         <rdg wit="#C2 #C3 #C5 #C7 #C9 #PērKa #RK">kaṭalpōṟ</rdg>
+        
         </app>
 <app corresp="526,533">
         <lem wit="#NL #C3 #C5 #C9 #IḷTC #CēṉTC286 #PērKa #NaccTCTC288 #NaccP #NaccKa #TeyTC254 #Kal #May #CC #Kuḻ #IVI #RK">ṟōṉṟala</lem>
         <rdg wit="#C2"><gap reason="lost" quantity="5" unit="character"/></rdg>
 <rdg wit="#C6 #CēṉTC257 #PērT #PērP #NaccTCTC259 #NaccT #TeyTC282 #NV #IVT">ṟōṉṟal</rdg>
 <rdg wit="#C7"><sic>cimaiṉṟala</sic></rdg>
+        
         </app>
 </listApp>
   </standOff>

@@ -222,8 +222,8 @@
     </body>
   </text>
   <standOff corresp="#AN2" type="wordsplit">
-      <interp type="alignment" select="0">3MG31MG46MG2MG40MG95MG31MG16MG6MG37MG23MG4MG134M,480M</interp>
-<interp type="alignment" select="1">33MG46MG2MG40MG97MG27MG16MG6MG37MG23MG4MG134M,375MG100M</interp>
+      <interp type="alignment" select="0">3MG31MG46MG2MG40MG95MG31MR16MR6MG37ML23MG4MG134M,480M</interp>
+<interp type="alignment" select="1">33MG46MG2MG40MG97ML27MR16MR6MG37ML23MG4MG134M,476M</interp>
 <superEntry>
 <entry select="0">
 <entry>
@@ -300,7 +300,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>uṇṇunar<pc>+</pc></form>
-<def>eat-they(h.)</def>
+<def>eat-they</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>taṭutta</form>
@@ -312,11 +313,13 @@
 </entry>
 <entry>
 <form>palaviṉ</form>
-<def>jack-treeiṉ</def>
+<def>jack-tree</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>cuḷaiyoṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>pulp-with</def>
+<def>pulp</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>ūḻ-</form>
@@ -418,13 +421,15 @@
 </entry>
 <entry>
 <form>eṉa</form>
-<def>say(inf.)</def>
+<def>say</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>eḷitiṉ</form>
-<def>easy-itiṉ</def>
+<def>easy-it</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 </entry>
 </superEntry>
@@ -446,7 +451,8 @@
 </entry>
 <entry>
 <form>vilaṅkum</form>
-<def>animalum</def>
+<def>animal</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>eytum</form>
@@ -454,7 +460,8 @@
 </entry>
 <entry>
 <form>nāṭa</form>
-<def>land-he(voc.)</def>
+<def>land-he</def>
+<gram type="role">vocative</gram>
 </entry>
 <entry>
 <form>kuṟitta</form>
@@ -466,7 +473,8 @@
 </entry>
 <entry>
 <form>niṉakk<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>you(dat.)</def>
+<def>you</def>
+<gram type="role">dative</gram>
 </entry>
 <entry>
 <form>evaṉ</form>
@@ -474,7 +482,8 @@
 </entry>
 <entry>
 <form>ariya</form>
-<def>difficult-they(n.pl.)</def>
+<def>difficult-they</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form>veṟutta</form>
@@ -514,13 +523,15 @@
 <entry select="0">
 <entry>
 <form>niṟuppa</form>
-<def>weigh(inf.)</def>
+<def>weigh</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>niṟukka</form>
-<def>weigh(inf.)</def>
+<def>weigh</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 </superEntry>
@@ -530,15 +541,18 @@
 </entry>
 <entry>
 <form>neñcamoṭu</form>
-<def>heart-with</def>
+<def>heart</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>niṉ-māṭṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>you(loc.)</def>
+<def>you</def>
+<gramGrp type="affix"><form>māṭṭu</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>ivaḷum</form>
-<def>sheum</def>
+<def>she</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>iṉaiyaḷ</form>
@@ -556,23 +570,14 @@
 <form><pc>~</pc>arum</form>
 <def>difficult</def>
 </entry>
-<superEntry>
-<entry select="0">
 <entry>
 <form>kaṭi<pc>+</pc></form>
 <def>protection</def>
 </entry>
-</entry>
-<entry select="1">
-<entry>
-<form>kaṭi</form>
-<def>protection</def>
-</entry>
-</entry>
-</superEntry>
 <entry>
 <form>kāvalar</form>
-<def>watchmen(h.)</def>
+<def>watchmen</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>cōr</form>
@@ -592,7 +597,8 @@
 </entry>
 <entry>
 <form>varutalum</form>
-<def>comingum</def>
+<def>coming</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>uriyai</form>
@@ -608,7 +614,8 @@
 </entry>
 <entry>
 <form>vēṅkaiyum</form>
-<def>kino-treeum</def>
+<def>kino-tree</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>oḷ</form>
@@ -620,7 +627,8 @@
 </entry>
 <entry>
 <form>virintaṉa</form>
-<def>they-expanded(n.pl.)</def>
+<def>they-expanded</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form>neṭu</form>
@@ -632,15 +640,18 @@
 </entry>
 <entry>
 <form>tiṅkaḷum</form>
-<def>moonum</def>
+<def>moon</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>ūr</form>
 <def>village/creep-</def>
 </entry>
 <entry>
-<form>koṇṭaṉṟē.</form>
-<def>it-tookē.</def>
+<form>koṇṭaṉṟē</form>
+<def>it-took</def>
+<form type="simple">koṇṭaṉṟu</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN2" type="apparatus">
@@ -649,29 +660,35 @@
         <lem wit="#NL #C3v #C5 #C7 #C9 #Nacc #Nam #RK">kōḻilai</lem>
         <rdg wit="#C3">kōḷilai</rdg>
 <rdg wit="#C2">ko<gap reason="lost" quantity="3" unit="character"/></rdg>
+        
         </app>
 <app corresp="13,21">
         <lem wit="#NL #C5 #C7 #C9 #RKv">kōṇmutir</lem>
         <rdg wit="#C3 #C5v #C7v #C9v #Nacc #Nam #RK">kōṇmiku</rdg>
 <rdg wit="#C2">kōḷmiku</rdg>
+        
         </app>
 <app corresp="31,37">
         <lem wit="#NL #C5 #C7 #C9 #Nacc #Nam #RK">yūḻuṟu</lem>
         <rdg wit="#C2 #C3">pūḻuṟu</rdg>
+        
         </app>
 <app corresp="44,53">
-        <lem wit="#NL #C5 #C7 #C9 #RK">yuṇṇunart<note xmlns="http://www.tei-c.org/ns/1.0" n="6" place="foot">This is the first of many cases where one or both of the palm-leaf strands spell the participial noun with alveolar instead of dental n, a usage corrected from the paper copies onwards.</note></lem>
+        <lem wit="#NL #C5 #C7 #C9 #RK">yuṇṇunart</lem>
         <rdg wit="#C2 #C3">yuṇṇu<sic>ṉa</sic>rt</rdg>
+        <note xml:lang="en">This is the first of many cases where one or both of the palm-leaf strands spell the participial noun with alveolar instead of dental n, a usage corrected from the paper copies onwards.</note>
         </app>
 <app corresp="72,79">
         <lem wit="#corr">cuḷaiyō</lem>
         <rdg wit="#C5 #C7 #Nacc #RK">cuḷaiyo</rdg>
 <rdg wit="#NaccT">cuḷaiyoṭu</rdg>
+        
         </app>
 <app corresp="79,88">
         <lem wit="#NL #C2 #C3 #C5 #C7 #C9 #Nam">ṭūḻpaṭupu</lem>
         <rdg wit="#C5v #NaccKa #NamR #RK #VP">ṭūḻpaṭu</rdg>
 <rdg wit="#NaccT">paṭupa</rdg>
+        
         </app>
 <app corresp="111,121">
         <lem wit="#C3 #C5 #C7 #C9 #RK">tēṟa
@@ -680,15 +697,18 @@ laṟiyā</lem>
 laṟiyā</rdg>
 <rdg wit="#NL">tēra
 la<sic>ḻi</sic>yā</rdg>
+        
         </app>
 <app corresp="159,166">
         <lem wit="#NL #C2 #C3 #C9">collātu</lem>
         <rdg wit="#C5 #C7 #C9v #Nacc #Nam #RK #VP #ER">cellātu</rdg>
+        
         </app>
 <app corresp="201,207">
         <lem wit="#C2 #C3 #C5 #C7 #C9 #RK">kuṟiyā</lem>
         <rdg wit="#NL">ku<sic>ḻi</sic>yā</rdg>
 <rdg wit="#Nam">kuṟitta</rdg>
+        
         </app>
 <app corresp="212,229">
         <lem wit="#NL #C5 #C7 #C9v #RKv">meḷiteṉa niṉmalaip</lem>
@@ -697,24 +717,29 @@ la<sic>ḻi</sic>yā</rdg>
 <rdg wit="#C7v #C9v #NaccKa #Nam #RK #VP #ER">meḷiti ṉiṉmalaip</rdg>
 <rdg wit="#C9">meḷitaṉi <sic>ni</sic>ṉmalaip</rdg>
 <rdg wit="#NaccT">meḷi<sic>te</sic>ṉiṉ malaippal</rdg>
+        
         </app>
 <app corresp="286,290">
         <lem wit="#C2 #C3 #C5v #C7v #C9 #RK">vēer</lem>
         <rdg wit="#NL #C5 #C7">vē<sic>ḷa</sic>r</rdg>
 <rdg wit="#C9v">vē<sic>ra</sic>r</rdg>
+        
         </app>
 <app corresp="290,298">
         <lem wit="#NL #C5 #C7 #C9v #RK">vēypurai</lem>
         <rdg wit="#C2 #C3 #C9 #Nacc #Nam #RKv">vēymaruḷ</rdg>
+        
         </app>
 <app corresp="306,313">
         <lem wit="#NL #C5 #C7 #C9v #Nacc #RK">ṇiṟuppa</lem>
         <rdg wit="#C3 #C9">ṇiṟukka</rdg>
 <rdg wit="#C2"><gap reason="lost" quantity="5" unit="character"/>ka</rdg>
+        
         </app>
 <app corresp="374,387">
         <lem wit="#NL #C2 #C3 #C5 #C7 #C9 #RK">cōrpata ṉoṟṟik</lem>
         <rdg wit="#C4">cōrpata mo<sic>ṟṟik</sic></rdg>
+        
         </app>
 </listApp>
   </standOff>

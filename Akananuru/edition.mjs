@@ -15,10 +15,13 @@ const lookup = (e) => {
     if(word) {
         //const clean = e.target.dataset.norm.trim();
         //const clean = word.querySelector('.anno-inline span').textContent;
-        const clone = word.cloneNode(true);
-        for(const pc of clone.querySelectorAll('.invisible'))
-            pc.remove();
-        const clean = clone.textContent.replaceAll('\u00AD','');
+        let clean = word.dataset.clean;
+        if(!clean) {
+            const clone = word.cloneNode(true);
+            for(const pc of clone.querySelectorAll('.invisible, .ignored'))
+                pc.remove();
+            clean = clone.textContent.replaceAll('\u00AD','');
+        }
         //window.open(`https://dsal.uchicago.edu/cgi-bin/app/tamil-lex_query.py?qs=${clean}&amp;searchhws=yes&amp;matchtype=exact`,'lexicon',/*'height=500,width=500'`*/);
         window.open(`wordindex.xml#${clean}`);
     }
@@ -209,7 +212,32 @@ const makeWord = (entry) => {
     }
     span.className = 'word split';
     const translation = entry.querySelector('.f[data-name="translation"]');
-    if(translation) span.dataset.anno = translation.textContent;
+    const affix = entry.querySelector('.f[data-name="affix"]');
+    const particle = entry.querySelector('.f[data-name="particle"]');
+    const role = entry.querySelector(':scope > .f[data-name="role"]');
+    const cleanlemma = entry.querySelector('.f[data-name="simple"]');
+    if(cleanlemma) span.dataset.clean = cleanlemma.textContent;
+    if(translation || affix) {
+        span.dataset.anno = '';
+        const annoel = document.createElement('span');
+        annoel.className = 'anno-inline ignored';
+        annoel.lang = 'en';
+        if(translation) annoel.append(translation.textContent);
+        let annohtml = translation ? translation.textContent : '';
+        if(role)
+            annohtml = annohtml + ` (${role.textContent})`;
+        if(affix) {
+            const affixrole = affix.querySelector('[data-name="role"]')?.textContent || 'suffix';
+            const form = affix.querySelector('[data-name="lemma"]');
+            annohtml = annohtml + ` (${affixrole} <span lang="ta">${form.textContent}</span>)`;
+        }
+        if(particle) {
+            const form = particle.querySelector('[data-name="lemma"]');
+            annohtml = annohtml + ` (particle <span lang="ta">${form.textContent}</span>)`;
+        }
+        annoel.innerHTML = annohtml;
+        span.prepend(annoel);
+    }
     const notes = entry.querySelectorAll('.note');
     for(const note of notes) {
         const noteel = document.createElement('span');
@@ -271,8 +299,8 @@ const applymarkup = (standoff) => {
                 for(const subentry of seg.querySelectorAll('.fs')) {
                     const word = makeWord(subentry);
                     segel.appendChild(word);
-                    if(seg.dataset.select === '0')
-                    //if(seg === seg.parentNode.firstChild) // why doesn't this work?
+                    //if(seg.dataset.select === '0')
+                    if(seg === seg.parentElement.firstElementChild)
                         wordcount = wordcount + wordLength(word);
                 }
                 choice.appendChild(segel);

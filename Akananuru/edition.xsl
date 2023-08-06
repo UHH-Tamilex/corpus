@@ -217,7 +217,10 @@
 </xsl:template>
 <xsl:template match="x:choice">
     <xsl:element name="span">
-    <xsl:attribute name="class">choice</xsl:attribute>
+    <xsl:attribute name="class">
+        <xsl:text>choice</xsl:text>
+        <xsl:if test="@type='ambiguous'"><xsl:text> inline</xsl:text></xsl:if>
+    </xsl:attribute>
     <xsl:apply-templates />
     </xsl:element>
 </xsl:template>
@@ -248,7 +251,7 @@
 <xsl:template match="x:entry">
     <xsl:element name="div">
         <xsl:attribute name="class">fs</xsl:attribute>
-        <xsl:attribute name="data-corresp"><xsl:value-of select="@corresp"/></xsl:attribute>
+        <!--xsl:attribute name="data-corresp"><xsl:value-of select="@corresp"/></xsl:attribute-->
         <xsl:if test="@select">
             <xsl:attribute name="data-select"><xsl:value-of select="@select"/></xsl:attribute>
         </xsl:if>
@@ -272,10 +275,30 @@
 <xsl:template match="x:form">
     <xsl:element name="div">
         <xsl:attribute name="class">f</xsl:attribute>
-        <xsl:attribute name="data-name">lemma</xsl:attribute>
+        <xsl:attribute name="data-name">
+            <xsl:choose>
+                <xsl:when test="@type"><xsl:value-of select="@type"/></xsl:when>
+                <xsl:otherwise><xsl:text>lemma</xsl:text></xsl:otherwise>
+            </xsl:choose>
+        </xsl:attribute>
         <xsl:apply-templates/>
     </xsl:element>
 </xsl:template>
+<xsl:template match="x:gramGrp">
+    <xsl:element name="div">
+        <xsl:attribute name="class">f</xsl:attribute>
+        <xsl:attribute name="data-name"><xsl:value-of select="@type"/></xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+<xsl:template match="x:gram">
+    <xsl:element name="div">
+        <xsl:attribute name="class">f</xsl:attribute>
+        <xsl:attribute name="data-name"><xsl:value-of select="@type"/></xsl:attribute>
+        <xsl:apply-templates/>
+    </xsl:element>
+</xsl:template>
+
 <xsl:template match="x:def">
     <xsl:element name="div">
         <xsl:attribute name="class">f</xsl:attribute>

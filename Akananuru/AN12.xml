@@ -215,15 +215,16 @@
     </body>
   </text>
   <standOff corresp="#AN12" type="wordsplit">
-      <interp type="alignment" select="0">34MR18MG51MG3MG62MG3MG146MG5MG32MG43M,406M</interp>
-<interp type="alignment" select="1">34MR18MG51MG3MG62MG3MG146MG5ML32MR43M,221MG184M</interp>
+      <interp type="alignment" select="0">34MR18MG51MG3MG62MG3MG146MG5ML32MR43M,406M</interp>
+<interp type="alignment" select="1">34MR18MG51MG3MG62MG3MG146MG5ML32MR43M,406M</interp>
 <entry>
 <form>yāyē,</form>
 <def>my-motherē</def>
 </entry>
 <entry>
 <form>kaṇṇiṉum</form>
-<def>eyeiṉum</def>
+<def>eye</def>
+<gramGrp type="affix"><form>iṉum</form></gramGrp>
 </entry>
 <entry>
 <form>kaṭum</form>
@@ -231,11 +232,14 @@
 </entry>
 <entry>
 <form>kātalaḷē</form>
-<def>love-sheē</def>
+<def>love-she</def>
+<form type="simple">kātalaḷ</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form><pc>~</pc>entaiyum</form>
-<def>my-fatherum</def>
+<def>my-father</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 <note lang="en">Irākavaiyaṅkār and Vaiyāpurip Piḷḷai split differently and use entaiyum as a kūṉ for the second line.</note>
 </entry>
 <entry>
@@ -244,7 +248,8 @@
 </entry>
 <entry>
 <form>uṟa<pc>+</pc></form>
-<def>have(inf.)</def>
+<def>have</def>
+<gram type="role">infinitive</gram>
 </entry>
 <superEntry>
 <entry select="0">
@@ -270,7 +275,8 @@
 </entry>
 <entry>
 <form>civappa</form>
-<def>redden(inf.)</def>
+<def>redden</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>evaṉ</form>
@@ -278,7 +284,8 @@
 </entry>
 <entry>
 <form>ila</form>
-<def>you(voc.)</def>
+<def>you</def>
+<gram type="role">vocative</gram>
 </entry>
 <entry>
 <form>kuṟu</form>
@@ -290,7 +297,8 @@
 </entry>
 <entry>
 <form>iyaṅkuti</form>
-<def>you-stir(sub.)</def>
+<def>you-stir</def>
+<gram type="role">subjuntive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>eṉṉum</form>
@@ -328,7 +336,8 @@
 </entry>
 <entry>
 <form>naṭpiṉ</form>
-<def>intimacyiṉ</def>
+<def>intimacy</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>iru</form>
@@ -340,7 +349,8 @@
 </entry>
 <entry>
 <form>puḷḷiṉ</form>
-<def>birdiṉ</def>
+<def>bird</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>ōr</form>
@@ -348,15 +358,19 @@
 </entry>
 <entry>
 <form>uyirammē</form>
-<def>life-weē</def>
+<def>life-we</def>
+<form type="simple">uyiram</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form><pc>~</pc>ēṉalam</form>
-<def>milletam</def>
+<def>millet</def>
+<gramGrp type="affix"><form>am</form></gramGrp>
 </entry>
 <entry>
 <form>kāva<supplied>la</supplied>r</form>
-<def>guardian(h.)</def>
+<def>guardian</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>āṉāt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -394,31 +408,23 @@
 <form>ciṉai</form>
 <def>branch</def>
 </entry>
-<superEntry>
-<entry select="0">
 <entry>
 <form>viḻu<pc>+</pc></form>
 <def>excellent</def>
 </entry>
-</entry>
-<entry select="1">
-<entry>
-<form>viḻu</form>
-<def>excellent</def>
-</entry>
-</entry>
-</superEntry>
 <entry>
 <form>kōḷ</form>
 <def>bunch</def>
 </entry>
 <entry>
 <form>palaviṉ</form>
-<def>jack-fruitiṉ</def>
+<def>jack-fruit</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>paḻū<supplied>u</supplied><pc>+</pc></form>
 <def>ripen-</def>
+<note lang="en">Can paḻū simply be read as metrical lengthening of the verbal root paḻu? The simple v.r. as read by RK appears to be a correction of the ms. evidence. The alternative would be to accept the variant or paḻūu as an absolutive.</note>
 </entry>
 <superEntry>
 <entry select="0">
@@ -436,11 +442,13 @@
 </superEntry>
 <entry>
 <form>koṇmār</form>
-<def>take(inf.)</def>
+<def>take</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>kuṟavar</form>
-<def>hill-people(h.)</def>
+<def>hill-people</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>ūṉṟiya</form>
@@ -452,7 +460,8 @@
 </entry>
 <entry>
 <form>putaiya</form>
-<def>bury(inf.)</def>
+<def>bury</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>vēṅkai</form>
@@ -462,13 +471,15 @@
 <entry select="0">
 <entry>
 <form>tāya</form>
-<def>spread(p.)</def>
+<def>spread</def>
+<gram type="role">perfective aspect</gram>
 </entry>
 </entry>
 <entry select="1">
 <entry>
 <form>pāya</form>
-<def>spread(p.)</def>
+<def>spread</def>
+<gram type="role">perfective aspect</gram>
 </entry>
 </entry>
 </superEntry>
@@ -518,7 +529,8 @@
 </entry>
 <entry>
 <form><supplied>ci</supplied>lampiṉ</form>
-<def>mountain-sideiṉ</def>
+<def>mountain-side</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>kaḻai</form>
@@ -526,7 +538,8 @@
 </entry>
 <entry>
 <form>paṭa<pc>+</pc></form>
-<def>happen(inf.)</def>
+<def>happen</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>peyarum</form>
@@ -542,7 +555,8 @@
 </entry>
 <entry>
 <form>nāṭa</form>
-<def>land-he(voc.)</def>
+<def>land-he</def>
+<gram type="role">vocative</gram>
 </entry>
 <entry>
 <form>nī</form>
@@ -562,21 +576,24 @@
 </entry>
 <entry>
 <form>ōrum</form>
-<def>oneum</def>
+<def>one</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>tāṉ</form>
 <def>self</def>
 </entry>
 <entry>
-<form>vāḻalaḷē.</form>
-<def>live-not-sheē.</def>
+<form>vāḻalaḷē</form>
+<def>live-not-she</def>
+<form type="simple">vāḻalaḷ</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN12" type="apparatus">
       <listApp>
 <app corresp="43,49">
-        <lem wit="#em">poṟāac<note xmlns="http://www.tei-c.org/ns/1.0" n="38" place="foot">Here neither of the transmitted versions seem to make sense. While there is a problem with some misreading in the Vulgate strand (most probably corrected by the late scribes/early editors into poṟāaṉ with masculine suffix), the second strand reads peṟāac, which just about means the opposite, feet that do not touch the ground, while at the same time we are told that they become red.  The printed editions all take up the corrected form poṟāaṉ, neg. m.sg., which meakes sense only when word order is disregarded: “father who does not bear when [her] feet become red as they touch the ground”.</note></lem>
+        <lem wit="#em">poṟāac</lem>
         <rdg wit="#C1">poṟāa<sic>kaṉ</sic></rdg>
 <rdg wit="#NL">poṟāa<sic>caṉ</sic></rdg>
 <rdg wit="#C5 #C7 #IḷK #RK #VP #ER">poṟāaṉ</rdg>
@@ -584,26 +601,32 @@
 <rdg wit="#C2 #C3 #C9 #RKv">peṟāac</rdg>
 <rdg wit="#IV">peṟāaṉ</rdg>
 <rdg wit="#SAv">peṟā<sic>cu</sic>c</rdg>
+        <note xml:lang="en">Here neither of the transmitted versions seem to make sense. While there is a problem with some misreading in the Vulgate strand (most probably corrected by the late scribes/early editors into poṟāaṉ with masculine suffix), the second strand reads peṟāac, which just about means the opposite, feet that do not touch the ground, while at the same time we are told that they become red.  The printed editions all take up the corrected form poṟāaṉ, neg. m.sg., which meakes sense only when word order is disregarded: “father who does not bear when [her] feet become red as they touch the ground”.</note>
         </app>
 <app corresp="62,70">
-        <lem wit="#C2 #C3 #C4 #C5v #C7v #C9v #Iḷ #IV #RK #VP #ER">vevaṉila<note xmlns="http://www.tei-c.org/ns/1.0" n="39" place="foot">The first-strand variant vēṉila (“summery?) does not seem to make much sense.  Strand 2 and the old commentary read ila, glossed by the latter as ēṭī, a familiar address form towards a female, which allows to read the whole as a question (“why would you stir?”), not as a permission (“you may stir”).  This means that here the reading of strand 1 ought to be discarded.  Additionally there are pragmatic reasons for doing so: her father does not want her feet to turn red, so she ought not to go.</note></lem>
+        <lem wit="#C2 #C3 #C4 #C5v #C7v #C9v #Iḷ #IV #RK #VP #ER">vevaṉila</lem>
         <rdg wit="#C1 #C5 #C7 #C9">vēṉila</rdg>
+        <note xml:lang="en">The first-strand variant vēṉila (“summery?) does not seem to make much sense.  Strand 2 and the old commentary read ila, glossed by the latter as ēṭī, a familiar address form towards a female, which allows to read the whole as a question (“why would you stir?”), not as a permission (“you may stir”).  This means that here the reading of strand 1 ought to be discarded.  Additionally there are pragmatic reasons for doing so: her father does not want her feet to turn red, so she ought not to go.</note>
         </app>
 <app corresp="98,105">
         <lem wit="#C1 #C2v #C3 #C5 #C7 #C9 #RK">piriviṉ</lem>
         <rdg wit="#C2">tuṇiviṉ</rdg>
+        
         </app>
 <app corresp="139,150">
-        <lem wit="#C1 #C2 #C3 #C5 #C7 #C9 #RK">ṉōruyi rammē<note xmlns="http://www.tei-c.org/ns/1.0" n="40" place="foot">Here the quotation from the IV Col commentary seems hypermetrical and rather like a gloss of the original, however, with a change of the original plural into singular.</note></lem>
+        <lem wit="#C1 #C2 #C3 #C5 #C7 #C9 #RK">ṉōruyi rammē</lem>
         <rdg wit="#IVC">ṉōruyirē ṉākiyayāṉ</rdg>
+        <note xml:lang="en">Here the quotation from the IV Col commentary seems hypermetrical and rather like a gloss of the original, however, with a change of the original plural into singular.</note>
         </app>
 <app corresp="150,157">
         <lem wit="#C1 #C3 #C5 #C7 #C9v #RK">yēṉalaṅ</lem>
         <rdg wit="#C2 #C9">yēṉala</rdg>
+        
         </app>
 <app corresp="157,163">
         <lem wit="#C2 #C3 #C5 #C7 #C9 #RK">kāvala</lem>
         <rdg wit="#C1">kā<sic>va</sic></rdg>
+        
         </app>
 <app corresp="225,236">
         <lem wit="#C9 #Mayv #CC #NV #RKv">paḻūuppayaṉ</lem>
@@ -611,19 +634,23 @@
 <rdg wit="#C2">paḻūuppayaṅ</rdg>
 <rdg wit="#May">paḻuppayaṉ</rdg>
 <rdg wit="#RK #VP #ER">paḻuppayaṅ</rdg>
+        
         </app>
 <app corresp="276,280">
         <lem wit="#C1 #C5 #C7 #C9v">tāya</lem>
         <rdg wit="#RK #VP #ER">tāaya</rdg>
 <rdg wit="#C2 #C3 #C9 #RKv">pāya</rdg>
+        
         </app>
 <app corresp="292,301">
         <lem wit="#C1 #C3 #C5 #C7 #C9 #Pēr #RK">pulicettu</lem>
         <rdg wit="#C2">puliceṟṟu</rdg>
+        
         </app>
 <app corresp="330,338">
         <lem wit="#C2 #C3 #C5 #C7 #C9 #RK">cilampiṟ</lem>
         <rdg wit="#C1"><sic>ki</sic>lampiṟ</rdg>
+        
         </app>
 <app corresp="373,390">
         <lem wit="#C1 #C2 #C3 #C5v #C7v #C9 #PērPv #PērKa #NaccKa #IV #RK">melliya lōrun tāṉvā</lem>
@@ -631,6 +658,7 @@
 <rdg wit="#RKv #SAv">melliya lorunāḷ tāṉvā</rdg>
 <rdg wit="#C7">melliya <sic>vō</sic>run tāṉvā</rdg>
 <rdg wit="#PērT #PērP #PērKav #NaccT #IVv">melli yāḷoru nāḷvā</rdg>
+        
         </app>
 </listApp>
   </standOff>

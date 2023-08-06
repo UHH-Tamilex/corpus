@@ -1,3 +1,9 @@
+# General notes
+
+- interpreting "(a.)" as "absolutive"
+- interpreting "(3.h.)" as "3rd person honorific"
+- does "(p.)" mean "peyareccam" or "perfective aspect"?
+
 # AN1
 
 edition
@@ -78,6 +84,7 @@ edition
 wordsplit
 - ōva+ -> ~ōva+
 - ~iḻai -> ~iḻai+
+- is celavē from cela or celavu?
 
 translation
 - contrariated -> vexed
@@ -85,6 +92,7 @@ translation
 # AN6
 
 wordsplit
+- kayaṉ āṭ(u) -> kayaṉ āṭ(i)
 - neruṉalāṭiṉai -> neruṉal āṭiṉai 
 
 translation
@@ -98,6 +106,7 @@ apparatus
 wordsplit
 - muḷ eyiṟ' -> muḷ +eyiṟ'
 - oli+ -> ~oli+
+- paṭar-tantōlē -> paṭar- tantōlē
 
 apparatus
 - C5c refers to a correction in C5, not to manuscript C5c, right??
@@ -143,12 +152,18 @@ wordsplit
 
 wordsplit
 - ~āka tuyil -> ~āka+ tuyil
+- strand 2: tuyal-vara -> tuyal- vara+
+- kavai mutal -> kavai-mutal
+
+translation
+- rigdes -> ridges
 
 # AN14
 
 wordsplit
 - mey niṟutt' -> mey+ niṟutt'
 - nal ūraṉ -> nal +ūraṉ
+- puku-takum -> puku- takum, puku-tarum -> puku- tarum
 
 apparatus
 - tiraṅkum palalār -> tiraṅkum pallār
@@ -158,6 +173,9 @@ apparatus
 wordsplit
 - vampalar -> vampalar+
 - pū tuytta -> pū+ tuytta
+
+translation
+- strand 2: bambo -> bamboo
 
 # AN16
 
@@ -171,6 +189,11 @@ wordsplit
 
 wordsplit
 - cella tāmē -> kol cella+ tāmē
+
+# AN18
+
+wordsplit
+- uṭku-varu -> uṭku- varu
 
 # AN19
 
@@ -188,6 +211,7 @@ wordsplit
 wordsplit
 - vī uka+ -> vī ~uka+
 - ~uvalai kūval -> ũvalai+ kūval
+- maṇa(m) -> maṇam? (is this correct?)
 
 apparatus
 - cennā yēṟṟai(k) -> cennā yēṟṟai[k] (what does this mean?)
@@ -224,6 +248,7 @@ wordsplit
 
 wordsplit
 - taṭa kai+ -> taṭa+ kai+
+- nō-varal -> nō- varal
 
 # AN26
 
@@ -233,9 +258,12 @@ edition
 apparatus
 - 12k -> 11e?
 - 12d: RK; / C7 -> RK (is there something missing here?)
+- on kavvukkai: kavavukkai variant a typo?
 
 wordsplit
 - iṉiyē -> ~iṉiyē
+- strand 1: kaṇṭ' -> kaṇṭ(i)
 - strand 2: mārp'-akam -> mārp' -akam
 - strand 2: ~āyiṭai -> ~āyiṭai+
+- strand 2: kavuu+ kai+ -> kavu+ kai+
 - strand 2: kai nekiḻntamai -> kai+ nekiḻntamai

@@ -226,8 +226,8 @@
     </body>
   </text>
   <standOff corresp="#AN19" type="wordsplit">
-      <interp type="alignment" select="0">3MG46MG10MG5MG38MG17MG5MG48MG22MG124MG17MG15MG3MG47MG142MG14M,570MG</interp>
-<interp type="alignment" select="1">3MG57MG5MG38MG17MG5MG48MG22MG124MG32MG3MG47MG142MG14M,569MG</interp>
+      <interp type="alignment" select="0">3MG46ML10MG5MG38ML17ML5MG48MG22MG124ML17MG15MG3MG47MG142ML14M,570MG</interp>
+<interp type="alignment" select="1">3MG57MG5MG38ML17ML5MG48MG22MG124ML32MG3MG47MG142ML14M,569MG</interp>
 <entry>
 <form>aṉṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
 <def>that-day</def>
@@ -238,15 +238,19 @@
 </entry>
 <entry>
 <form>oḻintaṉṟum</form>
-<def>staying-behindum</def>
+<def>staying-behind</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>ilaiyē</form>
-<def>is-notē</def>
+<def>is-not</def>
+<form type="simple">ilai</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form>vantu</form>
-<def>come(a.)</def>
+<def>come</def>
+<gram type="role">absolutive</gram>
 </entry>
 <entry>
 <form>naṉi</form>
@@ -258,7 +262,8 @@
 </entry>
 <entry>
 <form>vāḻi</form>
-<def>live(sub.)</def>
+<def>live</def>
+<gram type="role">subjuntive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>eṉ</form>
@@ -266,7 +271,9 @@
 </entry>
 <entry>
 <form>neñcē</form>
-<def>heartē</def>
+<def>heart</def>
+<form type="simple">neñcu</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form>parunt<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -314,7 +321,8 @@
 </entry>
 <entry>
 <form>makuḷiyiṉ</form>
-<def>soundiṉ</def>
+<def>sound</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>poruḷ</form>
@@ -348,7 +356,8 @@
 </entry>
 <entry>
 <form>kuṭiñaiya</form>
-<def>rock-horned-owla</def>
+<def>rock-horned-owl</def>
+<gramGrp type="affix"><form>a</form></gramGrp>
 </entry>
 <entry>
 <form>neṭum</form>
@@ -364,11 +373,13 @@
 </entry>
 <entry>
 <form>emmōṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>us-with</def>
+<def>us</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>iṟattalum</form>
-<def>traversingum</def>
+<def>traversing</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <superEntry>
 <entry select="0">
@@ -394,7 +405,8 @@
 </entry>
 <entry>
 <form>oḻiya<pc>+</pc></form>
-<def>stay-behind(inf.)</def>
+<def>stay-behind</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>cūḻntaṉai</form>
@@ -410,7 +422,8 @@
 </entry>
 <entry>
 <form>cel</form>
-<def>go(ipt.)</def>
+<def>go</def>
+<gram type="role">imperative</gram>
 </entry>
 <entry>
 <form><pc>+</pc>iṉi<pc>+</pc></form>
@@ -418,7 +431,8 @@
 </entry>
 <entry>
 <form>ciṟakka</form>
-<def>be-exulted(opt.)</def>
+<def>be-exulted</def>
+<gram type="role">optative</gram>
 </entry>
 <entry>
 <form>niṉ</form>
@@ -438,15 +452,19 @@
 </entry>
 <entry>
 <form>ōmpumati</form>
-<def>beware-of(ipt.pl.)</def>
+<def>beware-of</def>
+<gram type="role">imperative plural</gram>
 </entry>
 <entry>
 <form><pc>~</pc>emmē</form>
-<def>usē</def>
+<def>us</def>
+<form type="simple">em</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form>naṟaviṉ</form>
-<def>Naṟavuiṉ</def>
+<def>Naṟavu</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>cē</form>
@@ -458,11 +476,13 @@
 </entry>
 <entry>
 <form>aṉaiya</form>
-<def>such-they(n.pl.)</def>
+<def>such-they</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form><pc>~</pc>āki<pc>+</pc></form>
-<def>become(a.)</def>
+<def>become</def>
+<gram type="role">absolutive</gram>
 </entry>
 <entry>
 <form>kuvaḷai</form>
@@ -507,7 +527,7 @@
 </entry>
 <entry select="1">
 <entry>
-<form>i<supplied>ṇ</supplied>ar</form>
+<form>i<supplied>ṇa</supplied>r</form>
 <def>cluster</def>
 </entry>
 </entry>
@@ -520,7 +540,8 @@
 <entry select="0">
 <entry>
 <form><pc>~</pc>uḷ-<pc>+</pc>akam</form>
-<def>inside(loc.)</def>
+<def>inside</def>
+<gram type="role">locative</gram>
 </entry>
 </entry>
 <entry select="1">
@@ -532,7 +553,8 @@
 </superEntry>
 <entry>
 <form>kaṉala</form>
-<def>glow(inf.)</def>
+<def>glow</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><supplied><pc>~</pc></supplied>uḷḷu-tōṟ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -578,11 +600,13 @@
 </entry>
 <entry>
 <form>veyya</form>
-<def>hot-they(n.pl.)</def>
+<def>hot-they</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form><pc>~</pc>uku-tara</form>
-<def>be-shed-give(inf.)</def>
+<def>be-shed-give</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>verīi<pc>+</pc></form>
@@ -630,13 +654,15 @@
 <entry select="1">
 <entry>
 <form>vīya</form>
-<def>perish(inf.)</def>
+<def>perish</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 </superEntry>
 <entry>
 <form>koṭiyiṉ</form>
-<def>creeperiṉ</def>
+<def>creeper</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>pulleṉa<pc>+</pc></form>
@@ -682,7 +708,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>āka</form>
-<def>become(inf.)</def>
+<def>become</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>iyaṅkātu</form>
@@ -708,7 +735,8 @@
 </superEntry>
 <entry>
 <form>kātali</form>
-<def>lover(f.)</def>
+<def>lover</def>
+<gram type="role">feminine</gram>
 </entry>
 <entry>
 <form><pc>~</pc>uyaṅku</form>
@@ -732,15 +760,18 @@
 </entry>
 <entry>
 <form>piṉṉē</form>
-<def>afterē.</def>
+<def>after</def>
+<form type="simple">piṉṉu</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN19" type="apparatus">
       <listApp>
 <app corresp="0,16">
-        <lem wit="#C4">aṉṟava ḷoḻintaṉṟu<note xmlns="http://www.tei-c.org/ns/1.0" n="75" place="foot">Here all the paper manuscripts replace the masculine singular pronoun avaṉ – attested in both strands, but not suited to the context, since HE is the speaker – by an impersonal avaṇ (“there”); the old commentary, however, reads a feminine avaḷ which can very well be understood as an unmarked locative.</note></lem>
+        <lem wit="#C4">aṉṟava ḷoḻintaṉṟu</lem>
         <rdg wit="#NL #C1 #C2 #C3">aṉṟava <sic>ṉo</sic>ḻintaṉṟu</rdg>
 <rdg wit="#C5 #C7 #C9 #Nacc #RK #VP #ER">aṉṟava ṇoḻintaṉṟu</rdg>
+        <note xml:lang="en">Here all the paper manuscripts replace the masculine singular pronoun avaṉ – attested in both strands, but not suited to the context, since HE is the speaker – by an impersonal avaṇ (“there”); the old commentary, however, reads a feminine avaḷ which can very well be understood as an unmarked locative.</note>
         </app>
 <app corresp="42,53">
         <lem wit="#NL #C5 #C7 #C9 #CēṉTTC299 #NaccP #NaccKa #Teyv #RK">vāḻiye ṉeñcē</lem>
@@ -748,8 +779,9 @@
 <rdg wit="#C9v #NaccT{TP196}">vāḻi<sic>yai</sic> neñcē</rdg>
 <rdg wit="#C1">vāḻiye <sic>ṉa</sic>ñcē</rdg>
 <rdg wit="#NaccTCTC301 #NaccT{TP14} #Tey #IVC">vāḻiya neñcē</rdg>
-<rdg wit="# #RKv">vāḻiye ṉeñcam Cēṉ.<sic>TC 151</sic>, Nacc.(TC)<sic>TC 153</sic></rdg>
+<rdg wit="#CēṉTC151 #NaccTCTC153 #RKv">vāḻiye ṉeñcam</rdg>
 <rdg wit="#Kal">vāḻi neñcam</rdg>
+        
         </app>
 <app corresp="71,87">
         <lem wit="#NL #C1 #C2 #C3 #C7v #C9">payiṟṟu mayāvuyar</lem>
@@ -757,79 +789,95 @@
 <rdg wit="#NaccP">payiṟṟu miyāavuyar</rdg>
 <rdg wit="#NaccT">payiṟṟu mayāavuyar</rdg>
 <rdg wit="#NaccKa #VP #ER">payiṟṟum yāvuyar</rdg>
+        
         </app>
 <app corresp="97,105">
         <lem wit="#C2 #C3 #C5 #C7 #C9 #RK">yuruṭuṭi</lem>
         <rdg wit="#NL #C1">yuru<sic>ṭi</sic></rdg>
+        
         </app>
 <app corresp="123,132">
         <lem wit="#NL #C1 #C4 #C5 #C7 #C9 #Nacc #RK">ticaikkuṅ</lem>
         <rdg wit="#C2 #C3">tiraikkuṅ</rdg>
+        
         </app>
 <app corresp="161,166">
         <lem wit="#NL #C1 #C3 #C5 #C7 #C9 #RK">kuṉṟa</lem>
         <rdg wit="#C2 #C7v">kuṉṟam</rdg>
+        
         </app>
 <app corresp="181,187">
         <lem wit="#NL #C1 #C5 #C7 #C9 #NaccP #NaccKa #RK">cellāy</lem>
         <rdg wit="#NaccT">collāy</rdg>
 <rdg wit="#C2 #C3 #C9v">ceyyāy</rdg>
+        
         </app>
 <app corresp="193,200">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #NaccP #NaccKa #RK">ṟoḻiyac</lem>
         <rdg wit="#NaccT">ṟōḻiyaic</rdg>
+        
         </app>
 <app corresp="278,296">
-        <lem wit="#C1 #C5 #C7 #C9 #RK">cēyita ḻaṉaiya vākik<note xmlns="http://www.tei-c.org/ns/1.0" n="76" place="foot">Here the gliding vowel (v, not y) still betrays the original reading aṉaiya.</note></lem>
+        <lem wit="#C1 #C5 #C7 #C9 #RK">cēyita ḻaṉaiya vākik</lem>
         <rdg wit="#NL">cēyita <sic>ḷai</sic>ṉaiya vākik</rdg>
 <rdg wit="#C2 #C3">cēyita ḻaṉai<sic>yai</sic> vākik</rdg>
+        <note xml:lang="en">Here the gliding vowel (v, not y) still betrays the original reading aṉaiya.</note>
         </app>
 <app corresp="303,310">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #Nacc #RK">māyitaḻ</lem>
         <rdg wit="#PērT #PērP #RKv">yāyitaḻ</rdg>
+        
         </app>
 <app corresp="317,331">
-        <lem wit="#NL #C1 #C5 #C7 #C9 #PērKa #Nacc #RK">malirko ḷīrimai<note xmlns="http://www.tei-c.org/ns/1.0" n="77" place="foot">Here the deviant reading of the second strand can be salvaged by a small emendation of alveolar ṉ into retroflex ṇ: kōḷ iṇar.</note></lem>
+        <lem wit="#NL #C1 #C5 #C7 #C9 #PērKa #Nacc #RK">malirko ḷīrimai</lem>
         <rdg wit="#PērT #PērP #RKv">malarko ḷīrimai</rdg>
 <rdg wit="#C9v">nīrko ḷīrimai</rdg>
 <rdg wit="#C2 #C3">malirkō ḷi<sic>ṉa</sic>rimai</rdg>
 <rdg wit="#em">malirkō ḷiṇarimai</rdg>
+        <note xml:lang="en">Here the deviant reading of the second strand can be salvaged by a small emendation of alveolar ṉ into retroflex ṇ: kōḷ iṇar.</note>
         </app>
 <app corresp="331,345">
         <lem wit="#C4 #C5 #C7 #C9 #Nacc #RK">yuḷḷakaṅ kaṉala</lem>
         <rdg wit="#NL #C1">yuḷḷa<sic>k</sic>kaṅ kaṉala</rdg>
 <rdg wit="#C2 #C3 #RKv">yuḷḷaṅ kaṉala</rdg>
+        
         </app>
 <app corresp="345,352">
         <lem wit="#C2 #C3 #C5 #C7 #C9c">vuḷḷutō</lem>
         <rdg wit="#C1"><sic>pu</sic>ḷḷutō</rdg>
 <rdg wit="#NL #C9"><sic>yu</sic>ḷḷutō</rdg>
 <rdg wit="#RK #VP #ER">vuḷḷuto</rdg>
+        
         </app>
 <app corresp="367,382">
-        <lem wit="#NL #C5 #C7 #C9 #RKv">koṇṭa kataḻntuvī<note xmlns="http://www.tei-c.org/ns/1.0" n="78" place="foot">Problematic is here in both readings the peyareccam koṇṭa followed not by a noun but by an absolutive kataḻntu or kaliḻntu.  It seems just about possible to connect it with aṟal at the end of the line.</note></lem>
+        <lem wit="#NL #C5 #C7 #C9 #RKv">koṇṭa kataḻntuvī</lem>
         <rdg wit="#C1">koṇṭa kataḻ<gap reason="lost" quantity="1" unit="character"/>tuvī</rdg>
 <rdg wit="#C2 #C3 #C9v #NaccP #NaccKa #RK #VP #ER">koṇṭa kaliḻntuvī</rdg>
 <rdg wit="#NaccT">koṇṭa<sic>ka</sic><sic> </sic><sic>liḻa</sic>ntuvī</rdg>
+        <note xml:lang="en">Problematic is here in both readings the peyareccam koṇṭa followed not by a noun but by an absolutive kataḻntu or kaliḻntu.  It seems just about possible to connect it with aṟal at the end of the line.</note>
         </app>
 <app corresp="396,410">
         <lem wit="#NL #C2 #C5 #C7 #C9 #Nacc #RK">vukutara verīip</lem>
         <rdg wit="#C1">vukutara <sic>vo</sic>rīip</rdg>
 <rdg wit="#C3">vuku<sic>tir</sic> verīip</rdg>
+        
         </app>
 <app corresp="447,451">
         <lem wit="#NL #C1 #C5 #C7 #C9 #Nacc #RK">pūvī</lem>
         <rdg wit="#C2 #C3">pūvīya</rdg>
+        
         </app>
 <app corresp="477,484">
         <lem wit="#NL #C5 #C7 #C9 #NaccP #NaccKa #RK">yāyakaṟ</lem>
         <rdg wit="#C1">yāyaka<gap reason="lost" quantity="1" unit="character"/></rdg>
 <rdg wit="#NaccT">yā<sic>ya</sic><sic></sic>kaṟ</rdg>
 <rdg wit="#C2 #C3 #C9v">yātaṟ</rdg>
+        
         </app>
 <app corresp="507,517">
-        <lem wit="#NL #C1 #C5 #C7 #C9 #Nacc #RK">vatintanaṅ<note xmlns="http://www.tei-c.org/ns/1.0" n="79" place="foot">Here is the first of many passages where one old strand reads the inclusive pronoun while the other reads the exclusive one, thus making it doubtful whether this distinction was really kept up by the old poets.</note></lem>
+        <lem wit="#NL #C1 #C5 #C7 #C9 #Nacc #RK">vatintanaṅ</lem>
         <rdg wit="#C2 #C3 #C9v #RKv">vatintaveṅ</rdg>
+        <note xml:lang="en">Here is the first of many passages where one old strand reads the inclusive pronoun while the other reads the exclusive one, thus making it doubtful whether this distinction was really kept up by the old poets.</note>
         </app>
 </listApp>
   </standOff>

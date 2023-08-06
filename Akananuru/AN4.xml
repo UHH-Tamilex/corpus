@@ -247,11 +247,13 @@
 </superEntry>
 <entry>
 <form>tōṉṟa</form>
-<def>appear(inf.)</def>
+<def>appear</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>illamoṭu</form>
-<def>Illam-tree-with</def>
+<def>Illam-tree</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>paim</form>
@@ -275,7 +277,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>aviḻa</form>
-<def>open(inf.)</def>
+<def>open</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>irumpu</form>
@@ -295,7 +298,8 @@
 </entry>
 <entry>
 <form>maruppiṉ</form>
-<def>horniṉ</def>
+<def>horn</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>paral</form>
@@ -307,7 +311,8 @@
 </entry>
 <entry>
 <form>aṭaiya</form>
-<def>enjoy(inf.)</def>
+<def>enjoy</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form><pc>~</pc>iralai</form>
@@ -315,7 +320,8 @@
 </entry>
 <entry>
 <form>teṟippa</form>
-<def>leap(inf.)</def>
+<def>leap</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>malarnta</form>
@@ -345,7 +351,8 @@
 </superEntry>
 <entry>
 <form>koṭuppa<pc>+</pc></form>
-<def>give(inf.)</def>
+<def>give</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>karuvi</form>
@@ -373,7 +380,9 @@
 </entry>
 <entry>
 <form>ceytaṉṟē</form>
-<def>it-madeē</def>
+<def>it-made</def>
+<form type="simple">ceytaṉṟu</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form>kaviṉ</form>
@@ -429,7 +438,8 @@
 </entry>
 <entry>
 <form>pariya<pc>+</pc></form>
-<def>run(inf.)</def>
+<def>run</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>pūtta</form>
@@ -441,7 +451,8 @@
 </entry>
 <entry>
 <form>tuṇaiyoṭu</form>
-<def>companion-with</def>
+<def>companion</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>vatinta</form>
@@ -505,7 +516,8 @@
 <entry select="0">
 <entry>
 <form>tēriṉ</form>
-<def>chariotiṉ</def>
+<def>chariot</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 </entry>
 <entry select="1">
@@ -525,13 +537,15 @@
 <entry select="1">
 <entry>
 <form>uva<pc>+</pc></form>
-<def>yonder(n.pl.)</def>
+<def>yonder</def>
+<gram type="role">neuter plural</gram>
 </entry>
 </entry>
 </superEntry>
 <entry>
 <form>kāṇ</form>
-<def>see(ipt.)</def>
+<def>see</def>
+<gram type="role">imperative</gram>
 </entry>
 <entry>
 <form>tōṉṟum</form>
@@ -559,7 +573,8 @@
 </entry>
 <entry>
 <form>viḻaviṉ</form>
-<def>festivaliṉ</def>
+<def>festival</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>uṟantai<pc>+</pc></form>
@@ -641,81 +656,98 @@
 </entry>
 <entry>
 <form>paṭarntē</form>
-<def>thoughtē</def>
+<def>thought</def>
+<form type="simple">paṭarntu</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN4" type="apparatus">
       <listApp>
 <app corresp="6,15">
-        <lem wit="#C5 #C6 #C7 #C9v #Iḷ #Pēr #NaccP #NaccKa #IVI #RK">vainnuṉai<note xmlns="http://www.tei-c.org/ns/1.0" n="10" place="foot">Here RKv represents the corrected reading of the second strand.</note></lem>
+        <lem wit="#C5 #C6 #C7 #C9v #Iḷ #Pēr #NaccP #NaccKa #IVI #RK">vainnuṉai</lem>
         <rdg wit="#C1">vai<sic>nu</sic>ṉai</rdg>
 <rdg wit="#G1">vainnu<sic>ṇai</sic></rdg>
 <rdg wit="#C3 #C9">vainnu<sic>ṉi</sic></rdg>
 <rdg wit="#G2 #PērT #NaccT #IVT #RKv">vainnuti</rdg>
+        <note xml:lang="en">Here RKv represents the corrected reading of the second strand.</note>
         </app>
 <app corresp="15,29">
         <lem wit="#C1 #C3 #C5 #C6 #C7 #C9 #G1 #G2 #PērKa #Nacc #IV #RK">tōṉṟa villamoṭu</lem>
         <rdg wit="#PērKv">tōṉṟat tillamoṭu</rdg>
+        
         </app>
 <app corresp="128,140">
         <lem wit="#C1 #C5 #C7 #Nacc #IV #RKv">pulampupuṟaṅ</lem>
         <rdg wit="#C3 #C9 #G1 #G2 #Iḷ #Pēr #RK #VP">pulampupuṟak</rdg>
 <rdg wit="#NL"><sic>ma</sic>lampupuṟak</rdg>
 <rdg wit="#C6"><gap reason="lost" quantity="2" unit="character"/>puṟak</rdg>
+        
         </app>
 <app corresp="232,246">
-        <lem wit="#NL #C1 #C3 #C5 #C6 #C7 #C9 #G1 #G2 #IḷC #IḷKv #Pēr #NaccTC #Nacc #IV #RKv">narampārp paṉṉa<note xmlns="http://www.tei-c.org/ns/1.0" n="11" place="foot">This is the first of many cases where the two primary palm-leaf strands go unanimously against the old commentary and I, unlike most earlier editors, have chosen to follow the former for two reasons: firstly, although it is possible, it is not certain that C4 is our oldest surviving witness, and secondly, since the commentary so often paraphrases without repeating the root text, it is often difficult to see whether a reading actually represents a variant or only a paraphrase.</note></lem>
+        <lem wit="#NL #C1 #C3 #C5 #C6 #C7 #C9 #G1 #G2 #IḷC #IḷKv #Pēr #NaccTC #Nacc #IV #RKv">narampārp paṉṉa</lem>
         <rdg wit="#C4 #C9v #IḷK #NaccK{TP8104} #RK #VP #ER">narampārt taṉṉa</rdg>
+        <note xml:lang="en">This is the first of many cases where the two primary palm-leaf strands go unanimously against the old commentary and I, unlike most earlier editors, have chosen to follow the former for two reasons: firstly, although it is possible, it is not certain that C4 is our oldest surviving witness, and secondly, since the commentary so often paraphrases without repeating the root text, it is often difficult to see whether a reading actually represents a variant or only a paraphrase.</note>
         </app>
 <app corresp="246,254">
         <lem wit="#C1 #C5 #C6 #C7 #C9 #G1 #RK">vāṅkuvaḷ</lem>
         <rdg wit="#C3"><sic>vāṅku</sic>vāṅkuvaḷ</rdg>
 <rdg wit="#NaccT"><sic>va</sic><sic>ra</sic>ṅkuva<sic>ḷai</sic></rdg>
 <rdg wit="#G2">vāṅkuva<sic>ḷai</sic></rdg>
+        
         </app>
 <app corresp="282,289">
         <lem wit="#C1 #C3 #C5 #C6 #C7 #C9 #G1 #Pēr #NaccKa #IV #RK">vatinta</lem>
         <rdg wit="#G2">vatiyun<sic>ta</sic></rdg>
 <rdg wit="#C9v #NaccP #NaccT">vatiyun</rdg>
+        
         </app>
 <app corresp="318,323">
         <lem wit="#NL #C1 #C5 #C6 #C7 #C9v #G1 #RKv">yātta</lem>
         <rdg wit="#C3 #C7v #C9v #G2 #Iḷ #Pēr #Nacc #IV #RK #VP #ER">vārtta</rdg>
+        
         </app>
 <app corresp="332,336">
         <lem wit="#NL #C1 #C5 #C6 #C7 #G1 #G2 #IḷC #PērP #NaccP #NaccT{TP3} #IVT">tēri</lem>
         <rdg wit="#C3 #C4 #C5v #C7v #IḷK #PērKa #Nacc #IVI #RK #VP #ER">tēra</rdg>
 <rdg wit="#RKv #SAv">tērava</rdg>
 <rdg wit="#PērT"><sic>tōḷa</sic></rdg>
+        
         </app>
 <app corresp="336,344">
         <lem wit="#NL #C1 #C5 #C6 #C7 #C9v #G1 #G2 #IḷC #IḷKv #Pēr #Nacc{TP8104} #IV #RKv">ṉutukkāṇ</lem>
         <rdg wit="#C3 #C7v #C9 #IḷK #NaccK{T} #RK #VP #ER">ṉuvakkāṇ</rdg>
+        
         </app>
 <app corresp="350,360">
         <lem wit="#C1 #C3 #C5 #C6 #C7 #G1 #G2 #Pēr #Nacc #IV #RK">kuṟumpoṟai</lem>
         <rdg wit="#C9">kuṟumpaṟai</rdg>
+        
         </app>
 <app corresp="390,396">
         <lem wit="#C3 #C5 #C6 #C7 #G1 #G2 #RK">kuṇātu</lem>
         <rdg wit="#C1">ku<sic>ṇa</sic>tu</rdg>
+        
         </app>
 <app corresp="419,425">
         <lem wit="#C5 #C6 #C7 #G1 #G2 #RK">kāntaṭ</lem>
         <rdg wit="#C1">kānta<sic>p</sic></rdg>
 <rdg wit="#C3"><sic>kārnakuṭa</sic><sic>ṉ</sic></rdg>
+        
         </app>
 <app corresp="425,431">
         <lem wit="#C1 #C5 #C7 #RK">pōtavi</lem>
         <rdg wit="#C3">pō<sic>ku</sic>vi</rdg>
+        
         </app>
 <app corresp="431,441">
         <lem wit="#C1 #C3 #C5 #C6 #C7 #C9 #G1 #G2 #IḷC #NaccP #NaccT #IVT">ḻalari nāṟu</lem>
         <rdg wit="#C7v #C9v #IḷK #Pēr #NaccKa #IVI #RK #VP #ER">ḻalari ṉāṟu</rdg>
+        
         </app>
 <app corresp="441,448">
         <lem wit="#C1 #C5 #C6 #C7 #C9 #G1 #G2 #Iḷ #Pēr #Nacc #IV #RK">māytoṭi</lem>
         <rdg wit="#C3">_<sic>y</sic>koṭi</rdg>
+        
         </app>
 </listApp>
   </standOff>

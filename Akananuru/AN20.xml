@@ -220,7 +220,7 @@
     </body>
   </text>
   <standOff corresp="#AN20" type="wordsplit">
-      <interp type="alignment" select="0">93MG57MG4MG56MG75MG16MG17MG105MG6M,436MG</interp>
+      <interp type="alignment" select="0">93MG57MG4ML56MG75MG16MG17MG105MG6M,436MG</interp>
 <interp type="alignment" select="1">93MG55MG4ML56MG74MG16MG16MG104MG6M,431MG</interp>
 <entry>
 <form>peru</form>
@@ -292,7 +292,8 @@
 </entry>
 <entry>
 <form>ñeṇṭiṉ</form>
-<def>crabiṉ</def>
+<def>crab</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>kuṇṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -378,7 +379,8 @@
 </entry>
 <entry>
 <form>muṉaiyiṉ</form>
-<def>frontiṉ</def>
+<def>front</def>
+<gramGrp type="affix"><form>iṉ</form><gram type="role">locative</gram></gramGrp>
 </entry>
 <entry>
 <form>veḷ</form>
@@ -394,7 +396,8 @@
 </entry>
 <entry>
 <form><pc>~</pc>āyamōṭ<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
-<def>attendant-with</def>
+<def>attendant</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>āṭi</form>
@@ -434,7 +437,8 @@
 <entry select="1">
 <entry>
 <form>taka<pc>+</pc></form>
-<def>be-fit(inf.)</def>
+<def>be-fit</def>
+<gram type="role">infinitive</gram>
 </entry>
 </entry>
 </superEntry>
@@ -532,7 +536,9 @@
 </entry>
 <entry>
 <form>koṇṭaṉa<supplied>ḷē</supplied></form>
-<def>she-tookē</def>
+<def>she-took</def>
+<form type="simple">koṇṭaṉaḷ</form>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
 <entry>
 <form>tōḻi</form>
@@ -548,11 +554,13 @@
 </entry>
 <entry>
 <form><pc>~</pc>ellaiyum</form>
-<def>nightum</def>
+<def>night</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>iravum</form>
-<def>dayum</def>
+<def>day</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>eṉṉātu</form>
@@ -614,7 +622,10 @@
 </entry>
 <entry>
 <form><supplied>e</supplied>ṉavē</form>
-<def>say(inf.)ē.</def>
+<def>say</def>
+<form type="simple">eṉa</form>
+<gram type="role">infinitive</gram>
+<gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN20" type="apparatus">
@@ -625,43 +636,52 @@
 <rdg wit="#NL">ñāḻa<sic>ka</sic> loṭuṅkuci<sic>ṉa</sic>t</rdg>
 <rdg wit="#C2 #C3 #C5 #C7 #C9v #G1 #G2 #Nacc #Nam #RK #VP #ER">ñāḻa lōṅkuciṉait</rdg>
 <rdg wit="#C9v">yoṭuṅku ñāḻaṟ</rdg>
+        
         </app>
 <app corresp="203,209">
         <lem wit="#corr">yāyamō</lem>
         <rdg wit="#C5 #C #Nacc7 #RK #VP">yāyamo</rdg>
+        
         </app>
 <app corresp="234,245">
         <lem wit="#NL #C5 #C6 #C7 #C9 #G1 #G2 #Nacc #RKv #SAv">yaṇittakaip</lem>
         <rdg wit="#C1">ya<sic>ṉi</sic>ttakaip</rdg>
 <rdg wit="#C2 #C3 #Nam #RK">yaṇittakap</rdg>
 <rdg wit="#SAv">yaṇitta<sic>ṉa</sic>p</rdg>
+        
         </app>
 <app corresp="263,270">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C6 #C7 #C9 #RK">varutal</lem>
         <rdg wit="#G1 #G2">varutaṟ</rdg>
+        
         </app>
 <app corresp="270,276">
         <lem wit="#NL #C1 #C6 #C9 #G1 #G2 #Iḷ #RK">kavvai</lem>
         <rdg wit="#C2 #C3 #C4 #C5 #C7 #Nacc #Nam">kauvai</rdg>
+        
         </app>
 <app corresp="304,311">
         <lem wit="#C1 #C9 #G1 #G2">peṇṭirc</lem>
         <rdg wit="#C2 #C3 #C5 #C7 #Iḷ #Nacc #RK #VP">peṇṭir</rdg>
 <rdg wit="#NL #C6"><sic>pauma</sic>rc</rdg>
+        
         </app>
 <app corresp="323,336">
-        <lem wit="#C2 #C3 #C5 #C6 #C7 #RK">kaṭikoṇ ṭaṉaḷē<note xmlns="http://www.tei-c.org/ns/1.0" n="81" place="foot">C1 reads here: kaṭikoṇṭaṉai kaṭikoṇṭaṉē – which might mean that the matrix grapheme was corrupt and did not seem plausible, interpreted either way.</note></lem>
+        <lem wit="#C2 #C3 #C5 #C6 #C7 #RK">kaṭikoṇ ṭaṉaḷē</lem>
         <rdg wit="#C1 #C9">kaṭikoṇ ṭaṉa<sic>ṉai</sic><sic> </sic><sic>ka</sic><sic>ṭikoṇ</sic><sic> </sic><sic>ṭaṉaṉē</sic><sic> </sic></rdg>
 <rdg wit="#NL #G1 #GG2v">kaṭikoṇ ṭaṉa<sic>ṉē</sic></rdg>
 <rdg wit="#G2">kaṭikoṇ ṭaṉa<sic>ṉai</sic></rdg>
+        <note xml:lang="en">C1 reads here: kaṭikoṇṭaṉai kaṭikoṇṭaṉē – which might mean that the matrix grapheme was corrupt and did not seem plausible, interpreted either way.</note>
         </app>
 <app corresp="378,385">
         <lem wit="#NL #C1 #C6 #C9 #G2">vallava</lem>
         <rdg wit="#C2 #C3 #C5 #C7 #C9c #G1 #Iḷ #Nacc #Nam #RK #VP #ER">valava</rdg>
+        
         </app>
 <app corresp="417,428">
         <lem wit="#C2 #C5 #C7 #C9v #G1 #G2 #RK">tēruṇ ṭeṉavē</lem>
         <rdg wit="#NL #C1 #C3 #C6 #C9">tēruṇ <sic>ṭa</sic>ṉavē</rdg>
+        
         </app>
 </listApp>
   </standOff>

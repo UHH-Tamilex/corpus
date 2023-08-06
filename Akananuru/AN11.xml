@@ -218,7 +218,7 @@
   </text>
   <standOff corresp="#AN11" type="wordsplit">
       <interp type="alignment" select="0">16MG10MR6MG17MG10MG40ML10MG119MGMG43MG35MG9MG15ML19MG7MR60MG6M,439M</interp>
-<interp type="alignment" select="1">16MG11MR6MG17MG10MG40ML10MG162MG35MG9MG35MG7MR60MG6M,123MG313M</interp>
+<interp type="alignment" select="1">16MG11MR6MG17MG10MG40ML10MG162MG35MG9MG35MG7MR60MG6M,437M</interp>
 <entry>
 <form>vāṉam</form>
 <def>sky</def>
@@ -255,7 +255,8 @@
 </entry>
 <entry>
 <form>eṉa<pc>+</pc></form>
-<def>say(inf.)</def>
+<def>say</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>civanta</form>
@@ -335,7 +336,8 @@
 <entry select="0">
 <entry>
 <form>ētatta</form>
-<def>reason-they(n.pl.)</def>
+<def>reason-they</def>
+<gram type="role">neuter plural</gram>
 </entry>
 </entry>
 <entry select="1">
@@ -345,20 +347,10 @@
 </entry>
 </entry>
 </superEntry>
-<superEntry>
-<entry select="0">
 <entry>
 <form><pc>~</pc>am</form>
 <def>pretty</def>
 </entry>
-</entry>
-<entry select="1">
-<entry>
-<form>am</form>
-<def>pretty</def>
-</entry>
-</entry>
-</superEntry>
 <entry>
 <form>cuṭar</form>
 <def>glow</def>
@@ -399,7 +391,8 @@
 </entry>
 <entry>
 <form>ākiya</form>
-<def>become(p.)-</def>
+<def>become-</def>
+<gram type="role">perfective aspect</gram>
 </entry>
 <entry>
 <form>payam</form>
@@ -415,11 +408,13 @@
 </entry>
 <entry>
 <form>emmoṭu</form>
-<def>us-with</def>
+<def>us</def>
+<gramGrp type="affix"><form>oṭu</form><gram type="role">sociative/instrumental</gram></gramGrp>
 </entry>
 <entry>
 <form>kaḻintaṉar</form>
-<def>he-passed(h.)</def>
+<def>he-passed</def>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>āyiṉ</form>
@@ -523,15 +518,21 @@
 </entry>
 <entry>
 <form>avarum</form>
-<def>he(h.)um</def>
+<def>he</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
+<gram type="role">honorific</gram>
 </entry>
 <entry>
 <form>peṟukuvar-maṉṉē</form>
-<def>he-obtains(h.)maṉṉē</def>
+<def>he-obtains</def>
+<form type="simple">peṟukuvar</form>
+<gram type="role">honorific</gram>
+<gramGrp type="particle"><form>maṉṉē</form></gramGrp>
 </entry>
 <entry>
 <form>naya-vara</form>
-<def>long-come(inf.)</def>
+<def>long-come</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>nīr</form>
@@ -561,7 +562,10 @@
 </entry>
 <entry>
 <form>kaṭuppavō</form>
-<def>they-resemble(n.pl.)ō</def>
+<def>they-resemble</def>
+<form type="simple">kaṭuppa</form>
+<gram type="role">neuter plural</gram>
+<gramGrp type="particle"><form>ō</form></gramGrp>
 </entry>
 <entry>
 <form>maṟant<pc type="ignored">(</pc>u<pc type="ignored">)</pc></form>
@@ -577,15 +581,18 @@
 </entry>
 <entry>
 <form>niṟaikku<supplied>n</supplied>a</form>
-<def>they-fill(n.pl.)</def>
+<def>they-fill</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form>pōla</form>
-<def>be-similar(inf.)</def>
+<def>be-similar</def>
+<gram type="role">infinitive</gram>
 </entry>
 <entry>
 <form>vaikalum</form>
-<def>dayum</def>
+<def>day</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
 <form>aḻutal</form>
@@ -593,11 +600,13 @@
 </entry>
 <entry>
 <form>mēvala</form>
-<def>wish-they(n.pl.)</def>
+<def>wish-they</def>
+<gram type="role">neuter plural</gram>
 </entry>
 <entry>
 <form><pc>~</pc>āki<pc>+</pc></form>
-<def>become(a.)</def>
+<def>become</def>
+<gram type="role">absolutive</gram>
 </entry>
 <entry>
 <form>paḻi</form>
@@ -609,68 +618,85 @@
 </entry>
 <entry>
 <form>kaṇṇum</form>
-<def>eyeum</def>
+<def>eye</def>
+<gramGrp type="affix"><form>um</form></gramGrp>
 </entry>
 <entry>
-<form>paṭukuva-maṉṉē.</form>
-<def>they-close(n.pl.)maṉṉē.</def>
+<form>paṭukuva-maṉṉē</form>
+<def>they-close</def>
+<form type="simple">paṭukuva</form>
+<gram type="role">neuter plural</gram>
+<gramGrp type="particle"><form>maṉṉē</form></gramGrp>
 </entry>
   </standOff>
   <standOff corresp="#AN11" type="apparatus">
       <listApp>
-<app><note>C2 and C9 only partly legible</note></app>
+<app><note xml:lang="en">C2 and C9 only partly legible</note></app>
 <app corresp="10,19">
         <lem wit="#NL #C1 #C5 #C7 #C9 #Nacc #Tey #RKv">vayaṅkoḷi</lem>
         <rdg wit="#C2 #C3 #RKv">vayaṅkoḷir</rdg>
+        
         </app>
 <app corresp="58,66">
         <lem wit="#NL #C1 #C2 #C3 #C9 #RKv">ṭilaiyiṉ</lem>
         <rdg wit="#C5 #C7 #C9c #RK #VP #ER">ṭilaiyila</rdg>
+        
         </app>
 <app corresp="74,81">
         <lem wit="#NL #C1 #C9v">mutaiyi</lem>
         <rdg wit="#C2 #C3 #C5 #C7 #C9 #RK #VP #ER">mukaiyi</rdg>
+        
         </app>
 <app corresp="98,108">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #NaccTCv #RK">maliputoku</lem>
         <rdg wit="#Cēṉ #NaccTC">malitoku</rdg>
+        
         </app>
 <app corresp="108,115">
         <lem wit="#NL #C1">pētatta</lem>
         <rdg wit="#C3 #C5 #C7 #C9 #Cēṉ #NaccTC #IVC #RK #VP #ER">peṭutta</rdg>
+        
         </app>
 <app corresp="138,144">
         <lem wit="#NL #C1 #C5 #C7 #C9v #Pēr #RK">tōṉṟik</lem>
         <rdg wit="#C2 #C3 #C9">tōṉṟuṅ</rdg>
+        
         </app>
 <app corresp="200,215">
         <lem wit="#NL #C1 #C5 #C7 #C9v #RK">vampuvirit taṉṉa</lem>
         <rdg wit="#C3 #C9 #RKv">vampuvirin taṉṉa</rdg>
+        
         </app>
 <app corresp="225,235">
         <lem wit="#NL #C1 #C5 #C7">kāṉiyāṟṟup</lem>
         <rdg wit="#C2 #C3 #C9 #May #RK #VP">kāṉyāṟṟup</rdg>
+        
         </app>
 <app corresp="326,335">
         <lem wit="#NL #C1">nitamalar</lem>
         <rdg wit="#C2 #C4 #C5 #C7 #C9 #PērKa #IV #RK #VP #ER">nikarmalar</rdg>
 <rdg wit="#PērT #PērP">nikaḻmalar</rdg>
+        
         </app>
 <app corresp="357,367">
         <lem wit="#C7 #RK">niṟaikkuna</lem>
         <rdg wit="#NL #C1 #C2 #C3 #C9">niṟaikku<sic>ṉa</sic></rdg>
+        
         </app>
 <app corresp="371,378">
         <lem wit="#NL #C1 #C3 #C5 #C7 #C9 #RKv">vaikalu</lem>
         <rdg wit="#C5v #C7v #C9v #RK #VP #ER">valkalu</rdg>
+        
         </app>
 <app corresp="385,396">
         <lem wit="#NL #C1 #C3 #C7 #C9v #RK">mēvala vākip</lem>
         <rdg wit="#C9">mēvala rākip</rdg>
+        
         </app>
 <app corresp="417,422">
         <lem wit="#NL #C1 #C2 #C3 #C5 #C7 #C9 #RK">maṉṉē</lem>
         <rdg wit="#C9v">maṉṉō</rdg>
+        
         </app>
 </listApp>
   </standOff>
