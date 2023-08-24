@@ -179,7 +179,10 @@
   </teiHeader>
   <text xml:lang="ta" type="edition">
     <body>
-        <div xml:id="AN4-kilavi">tōḻitalaimakaḷaip paruvaṅkāṭṭi vaṟpuṟuttiyatu.</div>
+        <div xml:id="AN4-kilavi">
+            <p type="edition">tōḻitalaimakaḷaip paruvaṅkāṭṭi vaṟpuṟuttiyatu.</p>
+            <p type="translation" xml:lang="en">The confidante encouraging HER to showing [her] the season.</p>
+        </div>
         <div xml:id="AN4">
             <lg type="edition"><l>mullai <choice><seg>vai<supplied>n</supplied>nuṉai</seg><seg>vainnu<supplied>ti</supplied></seg></choice> tōṉṟa villamoṭu</l>
 <l>paiṅkāṟ koṉṟai meṉpiṇi yaviḻa</l>
