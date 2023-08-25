@@ -16,6 +16,12 @@
             <summary><p></p>
             </summary>
           </msContents>    
+          <additional>
+            <listBibl>
+                <bibl>Wilden, Eva. 2018. <title>A Critical Edition and an Annotated Translation of the <title xml:lang="ta">Akanāṉūṟu.</title></title> Pondicherry: <orgName xml:lang="fr">École française d'Extrême-Orient.</orgName> <ref target="https://shs.hal.science/halshs-01892108">halshs-01892108</ref>
+                </bibl>
+            </listBibl>
+          </additional>
         </msDesc>
         <listWit n="1">
             <witness xml:id="C4">
@@ -181,7 +187,7 @@
     <body>
         <div xml:id="AN4-kilavi">
             <p type="edition">tōḻitalaimakaḷaip paruvaṅkāṭṭi vaṟpuṟuttiyatu.</p>
-            <p type="translation" xml:lang="en">The confidante encouraging HER to showing [her] the season.</p>
+            <p type="translation" xml:lang="en">The confidante encouraging HER to show [her] the season.</p>
         </div>
         <div xml:id="AN4">
             <lg type="edition"><l>mullai <choice><seg>vai<supplied>n</supplied>nuṉai</seg><seg>vainnu<supplied>ti</supplied></seg></choice> tōṉṟa villamoṭu</l>
@@ -202,24 +208,24 @@
 <l>pōtavi ḻalari nāṟu</l>
 <l><choice><seg>māytoṭi</seg><seg><supplied>mā</supplied>ykoṭi</seg></choice> yarivainiṉ māṇalam paṭarntē.</l></lg>
             <lg type="translation" xml:lang="en">
-<l>The heavily clouded(?)<note place="foot">karuvi vāṉam: what is karuvi, “collection”, supposed to mean as an attribute to vāṉam? Since it so often refers to rain and rain clouds (see the formula karuvi māmaḻai; KT 42.2), it might be best to take it as an elliptical “sky with a collection [of clouds]”.</note> sky scattering hasty drops,</l>
+<l>The heavily <unclear>clouded</unclear><note place="foot">karuvi vāṉam: what is karuvi, “collection”, supposed to mean as an attribute to vāṉam? Since it so often refers to rain and rain clouds (see the formula karuvi māmaḻai; KT 42.2), it might be best to take it as an elliptical “sky with a collection [of clouds]”.</note> sky scattering hasty drops,</l>
 <l rend="indent">	so that sharp tips of jasmine [buds] appear, so that the soft fetters</l>
 <l rend="indent">	of the green-trunked Laburnum open along with [those of] the Illam tree,</l>
 <l rend="indent">	so that the Iralai leaps joyfully in the pebbly depression,</l>
 <l rend="indent">	with [its] big dark horns like twisted iron,</l>
 <l rend="indent">	so that the freshly blossomed world turns [its] back on loneliness,</l>
-<l rend="indent">	the rainy season has made it.<note place="foot">Here syntax is ambiguous. We could take the latter half of the line, kaviṉpeṟu kāṉam, as a direct object of ceytaṉṟē, which would imply understanding the verbal root peṟu as an infinitive: “the rainy seaon has made the forest obtain beauty”.</note></l>
+<l rend="indent">	the rainy season has made it.<note place="foot">Here syntax is ambiguous. We could take the latter half of the line, <q xml:lang="ta">kaviṉpeṟu kāṉam</q>, as a direct object of <q xml:lang="ta">ceytaṉṟē</q>, which would imply understanding the verbal root <q xml:lang="ta">peṟu</q> as an infinitive: <q>the rainy season has made the forest obtain beauty</q>.</note></l>
 <l rend="indent">	Look there,</l>
 <l>in the gloriously crafted chariot, in which the tongues of the bells are tied up</l>
 <l rend="indent">	for fear of disturbing the pollen-eating bees,</l>
 <l rend="indent">	who stayed with [their] companions on the flowering branches,</l>
 <l>while the horses with trimmed napes overshone by dangling manes</l>
-<l>are speeding through the beautiful forest, lashes drawn so as to sound like strings(?)<note place="foot">How to understand this image of the tight lash or bridle? In the first place you give your horse free rein if you want it to go fast. In the second place the idea of sounding strings counteracts the directly following motif of tying up the bells in order to avoid notice.</note>,</l>
+<l>are speeding through the beautiful forest, lashes drawn so as to sound like <unclear>strings</unclear>,<note place="foot">How to understand this image of the tight lash or bridle? In the first place you give your horse free rein if you want it to go fast. In the second place the idea of sounding strings counteracts the directly following motif of tying up the bells in order to avoid notice.</note></l>
 <l>– the man from a land of small heights is appearing,</l>
 <l>thinking of your glorious beauty, girl with choice bangles,</l>
 <l rend="indent">	smelling of the just opening blossoms</l>
 <l rend="indent">	of the Malabar lily grown thickly on the long big hills</l>
-<l rend="indent">	eastward of Uṟantai, with [its] feast of sounding music<note place="foot">Or simply: “with its noisy feast”?</note>.</l></lg>
+<l rend="indent">	eastward of Uṟantai, with [its] feast of sounding music.<note place="foot">Or simply: <q>with its noisy feast</q>?</note></l></lg>
         </div>
     </body>
   </text>
@@ -663,6 +669,18 @@
 <form type="simple">paṭarntu</form>
 <gramGrp type="particle"><form>ē</form></gramGrp>
 </entry>
+  </standOff>
+  <standOff corresp="#AN4-kilavi" type="apparatus">
+    <listApp>
+        <app corresp="4,17">
+            <lem>talaimakaḷaip</lem>
+            <rdg wit="#C3">talaimakaṭkup</rdg>
+        </app>
+        <app corresp="29,43">
+            <lem>vaṟpuṟuttiyatu</lem>
+            <rdg wit="#C3">vaṟpuṟīyatu</rdg>
+        </app>
+    </listApp>
   </standOff>
   <standOff corresp="#AN4" type="apparatus">
       <listApp>
